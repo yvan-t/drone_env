@@ -1,0 +1,223 @@
+{
+  "build": "h64bf75a_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vs2015_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\Portable\\anaconda3\\pkgs\\giflib-5.2.1-h64bf75a_3",
+  "features": "",
+  "files": [
+    "Library/bin/gif-7.dll",
+    "Library/bin/gif2rgb.exe",
+    "Library/bin/gifbuild.exe",
+    "Library/bin/gifclrmp.exe",
+    "Library/bin/giffix.exe",
+    "Library/bin/giftext.exe",
+    "Library/bin/giftool.exe",
+    "Library/include/gif_lib.h",
+    "Library/include/stdbool.h",
+    "Library/lib/gif.lib",
+    "Library/share/man/man1/gif2rgb.1",
+    "Library/share/man/man1/gifbg.1",
+    "Library/share/man/man1/gifbuild.1",
+    "Library/share/man/man1/gifclrmp.1",
+    "Library/share/man/man1/gifcolor.1",
+    "Library/share/man/man1/gifecho.1",
+    "Library/share/man/man1/giffix.1",
+    "Library/share/man/man1/gifhisto.1",
+    "Library/share/man/man1/gifinto.1",
+    "Library/share/man/man1/giflib.1",
+    "Library/share/man/man1/giftext.1",
+    "Library/share/man/man1/giftool.1",
+    "Library/share/man/man1/gifwedge.1",
+    ".nonadmin"
+  ],
+  "fn": "giflib-5.2.1-h64bf75a_3.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\Portable\\anaconda3\\pkgs\\giflib-5.2.1-h64bf75a_3",
+    "type": 1
+  },
+  "md5": "86c1ed348767c8249a7501dc142bf65b",
+  "name": "giflib",
+  "package_tarball_full_path": "C:\\Users\\Portable\\anaconda3\\pkgs\\giflib-5.2.1-h64bf75a_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/gif-7.dll",
+        "path_type": "hardlink",
+        "sha256": "444d882a6608c0ef53cd2273ff73eb644ee76eb85e9d95824c8a249a232a0d27",
+        "sha256_in_prefix": "444d882a6608c0ef53cd2273ff73eb644ee76eb85e9d95824c8a249a232a0d27",
+        "size_in_bytes": 44544
+      },
+      {
+        "_path": "Library/bin/gif2rgb.exe",
+        "path_type": "hardlink",
+        "sha256": "e4adf3d54b5df7b6cf186c756a6a6d9ed6f5bb40870aeb37d961cf020e5b16e2",
+        "sha256_in_prefix": "e4adf3d54b5df7b6cf186c756a6a6d9ed6f5bb40870aeb37d961cf020e5b16e2",
+        "size_in_bytes": 18432
+      },
+      {
+        "_path": "Library/bin/gifbuild.exe",
+        "path_type": "hardlink",
+        "sha256": "5c52c2572f0af28ef66b0d67a48b34e490af7e4ddcdd7adc858769d544433781",
+        "sha256_in_prefix": "5c52c2572f0af28ef66b0d67a48b34e490af7e4ddcdd7adc858769d544433781",
+        "size_in_bytes": 25088
+      },
+      {
+        "_path": "Library/bin/gifclrmp.exe",
+        "path_type": "hardlink",
+        "sha256": "ea58c348803e471e247651d0d503ad7ea8b720ac539a01d59c745009315350e0",
+        "sha256_in_prefix": "ea58c348803e471e247651d0d503ad7ea8b720ac539a01d59c745009315350e0",
+        "size_in_bytes": 14848
+      },
+      {
+        "_path": "Library/bin/giffix.exe",
+        "path_type": "hardlink",
+        "sha256": "3a957a4468d0698ca8afa15062fb35be10c90e01b729a221e24f13a5f467d927",
+        "sha256_in_prefix": "3a957a4468d0698ca8afa15062fb35be10c90e01b729a221e24f13a5f467d927",
+        "size_in_bytes": 13312
+      },
+      {
+        "_path": "Library/bin/giftext.exe",
+        "path_type": "hardlink",
+        "sha256": "4f6a0bf780710d1cc23eae40d75e45ab41007531635b8a6ad9dd32feae689a5e",
+        "sha256_in_prefix": "4f6a0bf780710d1cc23eae40d75e45ab41007531635b8a6ad9dd32feae689a5e",
+        "size_in_bytes": 17920
+      },
+      {
+        "_path": "Library/bin/giftool.exe",
+        "path_type": "hardlink",
+        "sha256": "1b22a165b98079bd4225c97fc514875dd3a8c2fda7ffc079d560f85ebfa8b725",
+        "sha256_in_prefix": "1b22a165b98079bd4225c97fc514875dd3a8c2fda7ffc079d560f85ebfa8b725",
+        "size_in_bytes": 18944
+      },
+      {
+        "_path": "Library/include/gif_lib.h",
+        "path_type": "hardlink",
+        "sha256": "d566893822740e49f2b33160bd3e499d2b6a0b067fd032fabe2e6a4088b40d39",
+        "sha256_in_prefix": "d566893822740e49f2b33160bd3e499d2b6a0b067fd032fabe2e6a4088b40d39",
+        "size_in_bytes": 13105
+      },
+      {
+        "_path": "Library/include/stdbool.h",
+        "path_type": "hardlink",
+        "sha256": "fb7fb864179a7aa28b4e8e0e138f311d078c5ac7f666278ec22c1d50b5b839e7",
+        "sha256_in_prefix": "fb7fb864179a7aa28b4e8e0e138f311d078c5ac7f666278ec22c1d50b5b839e7",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "Library/lib/gif.lib",
+        "path_type": "hardlink",
+        "sha256": "a1f1e07e4ed71477474c8b5f73d53425b7b9abc2119e7a76001cff5bd7632ce2",
+        "sha256_in_prefix": "a1f1e07e4ed71477474c8b5f73d53425b7b9abc2119e7a76001cff5bd7632ce2",
+        "size_in_bytes": 16220
+      },
+      {
+        "_path": "Library/share/man/man1/gif2rgb.1",
+        "path_type": "hardlink",
+        "sha256": "fa3ac009d61420d4af1cad5b2620098426d8b1f9af565aaf7972078123523eeb",
+        "sha256_in_prefix": "fa3ac009d61420d4af1cad5b2620098426d8b1f9af565aaf7972078123523eeb",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "Library/share/man/man1/gifbg.1",
+        "path_type": "hardlink",
+        "sha256": "657427adfa9b1e516b6529bee237646145f54b7d3fe09a9ff31dbfc1af1750b6",
+        "sha256_in_prefix": "657427adfa9b1e516b6529bee237646145f54b7d3fe09a9ff31dbfc1af1750b6",
+        "size_in_bytes": 3230
+      },
+      {
+        "_path": "Library/share/man/man1/gifbuild.1",
+        "path_type": "hardlink",
+        "sha256": "f60d9ac89b37c308f9b5933ab2563b26a46ea51c004cba528605b47ab65e34c0",
+        "sha256_in_prefix": "f60d9ac89b37c308f9b5933ab2563b26a46ea51c004cba528605b47ab65e34c0",
+        "size_in_bytes": 7301
+      },
+      {
+        "_path": "Library/share/man/man1/gifclrmp.1",
+        "path_type": "hardlink",
+        "sha256": "c4b32ea182b322cdcc5f3b09e85e0fc8a32d39d24b674cae1faf97309779786d",
+        "sha256_in_prefix": "c4b32ea182b322cdcc5f3b09e85e0fc8a32d39d24b674cae1faf97309779786d",
+        "size_in_bytes": 2939
+      },
+      {
+        "_path": "Library/share/man/man1/gifcolor.1",
+        "path_type": "hardlink",
+        "sha256": "b19498e1cb2fb569700c7552a3d4c37f7b785bd1cb0b8f065443da4441305cf7",
+        "sha256_in_prefix": "b19498e1cb2fb569700c7552a3d4c37f7b785bd1cb0b8f065443da4441305cf7",
+        "size_in_bytes": 2372
+      },
+      {
+        "_path": "Library/share/man/man1/gifecho.1",
+        "path_type": "hardlink",
+        "sha256": "ee6354477ffa9d41ded852b6c3535fd6ff944cf82cd94e3c9f2747a51984f29e",
+        "sha256_in_prefix": "ee6354477ffa9d41ded852b6c3535fd6ff944cf82cd94e3c9f2747a51984f29e",
+        "size_in_bytes": 3272
+      },
+      {
+        "_path": "Library/share/man/man1/giffix.1",
+        "path_type": "hardlink",
+        "sha256": "1f980155c7a8df96637930dfe8baf1546bed7702102f5294aac4f8daaf6dff8d",
+        "sha256_in_prefix": "1f980155c7a8df96637930dfe8baf1546bed7702102f5294aac4f8daaf6dff8d",
+        "size_in_bytes": 1881
+      },
+      {
+        "_path": "Library/share/man/man1/gifhisto.1",
+        "path_type": "hardlink",
+        "sha256": "83b5718394a142fbf4744482d0aa02e2dbdd13f1773027d28597a99c0dc887ac",
+        "sha256_in_prefix": "83b5718394a142fbf4744482d0aa02e2dbdd13f1773027d28597a99c0dc887ac",
+        "size_in_bytes": 2944
+      },
+      {
+        "_path": "Library/share/man/man1/gifinto.1",
+        "path_type": "hardlink",
+        "sha256": "1e49ae11ddd9d865b3f600ab7fc682d486e70fa548835d466aa7bbdea3b788d1",
+        "sha256_in_prefix": "1e49ae11ddd9d865b3f600ab7fc682d486e70fa548835d466aa7bbdea3b788d1",
+        "size_in_bytes": 2344
+      },
+      {
+        "_path": "Library/share/man/man1/giflib.1",
+        "path_type": "hardlink",
+        "sha256": "53d18384a7e8ca3156f97c89206121d6fa24d254007b15179007896c708fde93",
+        "sha256_in_prefix": "53d18384a7e8ca3156f97c89206121d6fa24d254007b15179007896c708fde93",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "Library/share/man/man1/giftext.1",
+        "path_type": "hardlink",
+        "sha256": "ba236c1101d096af5b5937ab8949fd1bd34260f01d1530788b9474fdfeeb1dbc",
+        "sha256_in_prefix": "ba236c1101d096af5b5937ab8949fd1bd34260f01d1530788b9474fdfeeb1dbc",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "Library/share/man/man1/giftool.1",
+        "path_type": "hardlink",
+        "sha256": "3720482ce76262fd8b4c9981adc6ca109d9eb9e728855cc17b87d903a7d2404d",
+        "sha256_in_prefix": "3720482ce76262fd8b4c9981adc6ca109d9eb9e728855cc17b87d903a7d2404d",
+        "size_in_bytes": 5226
+      },
+      {
+        "_path": "Library/share/man/man1/gifwedge.1",
+        "path_type": "hardlink",
+        "sha256": "505e7ba65c27c12bd8e31293569a9212a581fba267e8facee3df1da9c458fb98",
+        "sha256_in_prefix": "505e7ba65c27c12bd8e31293569a9212a581fba267e8facee3df1da9c458fb98",
+        "size_in_bytes": 2138
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "689ee27564b1c358602821af9fd7ee0467d4b32d534e3eebd366f98f1ef2d638",
+  "size": 83569,
+  "subdir": "win-64",
+  "timestamp": 1678718451021,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/giflib-5.2.1-h64bf75a_3.conda",
+  "version": "5.2.1"
+}

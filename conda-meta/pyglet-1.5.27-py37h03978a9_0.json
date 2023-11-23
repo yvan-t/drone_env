@@ -1,0 +1,3193 @@
+{
+  "build": "py37h03978a9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ffmpeg 4.*",
+    "freetype",
+    "future",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "C:\\Users\\Portable\\anaconda3\\pkgs\\pyglet-1.5.27-py37h03978a9_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pyglet-1.5.27.dist-info/INSTALLER",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/LICENSE",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/METADATA",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/NOTICE",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/RECORD",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/REQUESTED",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/WHEEL",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/direct_url.json",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/top_level.txt",
+    "Lib/site-packages/pyglet-1.5.27.dist-info/zip-safe",
+    "Lib/site-packages/pyglet/__init__.py",
+    "Lib/site-packages/pyglet/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/clock.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/com.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/event.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/info.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/lib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/math.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/resource.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/shapes.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/sprite.cpython-37.pyc",
+    "Lib/site-packages/pyglet/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pyglet/app/__init__.py",
+    "Lib/site-packages/pyglet/app/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/app/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/app/__pycache__/cocoa.cpython-37.pyc",
+    "Lib/site-packages/pyglet/app/__pycache__/win32.cpython-37.pyc",
+    "Lib/site-packages/pyglet/app/__pycache__/xlib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/app/base.py",
+    "Lib/site-packages/pyglet/app/cocoa.py",
+    "Lib/site-packages/pyglet/app/win32.py",
+    "Lib/site-packages/pyglet/app/xlib.py",
+    "Lib/site-packages/pyglet/canvas/__init__.py",
+    "Lib/site-packages/pyglet/canvas/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/__pycache__/cocoa.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/__pycache__/headless.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/__pycache__/win32.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/__pycache__/xlib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/__pycache__/xlib_vidmoderestore.cpython-37.pyc",
+    "Lib/site-packages/pyglet/canvas/base.py",
+    "Lib/site-packages/pyglet/canvas/cocoa.py",
+    "Lib/site-packages/pyglet/canvas/headless.py",
+    "Lib/site-packages/pyglet/canvas/win32.py",
+    "Lib/site-packages/pyglet/canvas/xlib.py",
+    "Lib/site-packages/pyglet/canvas/xlib_vidmoderestore.py",
+    "Lib/site-packages/pyglet/clock.py",
+    "Lib/site-packages/pyglet/com.py",
+    "Lib/site-packages/pyglet/event.py",
+    "Lib/site-packages/pyglet/extlibs/__init__.py",
+    "Lib/site-packages/pyglet/extlibs/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/extlibs/__pycache__/png.cpython-37.pyc",
+    "Lib/site-packages/pyglet/extlibs/png.py",
+    "Lib/site-packages/pyglet/font/__init__.py",
+    "Lib/site-packages/pyglet/font/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/directwrite.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/fontconfig.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/freetype.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/freetype_lib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/quartz.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/ttf.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/win32.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/__pycache__/win32query.cpython-37.pyc",
+    "Lib/site-packages/pyglet/font/base.py",
+    "Lib/site-packages/pyglet/font/directwrite.py",
+    "Lib/site-packages/pyglet/font/fontconfig.py",
+    "Lib/site-packages/pyglet/font/freetype.py",
+    "Lib/site-packages/pyglet/font/freetype_lib.py",
+    "Lib/site-packages/pyglet/font/quartz.py",
+    "Lib/site-packages/pyglet/font/ttf.py",
+    "Lib/site-packages/pyglet/font/win32.py",
+    "Lib/site-packages/pyglet/font/win32query.py",
+    "Lib/site-packages/pyglet/gl/__init__.py",
+    "Lib/site-packages/pyglet/gl/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/agl.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/cocoa.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/gl.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/gl_info.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glext_arb.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glext_nv.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glu.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glu_info.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glx.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glx_info.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glxext_arb.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glxext_mesa.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/glxext_nv.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/headless.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/lib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/lib_agl.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/lib_glx.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/lib_wgl.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/wgl.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/wgl_info.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/wglext_arb.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/wglext_nv.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/win32.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/__pycache__/xlib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gl/agl.py",
+    "Lib/site-packages/pyglet/gl/base.py",
+    "Lib/site-packages/pyglet/gl/cocoa.py",
+    "Lib/site-packages/pyglet/gl/gl.py",
+    "Lib/site-packages/pyglet/gl/gl_info.py",
+    "Lib/site-packages/pyglet/gl/glext_arb.py",
+    "Lib/site-packages/pyglet/gl/glext_nv.py",
+    "Lib/site-packages/pyglet/gl/glu.py",
+    "Lib/site-packages/pyglet/gl/glu_info.py",
+    "Lib/site-packages/pyglet/gl/glx.py",
+    "Lib/site-packages/pyglet/gl/glx_info.py",
+    "Lib/site-packages/pyglet/gl/glxext_arb.py",
+    "Lib/site-packages/pyglet/gl/glxext_mesa.py",
+    "Lib/site-packages/pyglet/gl/glxext_nv.py",
+    "Lib/site-packages/pyglet/gl/headless.py",
+    "Lib/site-packages/pyglet/gl/lib.py",
+    "Lib/site-packages/pyglet/gl/lib_agl.py",
+    "Lib/site-packages/pyglet/gl/lib_glx.py",
+    "Lib/site-packages/pyglet/gl/lib_wgl.py",
+    "Lib/site-packages/pyglet/gl/wgl.py",
+    "Lib/site-packages/pyglet/gl/wgl_info.py",
+    "Lib/site-packages/pyglet/gl/wglext_arb.py",
+    "Lib/site-packages/pyglet/gl/wglext_nv.py",
+    "Lib/site-packages/pyglet/gl/win32.py",
+    "Lib/site-packages/pyglet/gl/xlib.py",
+    "Lib/site-packages/pyglet/graphics/__init__.py",
+    "Lib/site-packages/pyglet/graphics/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/graphics/__pycache__/allocation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/graphics/__pycache__/vertexattribute.cpython-37.pyc",
+    "Lib/site-packages/pyglet/graphics/__pycache__/vertexbuffer.cpython-37.pyc",
+    "Lib/site-packages/pyglet/graphics/__pycache__/vertexdomain.cpython-37.pyc",
+    "Lib/site-packages/pyglet/graphics/allocation.py",
+    "Lib/site-packages/pyglet/graphics/vertexattribute.py",
+    "Lib/site-packages/pyglet/graphics/vertexbuffer.py",
+    "Lib/site-packages/pyglet/graphics/vertexdomain.py",
+    "Lib/site-packages/pyglet/gui/__init__.py",
+    "Lib/site-packages/pyglet/gui/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gui/__pycache__/frame.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gui/__pycache__/ninepatch.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gui/__pycache__/widgets.cpython-37.pyc",
+    "Lib/site-packages/pyglet/gui/frame.py",
+    "Lib/site-packages/pyglet/gui/ninepatch.py",
+    "Lib/site-packages/pyglet/gui/widgets.py",
+    "Lib/site-packages/pyglet/image/__init__.py",
+    "Lib/site-packages/pyglet/image/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/__pycache__/animation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/__pycache__/atlas.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/animation.py",
+    "Lib/site-packages/pyglet/image/atlas.py",
+    "Lib/site-packages/pyglet/image/codecs/__init__.py",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/bmp.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/dds.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/gdiplus.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/gdkpixbuf2.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/gif.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/pil.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/png.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/quartz.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/s3tc.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/__pycache__/wic.cpython-37.pyc",
+    "Lib/site-packages/pyglet/image/codecs/bmp.py",
+    "Lib/site-packages/pyglet/image/codecs/dds.py",
+    "Lib/site-packages/pyglet/image/codecs/gdiplus.py",
+    "Lib/site-packages/pyglet/image/codecs/gdkpixbuf2.py",
+    "Lib/site-packages/pyglet/image/codecs/gif.py",
+    "Lib/site-packages/pyglet/image/codecs/pil.py",
+    "Lib/site-packages/pyglet/image/codecs/png.py",
+    "Lib/site-packages/pyglet/image/codecs/quartz.py",
+    "Lib/site-packages/pyglet/image/codecs/s3tc.py",
+    "Lib/site-packages/pyglet/image/codecs/wic.py",
+    "Lib/site-packages/pyglet/info.py",
+    "Lib/site-packages/pyglet/input/__init__.py",
+    "Lib/site-packages/pyglet/input/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/darwin_hid.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/directinput.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/evdev.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/evdev_constants.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/wintab.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/x11_xinput.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/__pycache__/x11_xinput_tablet.cpython-37.pyc",
+    "Lib/site-packages/pyglet/input/base.py",
+    "Lib/site-packages/pyglet/input/darwin_hid.py",
+    "Lib/site-packages/pyglet/input/directinput.py",
+    "Lib/site-packages/pyglet/input/evdev.py",
+    "Lib/site-packages/pyglet/input/evdev_constants.py",
+    "Lib/site-packages/pyglet/input/wintab.py",
+    "Lib/site-packages/pyglet/input/x11_xinput.py",
+    "Lib/site-packages/pyglet/input/x11_xinput_tablet.py",
+    "Lib/site-packages/pyglet/lib.py",
+    "Lib/site-packages/pyglet/libs/__init__.py",
+    "Lib/site-packages/pyglet/libs/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/__init__.py",
+    "Lib/site-packages/pyglet/libs/darwin/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/__pycache__/quartzkey.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/__init__.py",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/cocoalibs.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/cocoatypes.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/runtime.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/cocoalibs.py",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/cocoatypes.py",
+    "Lib/site-packages/pyglet/libs/darwin/cocoapy/runtime.py",
+    "Lib/site-packages/pyglet/libs/darwin/quartzkey.py",
+    "Lib/site-packages/pyglet/libs/egl/__init__.py",
+    "Lib/site-packages/pyglet/libs/egl/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/egl/__pycache__/egl.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/egl/__pycache__/eglext.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/egl/__pycache__/lib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/egl/egl.py",
+    "Lib/site-packages/pyglet/libs/egl/eglext.py",
+    "Lib/site-packages/pyglet/libs/egl/lib.py",
+    "Lib/site-packages/pyglet/libs/win32/__init__.py",
+    "Lib/site-packages/pyglet/libs/win32/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/win32/__pycache__/constants.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/win32/__pycache__/dinput.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/win32/__pycache__/libwintab.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/win32/__pycache__/types.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/win32/__pycache__/winkey.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/win32/constants.py",
+    "Lib/site-packages/pyglet/libs/win32/dinput.py",
+    "Lib/site-packages/pyglet/libs/win32/libwintab.py",
+    "Lib/site-packages/pyglet/libs/win32/types.py",
+    "Lib/site-packages/pyglet/libs/win32/winkey.py",
+    "Lib/site-packages/pyglet/libs/x11/__init__.py",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/cursorfont.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/xf86vmode.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/xinerama.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/xinput.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/xlib.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/__pycache__/xsync.cpython-37.pyc",
+    "Lib/site-packages/pyglet/libs/x11/cursorfont.py",
+    "Lib/site-packages/pyglet/libs/x11/xf86vmode.py",
+    "Lib/site-packages/pyglet/libs/x11/xinerama.py",
+    "Lib/site-packages/pyglet/libs/x11/xinput.py",
+    "Lib/site-packages/pyglet/libs/x11/xlib.py",
+    "Lib/site-packages/pyglet/libs/x11/xsync.py",
+    "Lib/site-packages/pyglet/math.py",
+    "Lib/site-packages/pyglet/media/__init__.py",
+    "Lib/site-packages/pyglet/media/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/buffered_logger.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/events.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/exceptions.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/instrumentation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/mediathreads.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/player.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/__pycache__/synthesis.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/buffered_logger.py",
+    "Lib/site-packages/pyglet/media/codecs/__init__.py",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/ffmpeg.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/gstreamer.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/pyogg.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/wave.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/__pycache__/wmf.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/base.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__init__.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/compat.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libavcodec.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libavformat.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libavutil.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libswresample.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libswscale.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/compat.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libavcodec.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libavformat.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libavutil.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libswresample.py",
+    "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libswscale.py",
+    "Lib/site-packages/pyglet/media/codecs/gstreamer.py",
+    "Lib/site-packages/pyglet/media/codecs/pyogg.py",
+    "Lib/site-packages/pyglet/media/codecs/wave.py",
+    "Lib/site-packages/pyglet/media/codecs/wmf.py",
+    "Lib/site-packages/pyglet/media/devices/__init__.py",
+    "Lib/site-packages/pyglet/media/devices/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/devices/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/devices/__pycache__/win32.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/devices/base.py",
+    "Lib/site-packages/pyglet/media/devices/win32.py",
+    "Lib/site-packages/pyglet/media/drivers/__init__.py",
+    "Lib/site-packages/pyglet/media/drivers/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/__pycache__/listener.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/base.py",
+    "Lib/site-packages/pyglet/media/drivers/directsound/__init__.py",
+    "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/adaptation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/exceptions.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/interface.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/lib_dsound.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/directsound/adaptation.py",
+    "Lib/site-packages/pyglet/media/drivers/directsound/exceptions.py",
+    "Lib/site-packages/pyglet/media/drivers/directsound/interface.py",
+    "Lib/site-packages/pyglet/media/drivers/directsound/lib_dsound.py",
+    "Lib/site-packages/pyglet/media/drivers/listener.py",
+    "Lib/site-packages/pyglet/media/drivers/openal/__init__.py",
+    "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/adaptation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/interface.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/lib_alc.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/lib_openal.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/openal/adaptation.py",
+    "Lib/site-packages/pyglet/media/drivers/openal/interface.py",
+    "Lib/site-packages/pyglet/media/drivers/openal/lib_alc.py",
+    "Lib/site-packages/pyglet/media/drivers/openal/lib_openal.py",
+    "Lib/site-packages/pyglet/media/drivers/pulse/__init__.py",
+    "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/adaptation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/interface.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/lib_pulseaudio.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/pulse/adaptation.py",
+    "Lib/site-packages/pyglet/media/drivers/pulse/interface.py",
+    "Lib/site-packages/pyglet/media/drivers/pulse/lib_pulseaudio.py",
+    "Lib/site-packages/pyglet/media/drivers/silent/__init__.py",
+    "Lib/site-packages/pyglet/media/drivers/silent/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/silent/__pycache__/adaptation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/silent/adaptation.py",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/__init__.py",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/adaptation.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/interface.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/lib_xaudio2.cpython-37.pyc",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/adaptation.py",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/interface.py",
+    "Lib/site-packages/pyglet/media/drivers/xaudio2/lib_xaudio2.py",
+    "Lib/site-packages/pyglet/media/events.py",
+    "Lib/site-packages/pyglet/media/exceptions.py",
+    "Lib/site-packages/pyglet/media/instrumentation.py",
+    "Lib/site-packages/pyglet/media/mediathreads.py",
+    "Lib/site-packages/pyglet/media/player.py",
+    "Lib/site-packages/pyglet/media/synthesis.py",
+    "Lib/site-packages/pyglet/model/__init__.py",
+    "Lib/site-packages/pyglet/model/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/model/codecs/__init__.py",
+    "Lib/site-packages/pyglet/model/codecs/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/model/codecs/__pycache__/gltf.cpython-37.pyc",
+    "Lib/site-packages/pyglet/model/codecs/__pycache__/obj.cpython-37.pyc",
+    "Lib/site-packages/pyglet/model/codecs/gltf.py",
+    "Lib/site-packages/pyglet/model/codecs/obj.py",
+    "Lib/site-packages/pyglet/resource.py",
+    "Lib/site-packages/pyglet/shapes.py",
+    "Lib/site-packages/pyglet/sprite.py",
+    "Lib/site-packages/pyglet/text/__init__.py",
+    "Lib/site-packages/pyglet/text/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/__pycache__/caret.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/__pycache__/document.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/__pycache__/layout.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/__pycache__/runlist.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/caret.py",
+    "Lib/site-packages/pyglet/text/document.py",
+    "Lib/site-packages/pyglet/text/formats/__init__.py",
+    "Lib/site-packages/pyglet/text/formats/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/formats/__pycache__/attributed.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/formats/__pycache__/html.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/formats/__pycache__/plaintext.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/formats/__pycache__/structured.cpython-37.pyc",
+    "Lib/site-packages/pyglet/text/formats/attributed.py",
+    "Lib/site-packages/pyglet/text/formats/html.py",
+    "Lib/site-packages/pyglet/text/formats/plaintext.py",
+    "Lib/site-packages/pyglet/text/formats/structured.py",
+    "Lib/site-packages/pyglet/text/layout.py",
+    "Lib/site-packages/pyglet/text/runlist.py",
+    "Lib/site-packages/pyglet/util.py",
+    "Lib/site-packages/pyglet/window/__init__.py",
+    "Lib/site-packages/pyglet/window/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/__pycache__/event.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/__pycache__/key.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/__pycache__/mouse.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/__init__.py",
+    "Lib/site-packages/pyglet/window/cocoa/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_delegate.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_textview.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_view.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_window.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/__pycache__/systemcursor.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/cocoa/pyglet_delegate.py",
+    "Lib/site-packages/pyglet/window/cocoa/pyglet_textview.py",
+    "Lib/site-packages/pyglet/window/cocoa/pyglet_view.py",
+    "Lib/site-packages/pyglet/window/cocoa/pyglet_window.py",
+    "Lib/site-packages/pyglet/window/cocoa/systemcursor.py",
+    "Lib/site-packages/pyglet/window/event.py",
+    "Lib/site-packages/pyglet/window/headless/__init__.py",
+    "Lib/site-packages/pyglet/window/headless/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/key.py",
+    "Lib/site-packages/pyglet/window/mouse.py",
+    "Lib/site-packages/pyglet/window/win32/__init__.py",
+    "Lib/site-packages/pyglet/window/win32/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pyglet/window/xlib/__init__.py",
+    "Lib/site-packages/pyglet/window/xlib/__pycache__/__init__.cpython-37.pyc",
+    ".nonadmin"
+  ],
+  "fn": "pyglet-1.5.27-py37h03978a9_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\Portable\\anaconda3\\pkgs\\pyglet-1.5.27-py37h03978a9_0",
+    "type": 1
+  },
+  "md5": "d30da57f52879a913d275bd5540e1c7d",
+  "name": "pyglet",
+  "package_tarball_full_path": "C:\\Users\\Portable\\anaconda3\\pkgs\\pyglet-1.5.27-py37h03978a9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "475a1ad4bd09417fbdf247522f1f81107681f7d5530c94422deace40fbc92b15",
+        "sha256_in_prefix": "475a1ad4bd09417fbdf247522f1f81107681f7d5530c94422deace40fbc92b15",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "06a177206a0d39d68baa7eaaa57916b8ab1ffd6a1e7f2595d887273c51f75cc6",
+        "sha256_in_prefix": "06a177206a0d39d68baa7eaaa57916b8ab1ffd6a1e7f2595d887273c51f75cc6",
+        "size_in_bytes": 7591
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "52abfd47b25d074f8c5e0daebed829e32dff95980ce8098129413c7a54269635",
+        "sha256_in_prefix": "52abfd47b25d074f8c5e0daebed829e32dff95980ce8098129413c7a54269635",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "39063bd6127430a58bdf14bed609a0a37766e02342f6e8070005e174a6cc9f62",
+        "sha256_in_prefix": "39063bd6127430a58bdf14bed609a0a37766e02342f6e8070005e174a6cc9f62",
+        "size_in_bytes": 27927
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "799f1b46ec9d840c78548157920ba13bf538f10ab56daf677da25166217736a4",
+        "sha256_in_prefix": "799f1b46ec9d840c78548157920ba13bf538f10ab56daf677da25166217736a4",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "eb57856f00778d646a99670cc39ccc47859fd61212e9e55c7809e79fe26781a1",
+        "sha256_in_prefix": "eb57856f00778d646a99670cc39ccc47859fd61212e9e55c7809e79fe26781a1",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/pyglet-1.5.27.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "510fb5e6321a1f0796a5debc5f6e43c843682eb1655f9545dc8e85181f115c87",
+        "sha256_in_prefix": "510fb5e6321a1f0796a5debc5f6e43c843682eb1655f9545dc8e85181f115c87",
+        "size_in_bytes": 13454
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "861eb9b9afbbeea9409f98dbd0fa6af2beb8629fcb3b27e54abcb5d1377ec739",
+        "sha256_in_prefix": "861eb9b9afbbeea9409f98dbd0fa6af2beb8629fcb3b27e54abcb5d1377ec739",
+        "size_in_bytes": 6292
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/clock.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b6c94eb7b716028fb2eab82544057d958b04e8e98396160d305d12507a9c82d",
+        "sha256_in_prefix": "6b6c94eb7b716028fb2eab82544057d958b04e8e98396160d305d12507a9c82d",
+        "size_in_bytes": 20322
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/com.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b473fc820a83fc80cca4a689d221bb94a4f174e8a4188ab380c808af9b68a3e7",
+        "sha256_in_prefix": "b473fc820a83fc80cca4a689d221bb94a4f174e8a4188ab380c808af9b68a3e7",
+        "size_in_bytes": 12171
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/event.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0916dd2e7094c95427204d8d3515c77ab960c04577d82100b9fa98e5bfed3aba",
+        "sha256_in_prefix": "0916dd2e7094c95427204d8d3515c77ab960c04577d82100b9fa98e5bfed3aba",
+        "size_in_bytes": 14302
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba9f3182f347412f222bd5c170cdd5576fba9f2892bc0903825e60b6e583a314",
+        "sha256_in_prefix": "ba9f3182f347412f222bd5c170cdd5576fba9f2892bc0903825e60b6e583a314",
+        "size_in_bytes": 6411
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/lib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "00d0f7aa1958fad7ff77425376451fdc7e80d3fe267f6678e958d7f35ef5dd96",
+        "sha256_in_prefix": "00d0f7aa1958fad7ff77425376451fdc7e80d3fe267f6678e958d7f35ef5dd96",
+        "size_in_bytes": 9279
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/math.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "44f573674f72038c5310c3fced6240670e4ab4636f12ca96a50792edb917f257",
+        "sha256_in_prefix": "44f573674f72038c5310c3fced6240670e4ab4636f12ca96a50792edb917f257",
+        "size_in_bytes": 36349
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/resource.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "106de74259c1f163405eff13dfcadc1e7c0b10c312930afdca9d6bf2842daad2",
+        "sha256_in_prefix": "106de74259c1f163405eff13dfcadc1e7c0b10c312930afdca9d6bf2842daad2",
+        "size_in_bytes": 23955
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/shapes.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad24fd8ef37255530769ff77cd7d9f869a9a66f175aa43f3738ecfc4babdc240",
+        "sha256_in_prefix": "ad24fd8ef37255530769ff77cd7d9f869a9a66f175aa43f3738ecfc4babdc240",
+        "size_in_bytes": 46826
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/sprite.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c3354f6a59b73011f550891c58b9f61398301f81e56344d021c18afa93260b1",
+        "sha256_in_prefix": "0c3354f6a59b73011f550891c58b9f61398301f81e56344d021c18afa93260b1",
+        "size_in_bytes": 20216
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d374314f8c99f441f00f86ddafb501ea84e3e8840e243f6fa144bf85d35b0882",
+        "sha256_in_prefix": "d374314f8c99f441f00f86ddafb501ea84e3e8840e243f6fa144bf85d35b0882",
+        "size_in_bytes": 8346
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "716b6000de9dd5abf0d55cca9def577e2be62cc27124761ab8ae0b5d111de672",
+        "sha256_in_prefix": "716b6000de9dd5abf0d55cca9def577e2be62cc27124761ab8ae0b5d111de672",
+        "size_in_bytes": 4314
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3270b8cea9b4b5a7ec19c81121aaabbaef451da1f9a5fa3cf7312d71522b5a7",
+        "sha256_in_prefix": "b3270b8cea9b4b5a7ec19c81121aaabbaef451da1f9a5fa3cf7312d71522b5a7",
+        "size_in_bytes": 2249
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "94c2d9de616cd02243d3f9b3505231ad9c4b264f2aa8f2c0f8e1c6c2938de1b4",
+        "sha256_in_prefix": "94c2d9de616cd02243d3f9b3505231ad9c4b264f2aa8f2c0f8e1c6c2938de1b4",
+        "size_in_bytes": 11359
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/__pycache__/cocoa.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "76070569d46230335545e77b438a28003accbb6901ced11bc4629f6afc923e54",
+        "sha256_in_prefix": "76070569d46230335545e77b438a28003accbb6901ced11bc4629f6afc923e54",
+        "size_in_bytes": 4071
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/__pycache__/win32.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "becc5988c7d7aeabe36579f9993b2f04e2fe88d8cd7fbbb26447d09453628840",
+        "sha256_in_prefix": "becc5988c7d7aeabe36579f9993b2f04e2fe88d8cd7fbbb26447d09453628840",
+        "size_in_bytes": 3424
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/__pycache__/xlib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a4531d223ea66fc39dfa827429db24e878f76a374e63633d2cc9ac837eb721a",
+        "sha256_in_prefix": "7a4531d223ea66fc39dfa827429db24e878f76a374e63633d2cc9ac837eb721a",
+        "size_in_bytes": 3100
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/base.py",
+        "path_type": "hardlink",
+        "sha256": "7b2498b0343cd368f8baa9baa995b99c54d1022d277178602893ed8dd07262ea",
+        "sha256_in_prefix": "7b2498b0343cd368f8baa9baa995b99c54d1022d277178602893ed8dd07262ea",
+        "size_in_bytes": 12258
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/cocoa.py",
+        "path_type": "hardlink",
+        "sha256": "31286d16472d09ed854640ef9f686af02df858058da8bbac44ef3c777876d0d4",
+        "sha256_in_prefix": "31286d16472d09ed854640ef9f686af02df858058da8bbac44ef3c777876d0d4",
+        "size_in_bytes": 8472
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/win32.py",
+        "path_type": "hardlink",
+        "sha256": "c944d0d97160ba9a5fe0e2600d42e9da0a9be5792a8ab7c7cb054fd817549fec",
+        "sha256_in_prefix": "c944d0d97160ba9a5fe0e2600d42e9da0a9be5792a8ab7c7cb054fd817549fec",
+        "size_in_bytes": 5636
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/app/xlib.py",
+        "path_type": "hardlink",
+        "sha256": "c3601d769f02be6b6e2ed6e02a90f91bd9a5fcbb9910290dd64f984d6d21d00f",
+        "sha256_in_prefix": "c3601d769f02be6b6e2ed6e02a90f91bd9a5fcbb9910290dd64f984d6d21d00f",
+        "size_in_bytes": 4348
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93d6ae7276514d60813815bc5278ea1b028dfe000004b69fc8c78eefd6bc0ec4",
+        "sha256_in_prefix": "93d6ae7276514d60813815bc5278ea1b028dfe000004b69fc8c78eefd6bc0ec4",
+        "size_in_bytes": 5009
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "940ea2daeea3fd9bde04b2acf4905338698b317798b7053ac99f6ff45de4f3ea",
+        "sha256_in_prefix": "940ea2daeea3fd9bde04b2acf4905338698b317798b7053ac99f6ff45de4f3ea",
+        "size_in_bytes": 2759
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0b39cf4ead560b0f8c0291cffef5b0a87122317d1134b83d6301a2a1577fbf0",
+        "sha256_in_prefix": "a0b39cf4ead560b0f8c0291cffef5b0a87122317d1134b83d6301a2a1577fbf0",
+        "size_in_bytes": 9863
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/cocoa.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "41f8882ede5cbc34120bdb8b2ceb3a09210a13274f39860f891a9b1590ea9bd1",
+        "sha256_in_prefix": "41f8882ede5cbc34120bdb8b2ceb3a09210a13274f39860f891a9b1590ea9bd1",
+        "size_in_bytes": 4706
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/headless.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "507fa9c3280626382d6c57e8ebd4032cf4d9f24e7986ac727c01bc782b82a666",
+        "sha256_in_prefix": "507fa9c3280626382d6c57e8ebd4032cf4d9f24e7986ac727c01bc782b82a666",
+        "size_in_bytes": 3007
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/win32.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1fcfb211fcd892db9d95328cf2790d5b9b3ae1eb060e0662bebf83550ac67c41",
+        "sha256_in_prefix": "1fcfb211fcd892db9d95328cf2790d5b9b3ae1eb060e0662bebf83550ac67c41",
+        "size_in_bytes": 4184
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/xlib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "18f90b0d961da829ecb6c6d8ffdd1698925e7f7257ad58d1db24ebaa212307c2",
+        "sha256_in_prefix": "18f90b0d961da829ecb6c6d8ffdd1698925e7f7257ad58d1db24ebaa212307c2",
+        "size_in_bytes": 6691
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/__pycache__/xlib_vidmoderestore.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4231ae87601e625e82e9417a3da97fe38b55458e23d4b388007cdf0d94b55b0",
+        "sha256_in_prefix": "e4231ae87601e625e82e9417a3da97fe38b55458e23d4b388007cdf0d94b55b0",
+        "size_in_bytes": 4440
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/base.py",
+        "path_type": "hardlink",
+        "sha256": "92ca74607c7766e730482639dc4bd5201704cdd726c01e755cb744c764922d36",
+        "sha256_in_prefix": "92ca74607c7766e730482639dc4bd5201704cdd726c01e755cb744c764922d36",
+        "size_in_bytes": 11990
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/cocoa.py",
+        "path_type": "hardlink",
+        "sha256": "315d98566f72ca21cbc7e405dfe4d87498863b208dfd9ea0c163f44b4ac634f8",
+        "sha256_in_prefix": "315d98566f72ca21cbc7e405dfe4d87498863b208dfd9ea0c163f44b4ac634f8",
+        "size_in_bytes": 6759
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/headless.py",
+        "path_type": "hardlink",
+        "sha256": "4d9765fc8ba6c8b3bbee6e300349a8c9f894eaf0c45f35c350accb02043b5eb9",
+        "sha256_in_prefix": "4d9765fc8ba6c8b3bbee6e300349a8c9f894eaf0c45f35c350accb02043b5eb9",
+        "size_in_bytes": 3916
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/win32.py",
+        "path_type": "hardlink",
+        "sha256": "11eddc5c4ee1e51a645fb726719b886ea660022f0497dbb9ac84235a1dde1d44",
+        "sha256_in_prefix": "11eddc5c4ee1e51a645fb726719b886ea660022f0497dbb9ac84235a1dde1d44",
+        "size_in_bytes": 5324
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/xlib.py",
+        "path_type": "hardlink",
+        "sha256": "7f96eb76bb96ac94ba22bf48f269cfe20d85cbefab7ad192fca9ef37821b851b",
+        "sha256_in_prefix": "7f96eb76bb96ac94ba22bf48f269cfe20d85cbefab7ad192fca9ef37821b851b",
+        "size_in_bytes": 10381
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/canvas/xlib_vidmoderestore.py",
+        "path_type": "hardlink",
+        "sha256": "debd8c474e81587328147ee955d45834ba84ff3be1bc7f36e044893804dc327b",
+        "sha256_in_prefix": "debd8c474e81587328147ee955d45834ba84ff3be1bc7f36e044893804dc327b",
+        "size_in_bytes": 7434
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/clock.py",
+        "path_type": "hardlink",
+        "sha256": "725472f8fa0187313fc022c1bfcba078ccc0e622f14f1853843dd2cc8cfaeeef",
+        "sha256_in_prefix": "725472f8fa0187313fc022c1bfcba078ccc0e622f14f1853843dd2cc8cfaeeef",
+        "size_in_bytes": 26382
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/com.py",
+        "path_type": "hardlink",
+        "sha256": "160b50c3c4d566802c5df80273db5850bb9a484d72e8bc032661b7508ba0dd12",
+        "sha256_in_prefix": "160b50c3c4d566802c5df80273db5850bb9a484d72e8bc032661b7508ba0dd12",
+        "size_in_bytes": 13214
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/event.py",
+        "path_type": "hardlink",
+        "sha256": "46633e7bb8972ed2a8cba53284f57ee9fe5ef434f07dc16d63257d008d3c4012",
+        "sha256_in_prefix": "46633e7bb8972ed2a8cba53284f57ee9fe5ef434f07dc16d63257d008d3c4012",
+        "size_in_bytes": 18865
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/extlibs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "65d5592a302dff2cbfa37661a7b855ddf138d3291eec9ef498ff1f6372e09cf4",
+        "sha256_in_prefix": "65d5592a302dff2cbfa37661a7b855ddf138d3291eec9ef498ff1f6372e09cf4",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/extlibs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa61db259f6a2117dc002b5ec936b0a7a997efb67707cd291a6fef1634d26a8d",
+        "sha256_in_prefix": "fa61db259f6a2117dc002b5ec936b0a7a997efb67707cd291a6fef1634d26a8d",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/extlibs/__pycache__/png.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f46dddafc61a43a4c2923abb22faea96bb451d197e8d1aab3bbea7a08cb21122",
+        "sha256_in_prefix": "f46dddafc61a43a4c2923abb22faea96bb451d197e8d1aab3bbea7a08cb21122",
+        "size_in_bytes": 63622
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/extlibs/png.py",
+        "path_type": "hardlink",
+        "sha256": "b85821f5fa5b3f4d2c3ddf8fdd54a246d69c1d9e61451f1db2e20fb683b71c57",
+        "sha256_in_prefix": "b85821f5fa5b3f4d2c3ddf8fdd54a246d69c1d9e61451f1db2e20fb683b71c57",
+        "size_in_bytes": 81773
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "18ff0f025e0cfb18884c8e6a470b3a2974fc1edfb546f7223895d4d1dcfd3f77",
+        "sha256_in_prefix": "18ff0f025e0cfb18884c8e6a470b3a2974fc1edfb546f7223895d4d1dcfd3f77",
+        "size_in_bytes": 7514
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2334db8fef61bdd0013decc2b50fd179058f6b0a78029cc8c0c4e92b2a3ddad",
+        "sha256_in_prefix": "b2334db8fef61bdd0013decc2b50fd179058f6b0a78029cc8c0c4e92b2a3ddad",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a774f12e5b0f26c746781ace03686329682ce868467c36a49f8cb3664fd2c38c",
+        "sha256_in_prefix": "a774f12e5b0f26c746781ace03686329682ce868467c36a49f8cb3664fd2c38c",
+        "size_in_bytes": 12608
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/directwrite.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "65db2d4226e48e6e1c229dc0c7209709da9ed0f3c75563da0a611eb9c62242b0",
+        "sha256_in_prefix": "65db2d4226e48e6e1c229dc0c7209709da9ed0f3c75563da0a611eb9c62242b0",
+        "size_in_bytes": 53594
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/fontconfig.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d4f8b62442b863793ddf7e24038a8ada915ad01f254e60c6a29c427f0ee99be",
+        "sha256_in_prefix": "4d4f8b62442b863793ddf7e24038a8ada915ad01f254e60c6a29c427f0ee99be",
+        "size_in_bytes": 10391
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/freetype.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "de6a65c5cdade48bdfe7dd4f0b841e9306561685b854d8159005db62cf8dd8af",
+        "sha256_in_prefix": "de6a65c5cdade48bdfe7dd4f0b841e9306561685b854d8159005db62cf8dd8af",
+        "size_in_bytes": 11411
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/freetype_lib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "af92709fe994b3389f14a2b96858e1450181efc83d9d258ffbbe472230ef16c0",
+        "sha256_in_prefix": "af92709fe994b3389f14a2b96858e1450181efc83d9d258ffbbe472230ef16c0",
+        "size_in_bytes": 14150
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/quartz.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6d3fb4dd8028426e5851954efc739e72e37226f96f97792afe04a17d18160d9",
+        "sha256_in_prefix": "c6d3fb4dd8028426e5851954efc739e72e37226f96f97792afe04a17d18160d9",
+        "size_in_bytes": 6247
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/ttf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "783d8d56685e33e200dc1f5042375d7b87c7d833c215999d9654f75005b735cd",
+        "sha256_in_prefix": "783d8d56685e33e200dc1f5042375d7b87c7d833c215999d9654f75005b735cd",
+        "size_in_bytes": 16843
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/win32.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "511dd67126117075abe7d0c20b230d73332819946d0fc304ac6caf774f23d75b",
+        "sha256_in_prefix": "511dd67126117075abe7d0c20b230d73332819946d0fc304ac6caf774f23d75b",
+        "size_in_bytes": 12947
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/__pycache__/win32query.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcb9f845a59b627505d1faa0d4d7b13b5332d54c3a6c71a601e8a069118dbd52",
+        "sha256_in_prefix": "dcb9f845a59b627505d1faa0d4d7b13b5332d54c3a6c71a601e8a069118dbd52",
+        "size_in_bytes": 9830
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/base.py",
+        "path_type": "hardlink",
+        "sha256": "60afc12bc58996de64b8b3102018f3483a5865a578aae89e15c762559ab10199",
+        "sha256_in_prefix": "60afc12bc58996de64b8b3102018f3483a5865a578aae89e15c762559ab10199",
+        "size_in_bytes": 15543
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/directwrite.py",
+        "path_type": "hardlink",
+        "sha256": "964ebf080613d233cba1e7d8d8c488eac242d9b0cee4ef7bbb346b032322423e",
+        "sha256_in_prefix": "964ebf080613d233cba1e7d8d8c488eac242d9b0cee4ef7bbb346b032322423e",
+        "size_in_bytes": 79853
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/fontconfig.py",
+        "path_type": "hardlink",
+        "sha256": "7a9e45136d8660394bce27632f3b6ea2a7b49802f520e0fa07e61f9325e58081",
+        "sha256_in_prefix": "7a9e45136d8660394bce27632f3b6ea2a7b49802f520e0fa07e61f9325e58081",
+        "size_in_bytes": 11524
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/freetype.py",
+        "path_type": "hardlink",
+        "sha256": "f360e2683711cdeabad5566fb5208edb431f873b331043949a80b1c919ec9b17",
+        "sha256_in_prefix": "f360e2683711cdeabad5566fb5208edb431f873b331043949a80b1c919ec9b17",
+        "size_in_bytes": 13431
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/freetype_lib.py",
+        "path_type": "hardlink",
+        "sha256": "511ce5376d73df49f00bb9b5aa397c677d00e663427eb5b41ac799ae5ea490e2",
+        "sha256_in_prefix": "511ce5376d73df49f00bb9b5aa397c677d00e663427eb5b41ac799ae5ea490e2",
+        "size_in_bytes": 17404
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/quartz.py",
+        "path_type": "hardlink",
+        "sha256": "d9827d3e8f0334040fa7379ea67e2f45515b6ef40d05040e560f5599aed9c4fd",
+        "sha256_in_prefix": "d9827d3e8f0334040fa7379ea67e2f45515b6ef40d05040e560f5599aed9c4fd",
+        "size_in_bytes": 13112
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/ttf.py",
+        "path_type": "hardlink",
+        "sha256": "628306e631534d6e3494417e643faa487508c8174b03c603162ecfb27f81e9cd",
+        "sha256_in_prefix": "628306e631534d6e3494417e643faa487508c8174b03c603162ecfb27f81e9cd",
+        "size_in_bytes": 25617
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/win32.py",
+        "path_type": "hardlink",
+        "sha256": "b6bc8b5714e8511eb42c6f8eebcf0d7f930e51d982bf20174c0d51bcfe22f6b1",
+        "sha256_in_prefix": "b6bc8b5714e8511eb42c6f8eebcf0d7f930e51d982bf20174c0d51bcfe22f6b1",
+        "size_in_bytes": 21193
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/font/win32query.py",
+        "path_type": "hardlink",
+        "sha256": "ae57a8f0758e63e0d3d3f05c929ee6dab875d1c9afcbe122cd1e626cc692d48b",
+        "sha256_in_prefix": "ae57a8f0758e63e0d3d3f05c929ee6dab875d1c9afcbe122cd1e626cc692d48b",
+        "size_in_bytes": 17655
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "62df7a2948bcf68da5c93a30c73fbc19d16a43b3d5f5ea31a3a93e3fcab19b6f",
+        "sha256_in_prefix": "62df7a2948bcf68da5c93a30c73fbc19d16a43b3d5f5ea31a3a93e3fcab19b6f",
+        "size_in_bytes": 7241
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c78c360cdbb18b59fd630154e78c1fc52bbcb4379a3969333b6ae1e25abd19b",
+        "sha256_in_prefix": "2c78c360cdbb18b59fd630154e78c1fc52bbcb4379a3969333b6ae1e25abd19b",
+        "size_in_bytes": 4892
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/agl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d3a0504e6ec4740b670a81bafcfd11ae6048fc9e320bd32bdc4868e8d9eca9f",
+        "sha256_in_prefix": "2d3a0504e6ec4740b670a81bafcfd11ae6048fc9e320bd32bdc4868e8d9eca9f",
+        "size_in_bytes": 9365
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "34fba733263c54a4170ebca6728380cc1f12e105616daa5e6c7f584ac9cf2f44",
+        "sha256_in_prefix": "34fba733263c54a4170ebca6728380cc1f12e105616daa5e6c7f584ac9cf2f44",
+        "size_in_bytes": 11789
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/cocoa.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "83d299f3c72eab9eaf060f3cba175aeaf16e943dc403908cba27d5bcc5775150",
+        "sha256_in_prefix": "83d299f3c72eab9eaf060f3cba175aeaf16e943dc403908cba27d5bcc5775150",
+        "size_in_bytes": 7120
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/gl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ff38220ee04107778aa8960cf69d9f3f8c72b1f546148ffb232f668cf3dc6db",
+        "sha256_in_prefix": "3ff38220ee04107778aa8960cf69d9f3f8c72b1f546148ffb232f668cf3dc6db",
+        "size_in_bytes": 61461
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/gl_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd5a9158128a6564b96c7db7052fb81a95ae49d093a3eca25e91433ccd6e17bb",
+        "sha256_in_prefix": "bd5a9158128a6564b96c7db7052fb81a95ae49d093a3eca25e91433ccd6e17bb",
+        "size_in_bytes": 5616
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glext_arb.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "207b062df4c9b0b48663b6a2bd0992dfd88dfe879911a0448c4b5fe12a977271",
+        "sha256_in_prefix": "207b062df4c9b0b48663b6a2bd0992dfd88dfe879911a0448c4b5fe12a977271",
+        "size_in_bytes": 485075
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glext_nv.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f30d9579217cd23e26e1869ee23e54ba7eabefa426ae610c3127ac168353f34",
+        "sha256_in_prefix": "8f30d9579217cd23e26e1869ee23e54ba7eabefa426ae610c3127ac168353f34",
+        "size_in_bytes": 342027
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glu.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c723e2179bee2a2dd60d3105c7db1c55b0548f2e4d83c02af04223a785b1ea0b",
+        "sha256_in_prefix": "c723e2179bee2a2dd60d3105c7db1c55b0548f2e4d83c02af04223a785b1ea0b",
+        "size_in_bytes": 10880
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glu_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d56309e19e231dedce502db85d6ee2e2dda29489aab503f6b241a4727e50b87",
+        "sha256_in_prefix": "1d56309e19e231dedce502db85d6ee2e2dda29489aab503f6b241a4727e50b87",
+        "size_in_bytes": 4049
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glx.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b1b102d47b66287c1f38fe13978593632d964a835b37b5c69bfaa28720a4073",
+        "sha256_in_prefix": "8b1b102d47b66287c1f38fe13978593632d964a835b37b5c69bfaa28720a4073",
+        "size_in_bytes": 11200
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glx_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "29d06e93a14ee61822ec13a5c3aad385216deecf7a1743d1ab8193f5f1b08070",
+        "sha256_in_prefix": "29d06e93a14ee61822ec13a5c3aad385216deecf7a1743d1ab8193f5f1b08070",
+        "size_in_bytes": 3931
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glxext_arb.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "33185f6fb5a9e5fe819c479ab9f951c73edb222b73b096dd35c5bfaddecd615d",
+        "sha256_in_prefix": "33185f6fb5a9e5fe819c479ab9f951c73edb222b73b096dd35c5bfaddecd615d",
+        "size_in_bytes": 23431
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glxext_mesa.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f12bd9a14b279dc063d24c098545edfe384a7c63c375b4f6e07782352e73d10",
+        "sha256_in_prefix": "2f12bd9a14b279dc063d24c098545edfe384a7c63c375b4f6e07782352e73d10",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/glxext_nv.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9f64af880aa219c12ae776b1b4cbda24a2487876d6420d0bf03b1f6727873c1",
+        "sha256_in_prefix": "b9f64af880aa219c12ae776b1b4cbda24a2487876d6420d0bf03b1f6727873c1",
+        "size_in_bytes": 19338
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/headless.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "92cb91d5c785c5ee67b0b6503460ec0865098b0c19442abeb708cc3053fc9a02",
+        "sha256_in_prefix": "92cb91d5c785c5ee67b0b6503460ec0865098b0c19442abeb708cc3053fc9a02",
+        "size_in_bytes": 5129
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/lib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7ff2c0c2a37926ce6f020ca6065eea4b539238f17b945c4f95b717f3fc27ae5",
+        "sha256_in_prefix": "a7ff2c0c2a37926ce6f020ca6065eea4b539238f17b945c4f95b717f3fc27ae5",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/lib_agl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2559b93cfae99f1c6cacbebab80be6fdc9d65423ea3e9d59db14a0f133c4892f",
+        "sha256_in_prefix": "2559b93cfae99f1c6cacbebab80be6fdc9d65423ea3e9d59db14a0f133c4892f",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/lib_glx.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1596561269271a9c93b0832b21dacfc0a46a3ef37049e8832b583773ae94b1a",
+        "sha256_in_prefix": "e1596561269271a9c93b0832b21dacfc0a46a3ef37049e8832b583773ae94b1a",
+        "size_in_bytes": 1322
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/lib_wgl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ae4530ea41af0ad4e12f4d9124fe73919f751d04a8c15eb28c491d7a5fdc518",
+        "sha256_in_prefix": "8ae4530ea41af0ad4e12f4d9124fe73919f751d04a8c15eb28c491d7a5fdc518",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/wgl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aff99f81800317d852747eeaedab86b7a961eea187c15168d611ee2f932d0f7b",
+        "sha256_in_prefix": "aff99f81800317d852747eeaedab86b7a961eea187c15168d611ee2f932d0f7b",
+        "size_in_bytes": 6849
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/wgl_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "20fd1d6b03cad1d3d6f75720ba0ba56aadbc5a22440527ca390bf99b4e448447",
+        "sha256_in_prefix": "20fd1d6b03cad1d3d6f75720ba0ba56aadbc5a22440527ca390bf99b4e448447",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/wglext_arb.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "76e7bc7d266bf70287979c64b89d15b5fbaac5584a358dccffbba9ff4736e469",
+        "sha256_in_prefix": "76e7bc7d266bf70287979c64b89d15b5fbaac5584a358dccffbba9ff4736e469",
+        "size_in_bytes": 26397
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/wglext_nv.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "853f668450dd6af7810d37ca1a0e4acf139ddbdf197b08f85f0677d0196125a1",
+        "sha256_in_prefix": "853f668450dd6af7810d37ca1a0e4acf139ddbdf197b08f85f0677d0196125a1",
+        "size_in_bytes": 22396
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/win32.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "40594ff4cb19e60cba113866339e1e683dad19bbf28aca5ce74ed387b7187f75",
+        "sha256_in_prefix": "40594ff4cb19e60cba113866339e1e683dad19bbf28aca5ce74ed387b7187f75",
+        "size_in_bytes": 9136
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/__pycache__/xlib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8972f2a2275ddb0c989745f7dce9e6932412b1ed156bf0cfabe0b3a790887278",
+        "sha256_in_prefix": "8972f2a2275ddb0c989745f7dce9e6932412b1ed156bf0cfabe0b3a790887278",
+        "size_in_bytes": 12160
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/agl.py",
+        "path_type": "hardlink",
+        "sha256": "2df9cd52181bc2a2da4b0cc4bcc837d47e2b203f256fd5f10548c0b65035cf5c",
+        "sha256_in_prefix": "2df9cd52181bc2a2da4b0cc4bcc837d47e2b203f256fd5f10548c0b65035cf5c",
+        "size_in_bytes": 28432
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/base.py",
+        "path_type": "hardlink",
+        "sha256": "08ffc224be78bec0a5ba4d0bd736dce5deac04b2d157e9e786e2cf92cdaa753e",
+        "sha256_in_prefix": "08ffc224be78bec0a5ba4d0bd736dce5deac04b2d157e9e786e2cf92cdaa753e",
+        "size_in_bytes": 14908
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/cocoa.py",
+        "path_type": "hardlink",
+        "sha256": "1eb238820095241dfede510c46f2ce9d5d4d5a98e310bd84151871c6a8d7585c",
+        "sha256_in_prefix": "1eb238820095241dfede510c46f2ce9d5d4d5a98e310bd84151871c6a8d7585c",
+        "size_in_bytes": 12683
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/gl.py",
+        "path_type": "hardlink",
+        "sha256": "18e66f0143930a24c3ff32ae8d02c32d1681d91cbb3478c66dc547eabd2540c9",
+        "sha256_in_prefix": "18e66f0143930a24c3ff32ae8d02c32d1681d91cbb3478c66dc547eabd2540c9",
+        "size_in_bytes": 131237
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/gl_info.py",
+        "path_type": "hardlink",
+        "sha256": "a7d257f8ad72e1fd846291785818336e3628b60bd5f43333eabcb9d916e818ba",
+        "sha256_in_prefix": "a7d257f8ad72e1fd846291785818336e3628b60bd5f43333eabcb9d916e818ba",
+        "size_in_bytes": 7306
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glext_arb.py",
+        "path_type": "hardlink",
+        "sha256": "b6c0e02440df75bd94b847aff6d06da6cf03eb96d609d29f17456975f3c2ac8e",
+        "sha256_in_prefix": "b6c0e02440df75bd94b847aff6d06da6cf03eb96d609d29f17456975f3c2ac8e",
+        "size_in_bytes": 948283
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glext_nv.py",
+        "path_type": "hardlink",
+        "sha256": "42af398d9afc5551ec1bbc6fdb310f8f3441c7ac1ee3e36e7c2a47f0d9278898",
+        "sha256_in_prefix": "42af398d9afc5551ec1bbc6fdb310f8f3441c7ac1ee3e36e7c2a47f0d9278898",
+        "size_in_bytes": 666600
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glu.py",
+        "path_type": "hardlink",
+        "sha256": "b923392beb3451acd8b88d1f351e0e5f4c111553a41de4d42eea57583f9c8ec2",
+        "sha256_in_prefix": "b923392beb3451acd8b88d1f351e0e5f4c111553a41de4d42eea57583f9c8ec2",
+        "size_in_bytes": 25612
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glu_info.py",
+        "path_type": "hardlink",
+        "sha256": "d89d767268c093b347def75322dab8735f586389ae58e7ee1bca7add95eb7de0",
+        "sha256_in_prefix": "d89d767268c093b347def75322dab8735f586389ae58e7ee1bca7add95eb7de0",
+        "size_in_bytes": 5650
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glx.py",
+        "path_type": "hardlink",
+        "sha256": "c236bc486a4753b8bc91994f3855f423ea61570081e8b7d50a9dc9690616401b",
+        "sha256_in_prefix": "c236bc486a4753b8bc91994f3855f423ea61570081e8b7d50a9dc9690616401b",
+        "size_in_bytes": 31010
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glx_info.py",
+        "path_type": "hardlink",
+        "sha256": "071ccbfe65ac46c3e5665d732430de16b5fe85befe0e1c5b041c1411e82d2bad",
+        "sha256_in_prefix": "071ccbfe65ac46c3e5665d732430de16b5fe85befe0e1c5b041c1411e82d2bad",
+        "size_in_bytes": 5333
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glxext_arb.py",
+        "path_type": "hardlink",
+        "sha256": "8e0a13f332b65bb67b0c3c0a4555fc351ea85be6576a43bd2d08c7169c339a50",
+        "sha256_in_prefix": "8e0a13f332b65bb67b0c3c0a4555fc351ea85be6576a43bd2d08c7169c339a50",
+        "size_in_bytes": 52369
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glxext_mesa.py",
+        "path_type": "hardlink",
+        "sha256": "066de5c80789097eea9d3ef71a449ffe223dac726e29bbc5bafad6fa9c2f1621",
+        "sha256_in_prefix": "066de5c80789097eea9d3ef71a449ffe223dac726e29bbc5bafad6fa9c2f1621",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/glxext_nv.py",
+        "path_type": "hardlink",
+        "sha256": "c066cb7e5c7ccff52e19a631e2728d8018b3d88756a02c3abc76e63c423a4577",
+        "sha256_in_prefix": "c066cb7e5c7ccff52e19a631e2728d8018b3d88756a02c3abc76e63c423a4577",
+        "size_in_bytes": 43164
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/headless.py",
+        "path_type": "hardlink",
+        "sha256": "df147ec0bf84c9193c7eda41df8a95f1a80255f138f748894d00f640e4fd6d19",
+        "sha256_in_prefix": "df147ec0bf84c9193c7eda41df8a95f1a80255f138f748894d00f640e4fd6d19",
+        "size_in_bytes": 6909
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/lib.py",
+        "path_type": "hardlink",
+        "sha256": "c0ce4f74f5a0ab8779bf99b756979b069d9248886c46c80ad01cce068067451f",
+        "sha256_in_prefix": "c0ce4f74f5a0ab8779bf99b756979b069d9248886c46c80ad01cce068067451f",
+        "size_in_bytes": 5289
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/lib_agl.py",
+        "path_type": "hardlink",
+        "sha256": "3518e4a5c23a317f79d141d48975ed21a4747d5407011d75f09a409ba314761f",
+        "sha256_in_prefix": "3518e4a5c23a317f79d141d48975ed21a4747d5407011d75f09a409ba314761f",
+        "size_in_bytes": 2697
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/lib_glx.py",
+        "path_type": "hardlink",
+        "sha256": "544ace102d5ff65b44fd0000b83ad51708a043dad00d91f8ab8872d336352b0e",
+        "sha256_in_prefix": "544ace102d5ff65b44fd0000b83ad51708a043dad00d91f8ab8872d336352b0e",
+        "size_in_bytes": 3499
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/lib_wgl.py",
+        "path_type": "hardlink",
+        "sha256": "a16d10cb50db95a12c98f8b6b368cc8654965a96bf6ff588cf119f6a83fd2693",
+        "sha256_in_prefix": "a16d10cb50db95a12c98f8b6b368cc8654965a96bf6ff588cf119f6a83fd2693",
+        "size_in_bytes": 5802
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/wgl.py",
+        "path_type": "hardlink",
+        "sha256": "a2416d47f914cfc38544b5f4874c643700ce982ccff81932a7c5d08f3e8db5cb",
+        "sha256_in_prefix": "a2416d47f914cfc38544b5f4874c643700ce982ccff81932a7c5d08f3e8db5cb",
+        "size_in_bytes": 17871
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/wgl_info.py",
+        "path_type": "hardlink",
+        "sha256": "7f50e0f0de8a00d19821ac470c59e4c1fe435446c5b2c18604b1926dbccd7300",
+        "sha256_in_prefix": "7f50e0f0de8a00d19821ac470c59e4c1fe435446c5b2c18604b1926dbccd7300",
+        "size_in_bytes": 2716
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/wglext_arb.py",
+        "path_type": "hardlink",
+        "sha256": "31b4b8a0f094d17b7880d2f8b6694e19117b7ba69afc5fee842287f77ae9dc58",
+        "sha256_in_prefix": "31b4b8a0f094d17b7880d2f8b6694e19117b7ba69afc5fee842287f77ae9dc58",
+        "size_in_bytes": 72055
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/wglext_nv.py",
+        "path_type": "hardlink",
+        "sha256": "008ae48afc40995d2ad68bbd3013443e2af22c2fc644bcc130d16c4a5ebc8fb5",
+        "sha256_in_prefix": "008ae48afc40995d2ad68bbd3013443e2af22c2fc644bcc130d16c4a5ebc8fb5",
+        "size_in_bytes": 71689
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/win32.py",
+        "path_type": "hardlink",
+        "sha256": "10613ba0526a6d1ebf05ee8a25c661bcaf7cffa7e4b82295e97d7ede46dbb081",
+        "sha256_in_prefix": "10613ba0526a6d1ebf05ee8a25c661bcaf7cffa7e4b82295e97d7ede46dbb081",
+        "size_in_bytes": 11552
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gl/xlib.py",
+        "path_type": "hardlink",
+        "sha256": "b1d3cd4d5610000a7fcc1a6f7f705ffd3833166ad4a019c04074884657acc34d",
+        "sha256_in_prefix": "b1d3cd4d5610000a7fcc1a6f7f705ffd3833166ad4a019c04074884657acc34d",
+        "size_in_bytes": 14787
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c9243af4cb2d865b07b9255f85f14142ee9f04b9f78e21980fc2833af6bf32e7",
+        "sha256_in_prefix": "c9243af4cb2d865b07b9255f85f14142ee9f04b9f78e21980fc2833af6bf32e7",
+        "size_in_bytes": 27451
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f609f2225b2e0334ddf245c10bdec6ebfa6977069b17751ba4a67450266df66",
+        "sha256_in_prefix": "1f609f2225b2e0334ddf245c10bdec6ebfa6977069b17751ba4a67450266df66",
+        "size_in_bytes": 24337
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/__pycache__/allocation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecf4b5eaecc56f33e2f91a7d96bcb0c32e76ba4b3da526b2867c0465f8eff024",
+        "sha256_in_prefix": "ecf4b5eaecc56f33e2f91a7d96bcb0c32e76ba4b3da526b2867c0465f8eff024",
+        "size_in_bytes": 7337
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/__pycache__/vertexattribute.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "17cf32cf4d5c8c099fe77cb0922a96f10090bf0f2be03d29ea65f33764f752e5",
+        "sha256_in_prefix": "17cf32cf4d5c8c099fe77cb0922a96f10090bf0f2be03d29ea65f33764f752e5",
+        "size_in_bytes": 17011
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/__pycache__/vertexbuffer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c27e5ad31d1e30bb60b2ef71fcfd12986b3f2033ec5710bffd5cd896a5636e95",
+        "sha256_in_prefix": "c27e5ad31d1e30bb60b2ef71fcfd12986b3f2033ec5710bffd5cd896a5636e95",
+        "size_in_bytes": 19727
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/__pycache__/vertexdomain.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "94a26f2d9d1855e6a6a7371c0f428b54a415ede20b371c2833a868e2edf63d14",
+        "sha256_in_prefix": "94a26f2d9d1855e6a6a7371c0f428b54a415ede20b371c2833a868e2edf63d14",
+        "size_in_bytes": 23741
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/allocation.py",
+        "path_type": "hardlink",
+        "sha256": "edbc49cbbaa2db413e505085e029c6c91e9cd51be3a070ecfd56d8f824d13cd8",
+        "sha256_in_prefix": "edbc49cbbaa2db413e505085e029c6c91e9cd51be3a070ecfd56d8f824d13cd8",
+        "size_in_bytes": 14366
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/vertexattribute.py",
+        "path_type": "hardlink",
+        "sha256": "5d7093aa4a330405bb0058734471862ab4c58c1300cfa11a13bc5593f358224c",
+        "sha256_in_prefix": "5d7093aa4a330405bb0058734471862ab4c58c1300cfa11a13bc5593f358224c",
+        "size_in_bytes": 17394
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/vertexbuffer.py",
+        "path_type": "hardlink",
+        "sha256": "b82effe9888629418edfc7faa4459785c15cf2e8661cd07803832686ab92d23e",
+        "sha256_in_prefix": "b82effe9888629418edfc7faa4459785c15cf2e8661cd07803832686ab92d23e",
+        "size_in_bytes": 20250
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/graphics/vertexdomain.py",
+        "path_type": "hardlink",
+        "sha256": "1cc4b5975783011fb999d9bbf5b296abea9d25006cb50be82cbb9cf8ea2c814f",
+        "sha256_in_prefix": "1cc4b5975783011fb999d9bbf5b296abea9d25006cb50be82cbb9cf8ea2c814f",
+        "size_in_bytes": 32248
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "be8050b0d1310ede9ac68ba4179bbaf95f3a0eb7bbe9df3a9a169769397166f5",
+        "sha256_in_prefix": "be8050b0d1310ede9ac68ba4179bbaf95f3a0eb7bbe9df3a9a169769397166f5",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "98a7ba7ff9a00fabe45fb84e75f898de944107e7516fbc51c8f8c0c416e01233",
+        "sha256_in_prefix": "98a7ba7ff9a00fabe45fb84e75f898de944107e7516fbc51c8f8c0c416e01233",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/__pycache__/frame.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "49e7b1cbdded55094c7737fd168e80a124006751936f5727beb286b248293684",
+        "sha256_in_prefix": "49e7b1cbdded55094c7737fd168e80a124006751936f5727beb286b248293684",
+        "size_in_bytes": 6567
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/__pycache__/ninepatch.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7d04bbdb834ebc1c95c8664565aaea3de55131461024defded95aa265ef40bf",
+        "sha256_in_prefix": "a7d04bbdb834ebc1c95c8664565aaea3de55131461024defded95aa265ef40bf",
+        "size_in_bytes": 5274
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/__pycache__/widgets.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5763361266590f162605fce6a91a94c2539a3cde05f3f4ef60672bf0bfa84d4b",
+        "sha256_in_prefix": "5763361266590f162605fce6a91a94c2539a3cde05f3f4ef60672bf0bfa84d4b",
+        "size_in_bytes": 17684
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/frame.py",
+        "path_type": "hardlink",
+        "sha256": "73c1a63f380bda64218c1d04196cc534cd11edcd49299aa00a8a785359b13675",
+        "sha256_in_prefix": "73c1a63f380bda64218c1d04196cc534cd11edcd49299aa00a8a785359b13675",
+        "size_in_bytes": 7670
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/ninepatch.py",
+        "path_type": "hardlink",
+        "sha256": "ec331abc772f582d25d4f51ab4af55eaf0a5ecc5ae8c217e8303fd19dc553a99",
+        "sha256_in_prefix": "ec331abc772f582d25d4f51ab4af55eaf0a5ecc5ae8c217e8303fd19dc553a99",
+        "size_in_bytes": 8041
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/gui/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "9bfac42ea28017ef22a95d559abe700d611e1377052e3ffcd1999ce73f56c623",
+        "sha256_in_prefix": "9bfac42ea28017ef22a95d559abe700d611e1377052e3ffcd1999ce73f56c623",
+        "size_in_bytes": 17399
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "89e650fcd7249523b75ab318134be07428408df933343d4e6da069b6cad8b5d2",
+        "sha256_in_prefix": "89e650fcd7249523b75ab318134be07428408df933343d4e6da069b6cad8b5d2",
+        "size_in_bytes": 84490
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "38c2ef70e7006a68f1de7488ff129f00beb04d39107229ebd9d1a137a3680c87",
+        "sha256_in_prefix": "38c2ef70e7006a68f1de7488ff129f00beb04d39107229ebd9d1a137a3680c87",
+        "size_in_bytes": 70760
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/__pycache__/animation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b500f54ae834b84912084ca7eecae548594669d42c371bd418937af61676d17",
+        "sha256_in_prefix": "1b500f54ae834b84912084ca7eecae548594669d42c371bd418937af61676d17",
+        "size_in_bytes": 7937
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/__pycache__/atlas.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e9057b6e28b60c2929001e9c06b433c1e5937291f92c9bb087d5bcc30777c47",
+        "sha256_in_prefix": "0e9057b6e28b60c2929001e9c06b433c1e5937291f92c9bb087d5bcc30777c47",
+        "size_in_bytes": 8629
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/animation.py",
+        "path_type": "hardlink",
+        "sha256": "167f4baef009fd736b4dc4b24b29d15d05b36747489b9b038d8755e07b7158b7",
+        "sha256_in_prefix": "167f4baef009fd736b4dc4b24b29d15d05b36747489b9b038d8755e07b7158b7",
+        "size_in_bytes": 8173
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/atlas.py",
+        "path_type": "hardlink",
+        "sha256": "cde577d8cec0ac62c2d1b696120b2107499eca61c3d8b4d1aa1100165992b278",
+        "sha256_in_prefix": "cde577d8cec0ac62c2d1b696120b2107499eca61c3d8b4d1aa1100165992b278",
+        "size_in_bytes": 10076
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "add9ed55eaf4e876f9a4b0c0b46b71e43382e4f078e3271ab45466d85562e471",
+        "sha256_in_prefix": "add9ed55eaf4e876f9a4b0c0b46b71e43382e4f078e3271ab45466d85562e471",
+        "size_in_bytes": 7277
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2abc1d22d2b2c6a5b5caa0e046d040fc217abf672ea2cb628826e6dc016de29",
+        "sha256_in_prefix": "f2abc1d22d2b2c6a5b5caa0e046d040fc217abf672ea2cb628826e6dc016de29",
+        "size_in_bytes": 5460
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/bmp.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "03f9d318e0e0f4973b2619269006612c40dd0fb728d795b964f0ecfb0a48aa26",
+        "sha256_in_prefix": "03f9d318e0e0f4973b2619269006612c40dd0fb728d795b964f0ecfb0a48aa26",
+        "size_in_bytes": 7969
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/dds.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "750bde12191faf01774ce087b3afaa9a6f4eb033adbb36526d0a662163205def",
+        "sha256_in_prefix": "750bde12191faf01774ce087b3afaa9a6f4eb033adbb36526d0a662163205def",
+        "size_in_bytes": 5576
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/gdiplus.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "54688b57d2381194eb66028f3b03c92d186a002dff4ac3ab975e6683203c94d1",
+        "sha256_in_prefix": "54688b57d2381194eb66028f3b03c92d186a002dff4ac3ab975e6683203c94d1",
+        "size_in_bytes": 7672
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/gdkpixbuf2.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "78a0b0e01afbb57f0d7c099d4d2202ae9ac1288c55863ea65ca880ff131c9280",
+        "sha256_in_prefix": "78a0b0e01afbb57f0d7c099d4d2202ae9ac1288c55863ea65ca880ff131c9280",
+        "size_in_bytes": 10315
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/gif.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d031820263a38b7379d76471b5212130157a99aa09918ec526c6570cf1f679c5",
+        "sha256_in_prefix": "d031820263a38b7379d76471b5212130157a99aa09918ec526c6570cf1f679c5",
+        "size_in_bytes": 3183
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/pil.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "30fc0896cfaa59fd8bc2ade50b1ae228d9de2dcafa39d9d81191c0a69ecef17b",
+        "sha256_in_prefix": "30fc0896cfaa59fd8bc2ade50b1ae228d9de2dcafa39d9d81191c0a69ecef17b",
+        "size_in_bytes": 2666
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/png.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "35399edb0f70365a3c5bdad8decf765cdbdc2b164631643823b368b356a3358e",
+        "sha256_in_prefix": "35399edb0f70365a3c5bdad8decf765cdbdc2b164631643823b368b356a3358e",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/quartz.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f3221e23d20860d8365381170f22a71c1c0a2b6f2b168ea3530556ad4908557",
+        "sha256_in_prefix": "4f3221e23d20860d8365381170f22a71c1c0a2b6f2b168ea3530556ad4908557",
+        "size_in_bytes": 3238
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/s3tc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "28cf5a84990e7982f8622251c32b636ddc0e7c91b7b62a46ba9a518c86fa6043",
+        "sha256_in_prefix": "28cf5a84990e7982f8622251c32b636ddc0e7c91b7b62a46ba9a518c86fa6043",
+        "size_in_bytes": 7757
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/__pycache__/wic.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "735948093e71d7e63c18760ed936b22e1ca434ea226fcb3d276d19090cb00fb1",
+        "sha256_in_prefix": "735948093e71d7e63c18760ed936b22e1ca434ea226fcb3d276d19090cb00fb1",
+        "size_in_bytes": 16954
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/bmp.py",
+        "path_type": "hardlink",
+        "sha256": "bea1e33af24b1b97b1bde2298fa16e4268e518b39d24e79ef65e63a2973d748d",
+        "sha256_in_prefix": "bea1e33af24b1b97b1bde2298fa16e4268e518b39d24e79ef65e63a2973d748d",
+        "size_in_bytes": 12404
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/dds.py",
+        "path_type": "hardlink",
+        "sha256": "277d0cd456bf5bf55bc5ce883d3be82bdf6208c5febcbae886a14b145770d231",
+        "sha256_in_prefix": "277d0cd456bf5bf55bc5ce883d3be82bdf6208c5febcbae886a14b145770d231",
+        "size_in_bytes": 7368
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/gdiplus.py",
+        "path_type": "hardlink",
+        "sha256": "9d2039dbb2218bb19a53992b65ed32f6493091e2ae4f23e5b605153f26a5ac5d",
+        "sha256_in_prefix": "9d2039dbb2218bb19a53992b65ed32f6493091e2ae4f23e5b605153f26a5ac5d",
+        "size_in_bytes": 12658
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/gdkpixbuf2.py",
+        "path_type": "hardlink",
+        "sha256": "5d91cae5f05009c8ccb69bb4a9d0f7811f168982b00d9d93c2cdbdc35b8d9f40",
+        "sha256_in_prefix": "5d91cae5f05009c8ccb69bb4a9d0f7811f168982b00d9d93c2cdbdc35b8d9f40",
+        "size_in_bytes": 10619
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/gif.py",
+        "path_type": "hardlink",
+        "sha256": "e2ef205d57aae4f4b766d17c445eb1c45bea830d8b07cffc5bd6cf3546c4390d",
+        "sha256_in_prefix": "e2ef205d57aae4f4b766d17c445eb1c45bea830d8b07cffc5bd6cf3546c4390d",
+        "size_in_bytes": 5333
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/pil.py",
+        "path_type": "hardlink",
+        "sha256": "62180c18b27cf745680326092c2b42403829d688c2130aceb1b69cd532716cfb",
+        "sha256_in_prefix": "62180c18b27cf745680326092c2b42403829d688c2130aceb1b69cd532716cfb",
+        "size_in_bytes": 5905
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/png.py",
+        "path_type": "hardlink",
+        "sha256": "424e2180535de504767947e91203b309483bd1007cd5b755928d472ffab79d13",
+        "sha256_in_prefix": "424e2180535de504767947e91203b309483bd1007cd5b755928d472ffab79d13",
+        "size_in_bytes": 3781
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/quartz.py",
+        "path_type": "hardlink",
+        "sha256": "0197e8fec4ea9a8ca554fa8cacec65c9d9fe21515c211195690a66680e0dd002",
+        "sha256_in_prefix": "0197e8fec4ea9a8ca554fa8cacec65c9d9fe21515c211195690a66680e0dd002",
+        "size_in_bytes": 6348
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/s3tc.py",
+        "path_type": "hardlink",
+        "sha256": "742d6e720e03b0c0a9de843818571be5660eb1b229463ca6b106d94af481f50f",
+        "sha256_in_prefix": "742d6e720e03b0c0a9de843818571be5660eb1b229463ca6b106d94af481f50f",
+        "size_in_bytes": 14174
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/image/codecs/wic.py",
+        "path_type": "hardlink",
+        "sha256": "1496d3cd59f46866bdc5a440b40038be9aebf36db7627b78d96b643e75f5ecaf",
+        "sha256_in_prefix": "1496d3cd59f46866bdc5a440b40038be9aebf36db7627b78d96b643e75f5ecaf",
+        "size_in_bytes": 22554
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/info.py",
+        "path_type": "hardlink",
+        "sha256": "9cc2d93f32665eb476e14d02ebd408d32bfb8ad11c08e50df1ba3b329afefbf3",
+        "sha256_in_prefix": "9cc2d93f32665eb476e14d02ebd408d32bfb8ad11c08e50df1ba3b329afefbf3",
+        "size_in_bytes": 7928
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "501493b90148e668fe5e94ed61537f4afd70f7604aae6ddb20c846cabc0e7984",
+        "sha256_in_prefix": "501493b90148e668fe5e94ed61537f4afd70f7604aae6ddb20c846cabc0e7984",
+        "size_in_bytes": 7244
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea4350ab3534afed35d30d4cf18c7449758621af1e1d9d826a6735f619ffaefd",
+        "sha256_in_prefix": "ea4350ab3534afed35d30d4cf18c7449758621af1e1d9d826a6735f619ffaefd",
+        "size_in_bytes": 5755
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f512501d30291a4d9d8ccb7edeaae226414e5a2717d47a43ef4a2bc06301dec0",
+        "sha256_in_prefix": "f512501d30291a4d9d8ccb7edeaae226414e5a2717d47a43ef4a2bc06301dec0",
+        "size_in_bytes": 25548
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/darwin_hid.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ac61f6984faa311301d986433629db9acbb37652ad1e61c39eb673c2e9861f7",
+        "sha256_in_prefix": "3ac61f6984faa311301d986433629db9acbb37652ad1e61c39eb673c2e9861f7",
+        "size_in_bytes": 17689
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/directinput.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb485e61477f81470ffe4724a57f01cb2bc6734aa4372596f38823ea58392401",
+        "sha256_in_prefix": "bb485e61477f81470ffe4724a57f01cb2bc6734aa4372596f38823ea58392401",
+        "size_in_bytes": 5933
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/evdev.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab1899d31270a800122040630646eef517392433e49edff0518cfb642d81038c",
+        "sha256_in_prefix": "ab1899d31270a800122040630646eef517392433e49edff0518cfb642d81038c",
+        "size_in_bytes": 8608
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/evdev_constants.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7135bdfc9fc4783caaa7d2867757246a646e25b1595e367927c0d78d39da9c6b",
+        "sha256_in_prefix": "7135bdfc9fc4783caaa7d2867757246a646e25b1595e367927c0d78d39da9c6b",
+        "size_in_bytes": 12508
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/wintab.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "14cafe9a4bef6611d1e22e08fcd470cac2e6a5d2ace44ff09b294baf0c7a3e96",
+        "sha256_in_prefix": "14cafe9a4bef6611d1e22e08fcd470cac2e6a5d2ace44ff09b294baf0c7a3e96",
+        "size_in_bytes": 6738
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/x11_xinput.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e4352b4305f162d2f8e9abe6d5320b8309e4067d8747ce8e7179b90f3dd3b0c",
+        "sha256_in_prefix": "7e4352b4305f162d2f8e9abe6d5320b8309e4067d8747ce8e7179b90f3dd3b0c",
+        "size_in_bytes": 10698
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/__pycache__/x11_xinput_tablet.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cf6b16b89791d5311597553c7e06d4029435fee28e98d71b943bdfb27d332c1",
+        "sha256_in_prefix": "1cf6b16b89791d5311597553c7e06d4029435fee28e98d71b943bdfb27d332c1",
+        "size_in_bytes": 3485
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/base.py",
+        "path_type": "hardlink",
+        "sha256": "9e3463f538c9081c05632c0987bf60fe87b38e7b3cd728c7b99eb05a55e8ddf2",
+        "sha256_in_prefix": "9e3463f538c9081c05632c0987bf60fe87b38e7b3cd728c7b99eb05a55e8ddf2",
+        "size_in_bytes": 26202
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/darwin_hid.py",
+        "path_type": "hardlink",
+        "sha256": "84587d143aa11b5d16705bff3b6ebc0e9638b09e7f0313c36c801dc41a4a81b5",
+        "sha256_in_prefix": "84587d143aa11b5d16705bff3b6ebc0e9638b09e7f0313c36c801dc41a4a81b5",
+        "size_in_bytes": 26591
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/directinput.py",
+        "path_type": "hardlink",
+        "sha256": "8a6165a465e01a34241bb6bbfa1dd26668731373687a5860be19fbf264177967",
+        "sha256_in_prefix": "8a6165a465e01a34241bb6bbfa1dd26668731373687a5860be19fbf264177967",
+        "size_in_bytes": 8637
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/evdev.py",
+        "path_type": "hardlink",
+        "sha256": "70546e911daa1c7fcfa62df621d995e5d9d201279b801a77fde272c74c37ca57",
+        "sha256_in_prefix": "70546e911daa1c7fcfa62df621d995e5d9d201279b801a77fde272c74c37ca57",
+        "size_in_bytes": 10925
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/evdev_constants.py",
+        "path_type": "hardlink",
+        "sha256": "f447090cd08e6aaf5fd120b5b64294a23f62dd5e60e9aa0ccb65ba6ebb652c6c",
+        "sha256_in_prefix": "f447090cd08e6aaf5fd120b5b64294a23f62dd5e60e9aa0ccb65ba6ebb652c6c",
+        "size_in_bytes": 11466
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/wintab.py",
+        "path_type": "hardlink",
+        "sha256": "27f92afc6f7348cf841e2acc5e85244ccebbdf5a69e13cf0dfe06c47de309866",
+        "sha256_in_prefix": "27f92afc6f7348cf841e2acc5e85244ccebbdf5a69e13cf0dfe06c47de309866",
+        "size_in_bytes": 9125
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/x11_xinput.py",
+        "path_type": "hardlink",
+        "sha256": "c5ea9fa81926b562f11dbbcddf35e99b6ecdd3b8d0e70b23f15e72e9ce659d5b",
+        "sha256_in_prefix": "c5ea9fa81926b562f11dbbcddf35e99b6ecdd3b8d0e70b23f15e72e9ce659d5b",
+        "size_in_bytes": 13292
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/input/x11_xinput_tablet.py",
+        "path_type": "hardlink",
+        "sha256": "7350436cce2079971c197c5fa7ba2af508b1fca4160a0b4d066962f847ac8af0",
+        "sha256_in_prefix": "7350436cce2079971c197c5fa7ba2af508b1fca4160a0b4d066962f847ac8af0",
+        "size_in_bytes": 4752
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/lib.py",
+        "path_type": "hardlink",
+        "sha256": "0087e75d868bbbf6ddacbb0334be1f7adf5bae35bf34cc3f4e82c433762d5c78",
+        "sha256_in_prefix": "0087e75d868bbbf6ddacbb0334be1f7adf5bae35bf34cc3f4e82c433762d5c78",
+        "size_in_bytes": 12447
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "36ef9f2ccbfb77b4274ee37480628032c1dd101576002b5b1c73d01b337314c7",
+        "sha256_in_prefix": "36ef9f2ccbfb77b4274ee37480628032c1dd101576002b5b1c73d01b337314c7",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "47d48c263354a40eb7efd394972bedad68dfe8422c02d0172ca2cd705762627e",
+        "sha256_in_prefix": "47d48c263354a40eb7efd394972bedad68dfe8422c02d0172ca2cd705762627e",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "93da8c38a721194abded899febe7d1dec021184762341370c1b2e92da8d6b665",
+        "sha256_in_prefix": "93da8c38a721194abded899febe7d1dec021184762341370c1b2e92da8d6b665",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/__pycache__/quartzkey.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "67105830d1ae72567cc826b45678a0375e858747646c5eadb9be4422ece12342",
+        "sha256_in_prefix": "67105830d1ae72567cc826b45678a0375e858747646c5eadb9be4422ece12342",
+        "size_in_bytes": 4469
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ae6bd134a164dc2478fe1295546b2b9a753c1fe7e3ba227b68505553cb67cd95",
+        "sha256_in_prefix": "ae6bd134a164dc2478fe1295546b2b9a753c1fe7e3ba227b68505553cb67cd95",
+        "size_in_bytes": 1742
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab1319fef9a8919adc9debf9811f8c59f9bc2231f972aba08983fdcb047da4cd",
+        "sha256_in_prefix": "ab1319fef9a8919adc9debf9811f8c59f9bc2231f972aba08983fdcb047da4cd",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/cocoalibs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "452c70070c312b3378a5198d57d0083f62dd9ae7a62d1d23cd034bc1d1d13a89",
+        "sha256_in_prefix": "452c70070c312b3378a5198d57d0083f62dd9ae7a62d1d23cd034bc1d1d13a89",
+        "size_in_bytes": 12191
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/cocoatypes.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "11bea3538be11b6520419063216b9f4fa85224e4401f37f6327f1427665ce8c2",
+        "sha256_in_prefix": "11bea3538be11b6520419063216b9f4fa85224e4401f37f6327f1427665ce8c2",
+        "size_in_bytes": 2734
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/__pycache__/runtime.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7cae7b174b69201f4b6fc525fb467999c75a1a6fb91f285a86d396c4ce7d392",
+        "sha256_in_prefix": "a7cae7b174b69201f4b6fc525fb467999c75a1a6fb91f285a86d396c4ce7d392",
+        "size_in_bytes": 24699
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/cocoalibs.py",
+        "path_type": "hardlink",
+        "sha256": "59814615149d619538761e6670f93b2d69926da1d59bae571cbc6d321c478235",
+        "sha256_in_prefix": "59814615149d619538761e6670f93b2d69926da1d59bae571cbc6d321c478235",
+        "size_in_bytes": 21781
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/cocoatypes.py",
+        "path_type": "hardlink",
+        "sha256": "50dca6a9075536babb4fa8c8ba90a0460a31826e75861416f91e3663eb513f4d",
+        "sha256_in_prefix": "50dca6a9075536babb4fa8c8ba90a0460a31826e75861416f91e3663eb513f4d",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/cocoapy/runtime.py",
+        "path_type": "hardlink",
+        "sha256": "c6dc6cfb3ff1c30b8d985c66fbd278f134072e2c07cb562f20b91fdfe7da416e",
+        "sha256_in_prefix": "c6dc6cfb3ff1c30b8d985c66fbd278f134072e2c07cb562f20b91fdfe7da416e",
+        "size_in_bytes": 51751
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/darwin/quartzkey.py",
+        "path_type": "hardlink",
+        "sha256": "cc440b096d81af3f11ae756a72b3a63f04ab3497b98554f8cb362a365a69e6dd",
+        "sha256_in_prefix": "cc440b096d81af3f11ae756a72b3a63f04ab3497b98554f8cb362a365a69e6dd",
+        "size_in_bytes": 6941
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3ed214b6f2f9fd087d2e5af01a3e1907412a580ba62fff8bc8f8c1be0923754",
+        "sha256_in_prefix": "d3ed214b6f2f9fd087d2e5af01a3e1907412a580ba62fff8bc8f8c1be0923754",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/__pycache__/egl.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "529e85033c927d1e30b8ecf4be8820787aaea3fde110cb6e8028a4b72983d089",
+        "sha256_in_prefix": "529e85033c927d1e30b8ecf4be8820787aaea3fde110cb6e8028a4b72983d089",
+        "size_in_bytes": 13582
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/__pycache__/eglext.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b6fbd162eef19bb5306fbaa0fdfcce4c144c9e91891b7ef2e4503799cd71245",
+        "sha256_in_prefix": "9b6fbd162eef19bb5306fbaa0fdfcce4c144c9e91891b7ef2e4503799cd71245",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/__pycache__/lib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "22f4a492fe4df667338cf132dc6878e5f984cc391272d0ae2b75d8e600d331b0",
+        "sha256_in_prefix": "22f4a492fe4df667338cf132dc6878e5f984cc391272d0ae2b75d8e600d331b0",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/egl.py",
+        "path_type": "hardlink",
+        "sha256": "9d7df2ca49cb353da3a56f89758b28b4ec2290b9f4894854f40d7300aa75cad2",
+        "sha256_in_prefix": "9d7df2ca49cb353da3a56f89758b28b4ec2290b9f4894854f40d7300aa75cad2",
+        "size_in_bytes": 30677
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/eglext.py",
+        "path_type": "hardlink",
+        "sha256": "516f69d287ff7f5fef94ce1802f85d6c4816b67fb03573b40eb2852c8223afb0",
+        "sha256_in_prefix": "516f69d287ff7f5fef94ce1802f85d6c4816b67fb03573b40eb2852c8223afb0",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/egl/lib.py",
+        "path_type": "hardlink",
+        "sha256": "21d41f2df44f6d372480d044214ba6766110ea24968b2d678539e44d3cda67a3",
+        "sha256_in_prefix": "21d41f2df44f6d372480d044214ba6766110ea24968b2d678539e44d3cda67a3",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b46f6c52ccd53855c10ca32e92412d0bf7f1d17ef62f73906942d97c94ceb981",
+        "sha256_in_prefix": "b46f6c52ccd53855c10ca32e92412d0bf7f1d17ef62f73906942d97c94ceb981",
+        "size_in_bytes": 13091
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "40045a1487a1960bab44701a799398ca26e4f6d6bb34d11a485b960fe68375fe",
+        "sha256_in_prefix": "40045a1487a1960bab44701a799398ca26e4f6d6bb34d11a485b960fe68375fe",
+        "size_in_bytes": 6626
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__pycache__/constants.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "12864f7fbbcc8d4c15e19b4e8bac3f6ea37e2c04c6897db92a8c5df8a70c294b",
+        "sha256_in_prefix": "12864f7fbbcc8d4c15e19b4e8bac3f6ea37e2c04c6897db92a8c5df8a70c294b",
+        "size_in_bytes": 128241
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__pycache__/dinput.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "782fffd191440c5e6137f5a8909412e9aa796c8f22203fbec07387c6bc43fe8b",
+        "sha256_in_prefix": "782fffd191440c5e6137f5a8909412e9aa796c8f22203fbec07387c6bc43fe8b",
+        "size_in_bytes": 9893
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__pycache__/libwintab.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d67d26759c6153df1ae579f01b42aa5de0f9521dec3951dbc7aa534ec6cf765",
+        "sha256_in_prefix": "7d67d26759c6153df1ae579f01b42aa5de0f9521dec3951dbc7aa534ec6cf765",
+        "size_in_bytes": 6694
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__pycache__/types.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "527346d0ef7e8896ca7c5692b296b68cd07973161d80dc4223c243d6295a58f4",
+        "sha256_in_prefix": "527346d0ef7e8896ca7c5692b296b68cd07973161d80dc4223c243d6295a58f4",
+        "size_in_bytes": 14960
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/__pycache__/winkey.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e936d6db11f5943f49abafe0c03aff47a2dd720a2e2de3e7e8199f940a941d28",
+        "sha256_in_prefix": "e936d6db11f5943f49abafe0c03aff47a2dd720a2e2de3e7e8199f940a941d28",
+        "size_in_bytes": 3334
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/constants.py",
+        "path_type": "hardlink",
+        "sha256": "4497f0665f648ffd45e3792cb795dc4807e3fc6b50dd44529e07f7273429ee47",
+        "sha256_in_prefix": "4497f0665f648ffd45e3792cb795dc4807e3fc6b50dd44529e07f7273429ee47",
+        "size_in_bytes": 122626
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/dinput.py",
+        "path_type": "hardlink",
+        "sha256": "3fc899480e49fb7842f27c01346e4533b19ceb0e5ffdff855056f74f377293d0",
+        "sha256_in_prefix": "3fc899480e49fb7842f27c01346e4533b19ceb0e5ffdff855056f74f377293d0",
+        "size_in_bytes": 12632
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/libwintab.py",
+        "path_type": "hardlink",
+        "sha256": "34badf7ee658ae286be36fff34d9f80e4c23a21d13dd0bb3522da56f2333dc5b",
+        "sha256_in_prefix": "34badf7ee658ae286be36fff34d9f80e4c23a21d13dd0bb3522da56f2333dc5b",
+        "size_in_bytes": 8616
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/types.py",
+        "path_type": "hardlink",
+        "sha256": "2f6806137a8f3624ac9e4a4594d11a23804f31f6d40ba41c9910cf083f47415e",
+        "sha256_in_prefix": "2f6806137a8f3624ac9e4a4594d11a23804f31f6d40ba41c9910cf083f47415e",
+        "size_in_bytes": 15617
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/win32/winkey.py",
+        "path_type": "hardlink",
+        "sha256": "3ad8dfa669797ae2c3f44972c9143278ea741f880f5f190a00ea3f0bc3ad6770",
+        "sha256_in_prefix": "3ad8dfa669797ae2c3f44972c9143278ea741f880f5f190a00ea3f0bc3ad6770",
+        "size_in_bytes": 6413
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "11a00f3a10d99ae50592983c1eb027124c9a513bcd290596db0ec62046832933",
+        "sha256_in_prefix": "11a00f3a10d99ae50592983c1eb027124c9a513bcd290596db0ec62046832933",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/cursorfont.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "82e9fc9452c346b05cdd7f8ff8deef647d60d22efd4275609b8e132179ed739b",
+        "sha256_in_prefix": "82e9fc9452c346b05cdd7f8ff8deef647d60d22efd4275609b8e132179ed739b",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/xf86vmode.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "81681743fcdcddc4416e6a542a20daf9d95dfdeb84528be19ddfa7050f4f28f4",
+        "sha256_in_prefix": "81681743fcdcddc4416e6a542a20daf9d95dfdeb84528be19ddfa7050f4f28f4",
+        "size_in_bytes": 6202
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/xinerama.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7870346436dcc239560839beefb5e6fe924819237dfbdf513ce32e48aea32778",
+        "sha256_in_prefix": "7870346436dcc239560839beefb5e6fe924819237dfbdf513ce32e48aea32778",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/xinput.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4a36aec8a8caf25f4615b83ba28f40945ecee14b894a07e718d3edd0783650f",
+        "sha256_in_prefix": "f4a36aec8a8caf25f4615b83ba28f40945ecee14b894a07e718d3edd0783650f",
+        "size_in_bytes": 30643
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/xlib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb87159562d166e25b28978ac66ab01a5928f0df860b4c6ad2869f2292ed829b",
+        "sha256_in_prefix": "bb87159562d166e25b28978ac66ab01a5928f0df860b4c6ad2869f2292ed829b",
+        "size_in_bytes": 102657
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/__pycache__/xsync.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8f011284a964c445d0dbd8cd7fd97d1c1f2d917830fbf35ee79767fcd1fd01b",
+        "sha256_in_prefix": "c8f011284a964c445d0dbd8cd7fd97d1c1f2d917830fbf35ee79767fcd1fd01b",
+        "size_in_bytes": 7071
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/cursorfont.py",
+        "path_type": "hardlink",
+        "sha256": "3a913e497fad8bfa8987ab2fb2038fb7b12167e0cb0d6bbf506f5fb7796412f2",
+        "sha256_in_prefix": "3a913e497fad8bfa8987ab2fb2038fb7b12167e0cb0d6bbf506f5fb7796412f2",
+        "size_in_bytes": 3213
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/xf86vmode.py",
+        "path_type": "hardlink",
+        "sha256": "90e96904d11432abfb6c8b7e02936fabc74f6dbd8f50241ad8c3117049769551",
+        "sha256_in_prefix": "90e96904d11432abfb6c8b7e02936fabc74f6dbd8f50241ad8c3117049769551",
+        "size_in_bytes": 15292
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/xinerama.py",
+        "path_type": "hardlink",
+        "sha256": "548f2a5d557afc499c818c50fa7349e8694da2cc8d906bda2e3c2f20d82104ee",
+        "sha256_in_prefix": "548f2a5d557afc499c818c50fa7349e8694da2cc8d906bda2e3c2f20d82104ee",
+        "size_in_bytes": 3943
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/xinput.py",
+        "path_type": "hardlink",
+        "sha256": "21479e8c9802a5ec916afaeb8b12d7e3607acf1b1a28557583772614c3363758",
+        "sha256_in_prefix": "21479e8c9802a5ec916afaeb8b12d7e3607acf1b1a28557583772614c3363758",
+        "size_in_bytes": 56317
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/xlib.py",
+        "path_type": "hardlink",
+        "sha256": "5c5b76f19b0cb50c3eae9d8a5dee759f1ed5ba61720f80a739e3eba3797840e5",
+        "sha256_in_prefix": "5c5b76f19b0cb50c3eae9d8a5dee759f1ed5ba61720f80a739e3eba3797840e5",
+        "size_in_bytes": 185016
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/libs/x11/xsync.py",
+        "path_type": "hardlink",
+        "sha256": "9fb86ad904d096e9f69ab865e334faac3f0fd47c5017fb8a1e185160119e5205",
+        "sha256_in_prefix": "9fb86ad904d096e9f69ab865e334faac3f0fd47c5017fb8a1e185160119e5205",
+        "size_in_bytes": 16963
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/math.py",
+        "path_type": "hardlink",
+        "sha256": "b5be9c598b5117ff2f72caf771e9950f057112300bddc005b1efcd056d46ddc6",
+        "sha256_in_prefix": "b5be9c598b5117ff2f72caf771e9950f057112300bddc005b1efcd056d46ddc6",
+        "size_in_bytes": 33550
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "da2414475621c374f633ad4d0d25f758e97db106bc47d737d85e937a725b368e",
+        "sha256_in_prefix": "da2414475621c374f633ad4d0d25f758e97db106bc47d737d85e937a725b368e",
+        "size_in_bytes": 5726
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "36ed2c3a089eff2e182c6c2139496cce8ee4c74eae41d8b68d30199644417c5b",
+        "sha256_in_prefix": "36ed2c3a089eff2e182c6c2139496cce8ee4c74eae41d8b68d30199644417c5b",
+        "size_in_bytes": 3645
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/buffered_logger.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "61172e234de6009280bbbb59e1e781d168c6f377a8b209eedf5bd588ea02e62c",
+        "sha256_in_prefix": "61172e234de6009280bbbb59e1e781d168c6f377a8b209eedf5bd588ea02e62c",
+        "size_in_bytes": 1701
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/events.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d54b544abcbd92b195e886bc70339dc692aab10a70582584554ebad3d2acac27",
+        "sha256_in_prefix": "d54b544abcbd92b195e886bc70339dc692aab10a70582584554ebad3d2acac27",
+        "size_in_bytes": 1503
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "568d49093fedf1777ffe5b10ad9260a3ee67f9066874b9466d243f2a3421bfbb",
+        "sha256_in_prefix": "568d49093fedf1777ffe5b10ad9260a3ee67f9066874b9466d243f2a3421bfbb",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/instrumentation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc5bb9091c3eccf32b8a0a49f206edb2585e16be226d0ee9f8c3bbbeaf796ed9",
+        "sha256_in_prefix": "cc5bb9091c3eccf32b8a0a49f206edb2585e16be226d0ee9f8c3bbbeaf796ed9",
+        "size_in_bytes": 8583
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/mediathreads.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3eda7b3191d6e5eed9ac8744feb959b6fd4012b49fd51c604313c6cf793c0e3d",
+        "sha256_in_prefix": "3eda7b3191d6e5eed9ac8744feb959b6fd4012b49fd51c604313c6cf793c0e3d",
+        "size_in_bytes": 4615
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/player.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4040bf7f46b09e83b2b6a7878d292780042d22acf495d09e2b968a398066acdd",
+        "sha256_in_prefix": "4040bf7f46b09e83b2b6a7878d292780042d22acf495d09e2b968a398066acdd",
+        "size_in_bytes": 19023
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/__pycache__/synthesis.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b088dde9c87e58f4f867f174b1ccbc614988aaf7f2fa578fea1e2d328a8b728c",
+        "sha256_in_prefix": "b088dde9c87e58f4f867f174b1ccbc614988aaf7f2fa578fea1e2d328a8b728c",
+        "size_in_bytes": 17279
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/buffered_logger.py",
+        "path_type": "hardlink",
+        "sha256": "a636a4972a88509976ec3c30a720cf8323e1b909044b7e02378b599ee268768d",
+        "sha256_in_prefix": "a636a4972a88509976ec3c30a720cf8323e1b909044b7e02378b599ee268768d",
+        "size_in_bytes": 2786
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "50bea20d23d131a2d13f70047aa6e7deed4115bb8ab74e0b9d3b3325ad0ce864",
+        "sha256_in_prefix": "50bea20d23d131a2d13f70047aa6e7deed4115bb8ab74e0b9d3b3325ad0ce864",
+        "size_in_bytes": 4218
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7251f042fef38443b8311dbab7344ea19d2754a27d93201bfcbc87f58f3cb1bc",
+        "sha256_in_prefix": "7251f042fef38443b8311dbab7344ea19d2754a27d93201bfcbc87f58f3cb1bc",
+        "size_in_bytes": 2605
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8dbc908bec80709fd5454c4687715242fdbf90c9b5b29c3e553516797e67056",
+        "sha256_in_prefix": "e8dbc908bec80709fd5454c4687715242fdbf90c9b5b29c3e553516797e67056",
+        "size_in_bytes": 17940
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/ffmpeg.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cd8f26b295ef285b434e762e415785ecb23be69809cc82e5c95ea92137e76a7",
+        "sha256_in_prefix": "0cd8f26b295ef285b434e762e415785ecb23be69809cc82e5c95ea92137e76a7",
+        "size_in_bytes": 27809
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/gstreamer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e853c995dad7b4e0a876e700ec0dd19fc0f0fa9ab0b93e4cf73afb3313bfa504",
+        "sha256_in_prefix": "e853c995dad7b4e0a876e700ec0dd19fc0f0fa9ab0b93e4cf73afb3313bfa504",
+        "size_in_bytes": 8424
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/pyogg.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9ec5662e7222d51cfb6ca7f74da53ae48a93ede302191e3d26d22aa39443bcd",
+        "sha256_in_prefix": "a9ec5662e7222d51cfb6ca7f74da53ae48a93ede302191e3d26d22aa39443bcd",
+        "size_in_bytes": 15552
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/wave.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5bc7a6f54abf2ba6ef538da20fdfd60b1cd587fa15653f192e3457476cc15d34",
+        "sha256_in_prefix": "5bc7a6f54abf2ba6ef538da20fdfd60b1cd587fa15653f192e3457476cc15d34",
+        "size_in_bytes": 3914
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/__pycache__/wmf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6efc646214fd0f15a62aee22f3be2250fd33d1fe24f98aeccb225c249fd49e0e",
+        "sha256_in_prefix": "6efc646214fd0f15a62aee22f3be2250fd33d1fe24f98aeccb225c249fd49e0e",
+        "size_in_bytes": 21524
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/base.py",
+        "path_type": "hardlink",
+        "sha256": "2180755c29c3351b0db584c9db5b34a61305f0116f1ea3ed23d9795df287e729",
+        "sha256_in_prefix": "2180755c29c3351b0db584c9db5b34a61305f0116f1ea3ed23d9795df287e729",
+        "size_in_bytes": 20237
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg.py",
+        "path_type": "hardlink",
+        "sha256": "5cd8376569cc0d22d873bbb4c371a4b331e507e9887720988db44dde0ec0e64e",
+        "sha256_in_prefix": "5cd8376569cc0d22d873bbb4c371a4b331e507e9887720988db44dde0ec0e64e",
+        "size_in_bytes": 42670
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9120ab5515d5189af25c16c54e1e63660f383795fed89b0dbcd6bcb086ec3249",
+        "sha256_in_prefix": "9120ab5515d5189af25c16c54e1e63660f383795fed89b0dbcd6bcb086ec3249",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "715ada00e7b941854761f813fa3ee13647f54f3f48d440d750fe691411e42da0",
+        "sha256_in_prefix": "715ada00e7b941854761f813fa3ee13647f54f3f48d440d750fe691411e42da0",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "632083c519f938cef4e05fabcfe92b4aedac97ef1f49b9eb22e8ea6732635aa3",
+        "sha256_in_prefix": "632083c519f938cef4e05fabcfe92b4aedac97ef1f49b9eb22e8ea6732635aa3",
+        "size_in_bytes": 1646
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libavcodec.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "94e416598682654a53293520b8ee1509d68acfe3944cf86cb1186caad38f4335",
+        "sha256_in_prefix": "94e416598682654a53293520b8ee1509d68acfe3944cf86cb1186caad38f4335",
+        "size_in_bytes": 9577
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libavformat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e11d357d9fde451eebeda7b7aa6ce5a5528466b5640c7ca232a8d19e74849a75",
+        "sha256_in_prefix": "e11d357d9fde451eebeda7b7aa6ce5a5528466b5640c7ca232a8d19e74849a75",
+        "size_in_bytes": 7456
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libavutil.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dc5e74d4b4f107d4324290aea268c2a86ffc3440c84b29372db996664474e09",
+        "sha256_in_prefix": "8dc5e74d4b4f107d4324290aea268c2a86ffc3440c84b29372db996664474e09",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libswresample.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8037ee78f627d16b6afb02eba10998a91c38e0911a71f8936fc442e81a3d983b",
+        "sha256_in_prefix": "8037ee78f627d16b6afb02eba10998a91c38e0911a71f8936fc442e81a3d983b",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/__pycache__/libswscale.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5823b5f509c1a816c8e4d0ee80c29d75a24d5f07b51c8b83e913545dd516a9b",
+        "sha256_in_prefix": "c5823b5f509c1a816c8e4d0ee80c29d75a24d5f07b51c8b83e913545dd516a9b",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/compat.py",
+        "path_type": "hardlink",
+        "sha256": "c77f1f0430dc1cee94a4c8f055bfd80aee175f2c3820c0ddd1390484bc7c1c49",
+        "sha256_in_prefix": "c77f1f0430dc1cee94a4c8f055bfd80aee175f2c3820c0ddd1390484bc7c1c49",
+        "size_in_bytes": 4042
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libavcodec.py",
+        "path_type": "hardlink",
+        "sha256": "445ac116fdb4dd8cdfdb7d8e01af4696648c447ad38200ba2193a902dee095da",
+        "sha256_in_prefix": "445ac116fdb4dd8cdfdb7d8e01af4696648c447ad38200ba2193a902dee095da",
+        "size_in_bytes": 16432
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libavformat.py",
+        "path_type": "hardlink",
+        "sha256": "b65ada8dafdf4865a751af484064320216c1aa5785906dfcb391d58514070573",
+        "sha256_in_prefix": "b65ada8dafdf4865a751af484064320216c1aa5785906dfcb391d58514070573",
+        "size_in_bytes": 11443
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libavutil.py",
+        "path_type": "hardlink",
+        "sha256": "5728bba7554a0edc5e8c942a1a96777320637e3dc9e3a7d59083915e453018e4",
+        "sha256_in_prefix": "5728bba7554a0edc5e8c942a1a96777320637e3dc9e3a7d59083915e453018e4",
+        "size_in_bytes": 8721
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libswresample.py",
+        "path_type": "hardlink",
+        "sha256": "cdd23c4d48e2fbc81de546044b9a3c0060be0a6db8512363f13a52dd32566759",
+        "sha256_in_prefix": "cdd23c4d48e2fbc81de546044b9a3c0060be0a6db8512363f13a52dd32566759",
+        "size_in_bytes": 3449
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/ffmpeg_lib/libswscale.py",
+        "path_type": "hardlink",
+        "sha256": "ae9866f58a3a2f6e48d079b311db2b45bfd9eb6ed86c9578e665a0fe834f43e9",
+        "sha256_in_prefix": "ae9866f58a3a2f6e48d079b311db2b45bfd9eb6ed86c9578e665a0fe834f43e9",
+        "size_in_bytes": 3236
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/gstreamer.py",
+        "path_type": "hardlink",
+        "sha256": "21dfce35789635434f8f5032be96a6ce217c8dc944cd89efa8a95f82196358d7",
+        "sha256_in_prefix": "21dfce35789635434f8f5032be96a6ce217c8dc944cd89efa8a95f82196358d7",
+        "size_in_bytes": 11024
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/pyogg.py",
+        "path_type": "hardlink",
+        "sha256": "6faf74c3f6b105790659e57fffe2b9546346a3c87d8b0edffe022fd1a06d2d97",
+        "sha256_in_prefix": "6faf74c3f6b105790659e57fffe2b9546346a3c87d8b0edffe022fd1a06d2d97",
+        "size_in_bytes": 17708
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/wave.py",
+        "path_type": "hardlink",
+        "sha256": "464419c459860c9688db1eb16a600d94c678952d4e4892d411d0a7d286a3f61a",
+        "sha256_in_prefix": "464419c459860c9688db1eb16a600d94c678952d4e4892d411d0a7d286a3f61a",
+        "size_in_bytes": 5208
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/codecs/wmf.py",
+        "path_type": "hardlink",
+        "sha256": "26cba85d097cdd3c13c89e723574125069c6499ffc40b161501b55cedd767fd6",
+        "sha256_in_prefix": "26cba85d097cdd3c13c89e723574125069c6499ffc40b161501b55cedd767fd6",
+        "size_in_bytes": 36392
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/devices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5fa71cf2f30a83f1ec5429a3ab36a60a0bcd2aa5e2c8bae35e9cfebe75719be0",
+        "sha256_in_prefix": "5fa71cf2f30a83f1ec5429a3ab36a60a0bcd2aa5e2c8bae35e9cfebe75719be0",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/devices/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "041c81780006a2ddf58e3491b64c84821da155d9071e7d618314d08c4612f5fa",
+        "sha256_in_prefix": "041c81780006a2ddf58e3491b64c84821da155d9071e7d618314d08c4612f5fa",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/devices/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "afaff02b978d72d93488a6adec69df6a74db1dbde211b30315dd17bb0de0bad4",
+        "sha256_in_prefix": "afaff02b978d72d93488a6adec69df6a74db1dbde211b30315dd17bb0de0bad4",
+        "size_in_bytes": 4037
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/devices/__pycache__/win32.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "278b0f90fe534bd4ce9dac04a37ae038c7f76633661fafc7b5aefe014ad222d0",
+        "sha256_in_prefix": "278b0f90fe534bd4ce9dac04a37ae038c7f76633661fafc7b5aefe014ad222d0",
+        "size_in_bytes": 10120
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/devices/base.py",
+        "path_type": "hardlink",
+        "sha256": "25a9c8eaa2d4112e3047577c919da2af9f945abaa8d0282aa694a136b002e13b",
+        "sha256_in_prefix": "25a9c8eaa2d4112e3047577c919da2af9f945abaa8d0282aa694a136b002e13b",
+        "size_in_bytes": 2805
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/devices/win32.py",
+        "path_type": "hardlink",
+        "sha256": "3e39aa38f729cc61d3b468de7acab4a16b4588f8c6346519a00222db1607587d",
+        "sha256_in_prefix": "3e39aa38f729cc61d3b468de7acab4a16b4588f8c6346519a00222db1607587d",
+        "size_in_bytes": 10614
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "66eab8260084a2b7534051b9a47ea5a828d02001648d41a684888e91cbfd3cd0",
+        "sha256_in_prefix": "66eab8260084a2b7534051b9a47ea5a828d02001648d41a684888e91cbfd3cd0",
+        "size_in_bytes": 4231
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e9561213576a41f4165ea48f9b4d99d3748ffefccfe6d98191b72766b6af37f",
+        "sha256_in_prefix": "2e9561213576a41f4165ea48f9b4d99d3748ffefccfe6d98191b72766b6af37f",
+        "size_in_bytes": 1831
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "841623b048cb672d561ab304a5c9d12610fdcb1dd98364165248e0407e3afb00",
+        "sha256_in_prefix": "841623b048cb672d561ab304a5c9d12610fdcb1dd98364165248e0407e3afb00",
+        "size_in_bytes": 7013
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/__pycache__/listener.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "580ba6cd972427999ec2e6d282c0112715d4800414e7d2c324c49a734e4da520",
+        "sha256_in_prefix": "580ba6cd972427999ec2e6d282c0112715d4800414e7d2c324c49a734e4da520",
+        "size_in_bytes": 3295
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/base.py",
+        "path_type": "hardlink",
+        "sha256": "12dda56b1e14b673cc0d544b4686ac08e13871bf94ba3af5aaec9229d7ed7d32",
+        "sha256_in_prefix": "12dda56b1e14b673cc0d544b4686ac08e13871bf94ba3af5aaec9229d7ed7d32",
+        "size_in_bytes": 7449
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7e081cb818e18bfae95b6c5d4ee6750e9d67bee81fc61a7868c59c8c2a8057d1",
+        "sha256_in_prefix": "7e081cb818e18bfae95b6c5d4ee6750e9d67bee81fc61a7868c59c8c2a8057d1",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "67db9d89d9ae52453eb8cf6789f9ca964d9c9f262e29b96e0746fae0f0615bdb",
+        "sha256_in_prefix": "67db9d89d9ae52453eb8cf6789f9ca964d9c9f262e29b96e0746fae0f0615bdb",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/adaptation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5d3e1706609e2ced66682566a773878b4b07c33c22578df1e851468ecb5becc",
+        "sha256_in_prefix": "a5d3e1706609e2ced66682566a773878b4b07c33c22578df1e851468ecb5becc",
+        "size_in_bytes": 12853
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "eadc4478c702dd2d36a6641746c7c6cedc68f5f655bbf484041acaeb6d031f21",
+        "sha256_in_prefix": "eadc4478c702dd2d36a6641746c7c6cedc68f5f655bbf484041acaeb6d031f21",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/interface.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "15fd0c42b9d413f6ea15aa7408cdaa684d3f5b131236dfff48a31f1b146216e7",
+        "sha256_in_prefix": "15fd0c42b9d413f6ea15aa7408cdaa684d3f5b131236dfff48a31f1b146216e7",
+        "size_in_bytes": 13425
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/__pycache__/lib_dsound.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "07bcbd4abc82d40534178f5c76f096bfefd4055aa931d25db88b3abb6accf13d",
+        "sha256_in_prefix": "07bcbd4abc82d40534178f5c76f096bfefd4055aa931d25db88b3abb6accf13d",
+        "size_in_bytes": 10261
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/adaptation.py",
+        "path_type": "hardlink",
+        "sha256": "5995bed96614fb15ce393bc62cc1ee7e2a0e679101b95d3212644aa69204b565",
+        "sha256_in_prefix": "5995bed96614fb15ce393bc62cc1ee7e2a0e679101b95d3212644aa69204b565",
+        "size_in_bytes": 16140
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ef8c6b1c378548910277582502d1f90a9b565d133d501d1e4a58b748ecb12dbd",
+        "sha256_in_prefix": "ef8c6b1c378548910277582502d1f90a9b565d133d501d1e4a58b748ecb12dbd",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/interface.py",
+        "path_type": "hardlink",
+        "sha256": "1d17db9908704f0913ae4d1752771ae8c0f6f9914d97b6f39e17eec1afe90061",
+        "sha256_in_prefix": "1d17db9908704f0913ae4d1752771ae8c0f6f9914d97b6f39e17eec1afe90061",
+        "size_in_bytes": 15462
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/directsound/lib_dsound.py",
+        "path_type": "hardlink",
+        "sha256": "c5fa5ac0471ec63531ef7babe5d2c4badb2d33289cd1ca07253917acd7a7ec61",
+        "sha256_in_prefix": "c5fa5ac0471ec63531ef7babe5d2c4badb2d33289cd1ca07253917acd7a7ec61",
+        "size_in_bytes": 14486
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/listener.py",
+        "path_type": "hardlink",
+        "sha256": "5fb06419492460734c85c165ef7b991b487845b0e381ee9af982791740c7cf0b",
+        "sha256_in_prefix": "5fb06419492460734c85c165ef7b991b487845b0e381ee9af982791740c7cf0b",
+        "size_in_bytes": 4253
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a7fb15b2b37e5cc3ee9afd16af692ab608dd6a56ac1f4a7ac4c16107c076a6ba",
+        "sha256_in_prefix": "a7fb15b2b37e5cc3ee9afd16af692ab608dd6a56ac1f4a7ac4c16107c076a6ba",
+        "size_in_bytes": 2085
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7729c65ffce327c8768cfec41a3869611c803af3cbb6fc2179c08e3e15202c7a",
+        "sha256_in_prefix": "7729c65ffce327c8768cfec41a3869611c803af3cbb6fc2179c08e3e15202c7a",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/adaptation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d0a03a2de69577628922d893355c701a461c82d1219a3b456c40f4f537eb0c8",
+        "sha256_in_prefix": "4d0a03a2de69577628922d893355c701a461c82d1219a3b456c40f4f537eb0c8",
+        "size_in_bytes": 11983
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/interface.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "964378efb69cc64b9fee1be02c3489d700bd23b08626324ccb5869bc6e720318",
+        "sha256_in_prefix": "964378efb69cc64b9fee1be02c3489d700bd23b08626324ccb5869bc6e720318",
+        "size_in_bytes": 19939
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/lib_alc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "73958143a8397247dad6417f549ab7922d74955a75898278fdc080a108699b2b",
+        "sha256_in_prefix": "73958143a8397247dad6417f549ab7922d74955a75898278fdc080a108699b2b",
+        "size_in_bytes": 5056
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/__pycache__/lib_openal.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb9ddd06c53a3762b982c9472af06bbe44a92351d5fa66649bd97f2d9f4cde54",
+        "sha256_in_prefix": "eb9ddd06c53a3762b982c9472af06bbe44a92351d5fa66649bd97f2d9f4cde54",
+        "size_in_bytes": 10690
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/adaptation.py",
+        "path_type": "hardlink",
+        "sha256": "24067a9b3bd8e05d7d20993ded606ad0b8f93143bb0282ae7d5b9f511ff0d6d0",
+        "sha256_in_prefix": "24067a9b3bd8e05d7d20993ded606ad0b8f93143bb0282ae7d5b9f511ff0d6d0",
+        "size_in_bytes": 14040
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/interface.py",
+        "path_type": "hardlink",
+        "sha256": "0b7f4616ddc58fe74181995a1953500d91e9fbadc463692d9316e314e133098e",
+        "sha256_in_prefix": "0b7f4616ddc58fe74181995a1953500d91e9fbadc463692d9316e314e133098e",
+        "size_in_bytes": 18813
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/lib_alc.py",
+        "path_type": "hardlink",
+        "sha256": "38d533cf9e6a8fef097bfd5e68c97146aa7ea8e757cdd82abc1c890692694657",
+        "sha256_in_prefix": "38d533cf9e6a8fef097bfd5e68c97146aa7ea8e757cdd82abc1c890692694657",
+        "size_in_bytes": 12594
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/openal/lib_openal.py",
+        "path_type": "hardlink",
+        "sha256": "fad774f41fff7a8b77a97f089b62e1dbc8e6df1233ad38f96799f13e37135b49",
+        "sha256_in_prefix": "fad774f41fff7a8b77a97f089b62e1dbc8e6df1233ad38f96799f13e37135b49",
+        "size_in_bytes": 28468
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3a4480953d3b9968c8ef627506f009823e86483c0a35a7b03c54d488c80bc339",
+        "sha256_in_prefix": "3a4480953d3b9968c8ef627506f009823e86483c0a35a7b03c54d488c80bc339",
+        "size_in_bytes": 2005
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9065b3d41032ffc81e0c58313112a76367545a57e750e45542893c6a45f782a2",
+        "sha256_in_prefix": "9065b3d41032ffc81e0c58313112a76367545a57e750e45542893c6a45f782a2",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/adaptation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "060f53c9545326ee4f2d635510d2cf999b6f90985ee71a340aadeb857d753373",
+        "sha256_in_prefix": "060f53c9545326ee4f2d635510d2cf999b6f90985ee71a340aadeb857d753373",
+        "size_in_bytes": 11999
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/interface.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b1f78c805cfe11661e2fa3b7a644ee399535a14fc1e498928b928fc96e09bd8",
+        "sha256_in_prefix": "3b1f78c805cfe11661e2fa3b7a644ee399535a14fc1e498928b928fc96e09bd8",
+        "size_in_bytes": 23485
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/__pycache__/lib_pulseaudio.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0411de79d905a758e09ad1ebcee02aa4ea0ce2a12f1b365e1e14f8d8961ef0c0",
+        "sha256_in_prefix": "0411de79d905a758e09ad1ebcee02aa4ea0ce2a12f1b365e1e14f8d8961ef0c0",
+        "size_in_bytes": 53218
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/adaptation.py",
+        "path_type": "hardlink",
+        "sha256": "679ab0b9e5a545f619356e0831be5d3d4aab71fe66b6d44554aa43b510dfe83c",
+        "sha256_in_prefix": "679ab0b9e5a545f619356e0831be5d3d4aab71fe66b6d44554aa43b510dfe83c",
+        "size_in_bytes": 15503
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/interface.py",
+        "path_type": "hardlink",
+        "sha256": "c3f58adf09944806187fcb45affc117ec2d9bee30299c0da90880f0aee052051",
+        "sha256_in_prefix": "c3f58adf09944806187fcb45affc117ec2d9bee30299c0da90880f0aee052051",
+        "size_in_bytes": 25438
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/pulse/lib_pulseaudio.py",
+        "path_type": "hardlink",
+        "sha256": "c039888e3b2236f8b2cd92de817b88e56d3bd0aa211150210db817cb9710e76e",
+        "sha256_in_prefix": "c039888e3b2236f8b2cd92de817b88e56d3bd0aa211150210db817cb9710e76e",
+        "size_in_bytes": 123736
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/silent/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6020dcb65986e441bd3b9c76bb184096d89f49b93e6a6d05b4f872233bb280a4",
+        "sha256_in_prefix": "6020dcb65986e441bd3b9c76bb184096d89f49b93e6a6d05b4f872233bb280a4",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/silent/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f18e4c3cb9445e217639cf0344adfeb24f1953253c6577dc20e899a9c008b8d9",
+        "sha256_in_prefix": "f18e4c3cb9445e217639cf0344adfeb24f1953253c6577dc20e899a9c008b8d9",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/silent/__pycache__/adaptation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7af1091ecf4dc29262caac397b784c22154ff6baa20c690fbf509baafa7ad78",
+        "sha256_in_prefix": "a7af1091ecf4dc29262caac397b784c22154ff6baa20c690fbf509baafa7ad78",
+        "size_in_bytes": 4260
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/silent/adaptation.py",
+        "path_type": "hardlink",
+        "sha256": "fef7f8106e5a32970e696ae719b281c63e11ff66bd2bdbd53d75b59fae97244d",
+        "sha256_in_prefix": "fef7f8106e5a32970e696ae719b281c63e11ff66bd2bdbd53d75b59fae97244d",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "366115f6be38798a8b1246430b05905e75e32b47d44378085a0bfe967ddaaf5e",
+        "sha256_in_prefix": "366115f6be38798a8b1246430b05905e75e32b47d44378085a0bfe967ddaaf5e",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "76605a269f9c6841377ee759a7c5453b2908bcc17b76fbd84cb0ed444baa6919",
+        "sha256_in_prefix": "76605a269f9c6841377ee759a7c5453b2908bcc17b76fbd84cb0ed444baa6919",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/adaptation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e099ec4b086450d5206e6c76d117dc6813dc679fb67e453d054f2ec999d3ec5e",
+        "sha256_in_prefix": "e099ec4b086450d5206e6c76d117dc6813dc679fb67e453d054f2ec999d3ec5e",
+        "size_in_bytes": 11026
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/interface.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "83bc0a264bd92c0b00522d6978e2bdb9395698f4d14eda63aedefdd59626b4a8",
+        "sha256_in_prefix": "83bc0a264bd92c0b00522d6978e2bdb9395698f4d14eda63aedefdd59626b4a8",
+        "size_in_bytes": 19319
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/__pycache__/lib_xaudio2.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "365cf61f068d1898bc9c53e95bfe14ff2427d5de3c9334a8c50b1a3f454f0a70",
+        "sha256_in_prefix": "365cf61f068d1898bc9c53e95bfe14ff2427d5de3c9334a8c50b1a3f454f0a70",
+        "size_in_bytes": 18690
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/adaptation.py",
+        "path_type": "hardlink",
+        "sha256": "5c82c12d47e5c69ca8395b7fac920f1c526a2b7672d9f3a7432068a057cf72d4",
+        "sha256_in_prefix": "5c82c12d47e5c69ca8395b7fac920f1c526a2b7672d9f3a7432068a057cf72d4",
+        "size_in_bytes": 14789
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/interface.py",
+        "path_type": "hardlink",
+        "sha256": "f73d17a23f06140f65707fe7a7f466bd5fb2c4e5cba1ddd0fadc26b12d732ed9",
+        "sha256_in_prefix": "f73d17a23f06140f65707fe7a7f466bd5fb2c4e5cba1ddd0fadc26b12d732ed9",
+        "size_in_bytes": 22674
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/drivers/xaudio2/lib_xaudio2.py",
+        "path_type": "hardlink",
+        "sha256": "09f42f8233756d225135edc7f223d8af3ccb7006ed9b63e4c4045bfaf7a59f00",
+        "sha256_in_prefix": "09f42f8233756d225135edc7f223d8af3ccb7006ed9b63e4c4045bfaf7a59f00",
+        "size_in_bytes": 29136
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/events.py",
+        "path_type": "hardlink",
+        "sha256": "7123ccd7f9368d819a2cdb85af26c7735ec6151062c60b4d1ec417e9de26e695",
+        "sha256_in_prefix": "7123ccd7f9368d819a2cdb85af26c7735ec6151062c60b4d1ec417e9de26e695",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "02aa2909db5a2ae3c84bf10de1964669c32faccea88efd3d236072f535043194",
+        "sha256_in_prefix": "02aa2909db5a2ae3c84bf10de1964669c32faccea88efd3d236072f535043194",
+        "size_in_bytes": 2043
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/instrumentation.py",
+        "path_type": "hardlink",
+        "sha256": "de74f5b38dce8953030a80745dbe05117f9d71af4fa93608d7273a51ff9e97e5",
+        "sha256_in_prefix": "de74f5b38dce8953030a80745dbe05117f9d71af4fa93608d7273a51ff9e97e5",
+        "size_in_bytes": 12559
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/mediathreads.py",
+        "path_type": "hardlink",
+        "sha256": "3048af706320312d88dd5e4d07f883875422311a99c85211d0b0e7a4e74242de",
+        "sha256_in_prefix": "3048af706320312d88dd5e4d07f883875422311a99c85211d0b0e7a4e74242de",
+        "size_in_bytes": 6517
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/player.py",
+        "path_type": "hardlink",
+        "sha256": "702d793df09a0b326a00ccf9f91df56d8565c45f91d06869492d0d46ba7fd599",
+        "sha256_in_prefix": "702d793df09a0b326a00ccf9f91df56d8565c45f91d06869492d0d46ba7fd599",
+        "size_in_bytes": 23993
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/media/synthesis.py",
+        "path_type": "hardlink",
+        "sha256": "223ca576662709b589b3303ebf670e57b8287be3205aef943e76484e5f2b67ce",
+        "sha256_in_prefix": "223ca576662709b589b3303ebf670e57b8287be3205aef943e76484e5f2b67ce",
+        "size_in_bytes": 19545
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1ae4f93ad45cc7329819a319a87230545ba5a3da6239f8267c08cc2dd0cb3594",
+        "sha256_in_prefix": "1ae4f93ad45cc7329819a319a87230545ba5a3da6239f8267c08cc2dd0cb3594",
+        "size_in_bytes": 10153
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6ce6486a6008a93ce17a9b459a1405ede1a020452797c7bfc16e581d125d359",
+        "sha256_in_prefix": "f6ce6486a6008a93ce17a9b459a1405ede1a020452797c7bfc16e581d125d359",
+        "size_in_bytes": 8490
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/codecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "06ce029e24ce8c21b2dacedf100b55bc174f438884c64b3e13534a52c2b177da",
+        "sha256_in_prefix": "06ce029e24ce8c21b2dacedf100b55bc174f438884c64b3e13534a52c2b177da",
+        "size_in_bytes": 3236
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/codecs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b8ecdf801853d2efbeddb597fdaf7921a99372db488889fc33eb3b233f663a4",
+        "sha256_in_prefix": "5b8ecdf801853d2efbeddb597fdaf7921a99372db488889fc33eb3b233f663a4",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/codecs/__pycache__/gltf.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0ef97a557215c0f306b6bea2ce495d280536cca807fd39c4ebcded49d3fe48b",
+        "sha256_in_prefix": "d0ef97a557215c0f306b6bea2ce495d280536cca807fd39c4ebcded49d3fe48b",
+        "size_in_bytes": 5681
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/codecs/__pycache__/obj.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbfb3728dee68cef5902e8f5006f93a09ee3db781989fa61ac20474a66214b7a",
+        "sha256_in_prefix": "dbfb3728dee68cef5902e8f5006f93a09ee3db781989fa61ac20474a66214b7a",
+        "size_in_bytes": 4968
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/codecs/gltf.py",
+        "path_type": "hardlink",
+        "sha256": "552dcd97a7e9e4c916147336011bbdce9a4baf3408aeb1b9f5b7ed63a47286b0",
+        "sha256_in_prefix": "552dcd97a7e9e4c916147336011bbdce9a4baf3408aeb1b9f5b7ed63a47286b0",
+        "size_in_bytes": 9087
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/model/codecs/obj.py",
+        "path_type": "hardlink",
+        "sha256": "12573052bfebed31d150381cd3e8990fd91963bff7fe717b2a0c247c3977e9fa",
+        "sha256_in_prefix": "12573052bfebed31d150381cd3e8990fd91963bff7fe717b2a0c247c3977e9fa",
+        "size_in_bytes": 8816
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/resource.py",
+        "path_type": "hardlink",
+        "sha256": "460898e44d3e7e0c9b97f50d07f4c60b147982221fbd6119553a6e7e8c03aea4",
+        "sha256_in_prefix": "460898e44d3e7e0c9b97f50d07f4c60b147982221fbd6119553a6e7e8c03aea4",
+        "size_in_bytes": 28536
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/shapes.py",
+        "path_type": "hardlink",
+        "sha256": "234d56baa9b2aacd7d4a02520ebfe2fc0ecc6a40b53b8de447948eff35fa1c26",
+        "sha256_in_prefix": "234d56baa9b2aacd7d4a02520ebfe2fc0ecc6a40b53b8de447948eff35fa1c26",
+        "size_in_bytes": 47233
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/sprite.py",
+        "path_type": "hardlink",
+        "sha256": "82dda7dda8697330f268d6e89cf0bf9a863a8055b628ae11ca84a81659443237",
+        "sha256_in_prefix": "82dda7dda8697330f268d6e89cf0bf9a863a8055b628ae11ca84a81659443237",
+        "size_in_bytes": 23679
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a9afe44e4d4db8642b9bd218ed2b89bf7bff93d73a6aea3cf267d09d4de280a7",
+        "sha256_in_prefix": "a9afe44e4d4db8642b9bd218ed2b89bf7bff93d73a6aea3cf267d09d4de280a7",
+        "size_in_bytes": 18377
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8db5565ff82c582d306040235fbd34d0a90232b5626a483a6b5feea8027d2b06",
+        "sha256_in_prefix": "8db5565ff82c582d306040235fbd34d0a90232b5626a483a6b5feea8027d2b06",
+        "size_in_bytes": 16985
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/__pycache__/caret.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8927061df16a606c33949dd8c62dc5e1da178d33098ad2ddfd2c176ae7b2d509",
+        "sha256_in_prefix": "8927061df16a606c33949dd8c62dc5e1da178d33098ad2ddfd2c176ae7b2d509",
+        "size_in_bytes": 16814
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/__pycache__/document.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5da2abc66b9d8d2df50fb9bf7c6cfacd483b639d19492492d01640df2b096cb",
+        "sha256_in_prefix": "a5da2abc66b9d8d2df50fb9bf7c6cfacd483b639d19492492d01640df2b096cb",
+        "size_in_bytes": 26873
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/__pycache__/layout.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2df076045b9f6c0b5a3af6f2de916c284eef8fab2e65793eb5c01d77ece81607",
+        "sha256_in_prefix": "2df076045b9f6c0b5a3af6f2de916c284eef8fab2e65793eb5c01d77ece81607",
+        "size_in_bytes": 74043
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/__pycache__/runlist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1ceb20dda4e666ec5b0fa3d38dee81157d2995f4d57aff3cb8a7a3ea584440f",
+        "sha256_in_prefix": "e1ceb20dda4e666ec5b0fa3d38dee81157d2995f4d57aff3cb8a7a3ea584440f",
+        "size_in_bytes": 13544
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/caret.py",
+        "path_type": "hardlink",
+        "sha256": "0e4022cec6c6ec75c66329a72d0f6da437232253d3833b149bc14ea377e7fc70",
+        "sha256_in_prefix": "0e4022cec6c6ec75c66329a72d0f6da437232253d3833b149bc14ea377e7fc70",
+        "size_in_bytes": 20495
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/document.py",
+        "path_type": "hardlink",
+        "sha256": "65abafbe7f5153c8d1cd7cfd437eef5cc3238bc165fbd1cfa204ab3a04c1a599",
+        "sha256_in_prefix": "65abafbe7f5153c8d1cd7cfd437eef5cc3238bc165fbd1cfa204ab3a04c1a599",
+        "size_in_bytes": 26516
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b099ab77e41c3983e1e815fac516c742dbf3b8aa8264df285a4acd65f16482e5",
+        "sha256_in_prefix": "b099ab77e41c3983e1e815fac516c742dbf3b8aa8264df285a4acd65f16482e5",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d67a7a1c429ae65c9d9d857a1a6d46424626f764e31f8a50bb0ac4cd59c34e1",
+        "sha256_in_prefix": "6d67a7a1c429ae65c9d9d857a1a6d46424626f764e31f8a50bb0ac4cd59c34e1",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/__pycache__/attributed.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "137f1508f9a9c70d428e5f10ba272ef29865633c892580a567db63ddf89aa126",
+        "sha256_in_prefix": "137f1508f9a9c70d428e5f10ba272ef29865633c892580a567db63ddf89aa126",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/__pycache__/html.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "76a0c0b0417745cc705de88a8541aef6a59f687478330cd53c4d491c07734ac3",
+        "sha256_in_prefix": "76a0c0b0417745cc705de88a8541aef6a59f687478330cd53c4d491c07734ac3",
+        "size_in_bytes": 7462
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/__pycache__/plaintext.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7166241a32006bad9161f538f6f2a45749ff4f1638f1435c3c7fa6aa98c4a85e",
+        "sha256_in_prefix": "7166241a32006bad9161f538f6f2a45749ff4f1638f1435c3c7fa6aa98c4a85e",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/__pycache__/structured.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e2ccab2fcc8ef18f9d497260743abc8a62f6e3bf2094f76a8584717f2f7c2f7",
+        "sha256_in_prefix": "6e2ccab2fcc8ef18f9d497260743abc8a62f6e3bf2094f76a8584717f2f7c2f7",
+        "size_in_bytes": 7548
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/attributed.py",
+        "path_type": "hardlink",
+        "sha256": "10cf3bdfbb5ba0fdb067b8263455155e518c08b940ccbdef294f230823dc8fa7",
+        "sha256_in_prefix": "10cf3bdfbb5ba0fdb067b8263455155e518c08b940ccbdef294f230823dc8fa7",
+        "size_in_bytes": 4441
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/html.py",
+        "path_type": "hardlink",
+        "sha256": "2dd1b1f6168a65c4410ca08c54d211bab6b8f607021c3631d69f7fbd81d3fccd",
+        "sha256_in_prefix": "2dd1b1f6168a65c4410ca08c54d211bab6b8f607021c3631d69f7fbd81d3fccd",
+        "size_in_bytes": 13083
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/plaintext.py",
+        "path_type": "hardlink",
+        "sha256": "3ab3e87007b38f1d1d09c7294b62089900eddc9e30e28bd4a7262c8317b4f094",
+        "sha256_in_prefix": "3ab3e87007b38f1d1d09c7294b62089900eddc9e30e28bd4a7262c8317b4f094",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/formats/structured.py",
+        "path_type": "hardlink",
+        "sha256": "be2afb1eaba23e100ecef9d0a83fdd94b1450bd0265a4766cdaedced1736ab2b",
+        "sha256_in_prefix": "be2afb1eaba23e100ecef9d0a83fdd94b1450bd0265a4766cdaedced1736ab2b",
+        "size_in_bytes": 8907
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/layout.py",
+        "path_type": "hardlink",
+        "sha256": "c20f2176c321846f549340d103007f129dc5820c72f37dda518ee948eaf7a739",
+        "sha256_in_prefix": "c20f2176c321846f549340d103007f129dc5820c72f37dda518ee948eaf7a739",
+        "size_in_bytes": 90772
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/text/runlist.py",
+        "path_type": "hardlink",
+        "sha256": "11052403a78dd865e1116ffb69faa4127c0278fb2ba762acb0b1027981b46d79",
+        "sha256_in_prefix": "11052403a78dd865e1116ffb69faa4127c0278fb2ba762acb0b1027981b46d79",
+        "size_in_bytes": 14284
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/util.py",
+        "path_type": "hardlink",
+        "sha256": "81f79bb5441041154a4490177b683b3ba0f791b15d135972a86c14a3451aea1a",
+        "sha256_in_prefix": "81f79bb5441041154a4490177b683b3ba0f791b15d135972a86c14a3451aea1a",
+        "size_in_bytes": 8650
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "526c19c6e2fdf0e422e3413dc5325899e24c7468e763cae46722526a6fc5c379",
+        "sha256_in_prefix": "526c19c6e2fdf0e422e3413dc5325899e24c7468e763cae46722526a6fc5c379",
+        "size_in_bytes": 68015
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aced543240483f9746ec60a3751538a29ecd0f795d1e698d8bb16a31d397873d",
+        "sha256_in_prefix": "aced543240483f9746ec60a3751538a29ecd0f795d1e698d8bb16a31d397873d",
+        "size_in_bytes": 63245
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/__pycache__/event.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "00c0ce35257abcdcc1e2280c02d9b42eb8e70a8d428f99dfd4e2092f442d2601",
+        "sha256_in_prefix": "00c0ce35257abcdcc1e2280c02d9b42eb8e70a8d428f99dfd4e2092f442d2601",
+        "size_in_bytes": 6140
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/__pycache__/key.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca91989f76004e2e82346445d07a5bc8b926b2ea5ec79a239c4c0bedeb954b0d",
+        "sha256_in_prefix": "ca91989f76004e2e82346445d07a5bc8b926b2ea5ec79a239c4c0bedeb954b0d",
+        "size_in_bytes": 8098
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/__pycache__/mouse.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c532edd119a3d672807b8cf348eab95c07aa54a2697febbc9768717be9740fb4",
+        "sha256_in_prefix": "c532edd119a3d672807b8cf348eab95c07aa54a2697febbc9768717be9740fb4",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "55d2973db1de1dcae51e3ed6b973f8bb56a8276e48542bdcc91f04cdc99593ae",
+        "sha256_in_prefix": "55d2973db1de1dcae51e3ed6b973f8bb56a8276e48542bdcc91f04cdc99593ae",
+        "size_in_bytes": 26158
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bebcdce8c751762109b0cc76ca43126ecaa75d8430eba14d51808e083be63a37",
+        "sha256_in_prefix": "bebcdce8c751762109b0cc76ca43126ecaa75d8430eba14d51808e083be63a37",
+        "size_in_bytes": 14336
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_delegate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "62c30738f14544aa41ea5691813ce3d32e4d731dce91fb369c66f34d10126a49",
+        "sha256_in_prefix": "62c30738f14544aa41ea5691813ce3d32e4d731dce91fb369c66f34d10126a49",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_textview.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "036e0c934a8deefa98e7a4c0fe98e50fe4b78373797431cbecfcbce814e0338d",
+        "sha256_in_prefix": "036e0c934a8deefa98e7a4c0fe98e50fe4b78373797431cbecfcbce814e0338d",
+        "size_in_bytes": 7977
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_view.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed4205d7e5d425b1b79ba27b6471c9af250cea3fb47314f0335467ca57bec660",
+        "sha256_in_prefix": "ed4205d7e5d425b1b79ba27b6471c9af250cea3fb47314f0335467ca57bec660",
+        "size_in_bytes": 9708
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__pycache__/pyglet_window.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "016604db836eca89f24d6ce42e9e497f3557a88de00d13706b59e204465b4925",
+        "sha256_in_prefix": "016604db836eca89f24d6ce42e9e497f3557a88de00d13706b59e204465b4925",
+        "size_in_bytes": 2444
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/__pycache__/systemcursor.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "154fc2467753bd42b04edbc85097cf7e5eb308996a3c88df1333b6f858ae4252",
+        "sha256_in_prefix": "154fc2467753bd42b04edbc85097cf7e5eb308996a3c88df1333b6f858ae4252",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/pyglet_delegate.py",
+        "path_type": "hardlink",
+        "sha256": "f783e0cbf3c08df526b5daab4f481f900e8c90f57980efc14810b6a4b07af392",
+        "sha256_in_prefix": "f783e0cbf3c08df526b5daab4f481f900e8c90f57980efc14810b6a4b07af392",
+        "size_in_bytes": 7082
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/pyglet_textview.py",
+        "path_type": "hardlink",
+        "sha256": "c17321ccfebab91eb11cf0e5e5e6314bd151f08899126a89b8d646b031ba81f8",
+        "sha256_in_prefix": "c17321ccfebab91eb11cf0e5e5e6314bd151f08899126a89b8d646b031ba81f8",
+        "size_in_bytes": 8150
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/pyglet_view.py",
+        "path_type": "hardlink",
+        "sha256": "61daaca34c6eb74bb014c7060ddc6f3bcf023de2f421cf3476053526385c2ae2",
+        "sha256_in_prefix": "61daaca34c6eb74bb014c7060ddc6f3bcf023de2f421cf3476053526385c2ae2",
+        "size_in_bytes": 15807
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/pyglet_window.py",
+        "path_type": "hardlink",
+        "sha256": "75399c05f6d04dcb7c510677549f90cdca351aa9a7ede1c53b203d7bb97774f4",
+        "sha256_in_prefix": "75399c05f6d04dcb7c510677549f90cdca351aa9a7ede1c53b203d7bb97774f4",
+        "size_in_bytes": 5046
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/cocoa/systemcursor.py",
+        "path_type": "hardlink",
+        "sha256": "08f6232f149ff99a0ed7563474cccae86317b70e32040789f0da826aa8786041",
+        "sha256_in_prefix": "08f6232f149ff99a0ed7563474cccae86317b70e32040789f0da826aa8786041",
+        "size_in_bytes": 2452
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/event.py",
+        "path_type": "hardlink",
+        "sha256": "5a3dd8fa142c13959bc840da997cf5dad00611768e9d36419f62592a63b9facc",
+        "sha256_in_prefix": "5a3dd8fa142c13959bc840da997cf5dad00611768e9d36419f62592a63b9facc",
+        "size_in_bytes": 5556
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/headless/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9d9c187a2b2754cb378da802ddef1b2d2ff9fc324b6610619481cbd1a72b87ac",
+        "sha256_in_prefix": "9d9c187a2b2754cb378da802ddef1b2d2ff9fc324b6610619481cbd1a72b87ac",
+        "size_in_bytes": 4621
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/headless/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c043127bd488084b8ace0a7796739739d0406f4adf2dadb27b6a25b462b2b3b",
+        "sha256_in_prefix": "8c043127bd488084b8ace0a7796739739d0406f4adf2dadb27b6a25b462b2b3b",
+        "size_in_bytes": 4613
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/key.py",
+        "path_type": "hardlink",
+        "sha256": "84b494bc12d0c048723a7f0599955bdbab9d4350ce025c650d6929ac765615a0",
+        "sha256_in_prefix": "84b494bc12d0c048723a7f0599955bdbab9d4350ce025c650d6929ac765615a0",
+        "size_in_bytes": 10849
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/mouse.py",
+        "path_type": "hardlink",
+        "sha256": "826fed72cf3abf5a661168f60f652987aa7db4adf5804d15341f2d39d0739ed0",
+        "sha256_in_prefix": "826fed72cf3abf5a661168f60f652987aa7db4adf5804d15341f2d39d0739ed0",
+        "size_in_bytes": 3335
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/win32/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "db4c11793c36b5dc5d4c189243a46c4f924701d319ed4ff20553e3bb827af9dd",
+        "sha256_in_prefix": "db4c11793c36b5dc5d4c189243a46c4f924701d319ed4ff20553e3bb827af9dd",
+        "size_in_bytes": 46309
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/win32/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ef2dd5549c80c8fc0c93ceaf6b3d9427034992b921653c50e66b99bd28e1537",
+        "sha256_in_prefix": "5ef2dd5549c80c8fc0c93ceaf6b3d9427034992b921653c50e66b99bd28e1537",
+        "size_in_bytes": 30063
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/xlib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "72176fc253661c26fd59a2ba438db9ce38c6a05b206b6c601a821d43bd669f87",
+        "sha256_in_prefix": "72176fc253661c26fd59a2ba438db9ce38c6a05b206b6c601a821d43bd669f87",
+        "size_in_bytes": 64497
+      },
+      {
+        "_path": "Lib/site-packages/pyglet/window/xlib/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "180e87a3bd0122e9706078e141b6cbee1259b2262b3706442d608b42ce23d73a",
+        "sha256_in_prefix": "180e87a3bd0122e9706078e141b6cbee1259b2262b3706442d608b42ce23d73a",
+        "size_in_bytes": 35633
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b116b3708b06b930ae7b80414615f78ea13c7a16fad9f7a22b8a8abf59a951c1",
+  "size": 1619234,
+  "subdir": "win-64",
+  "timestamp": 1663773593868,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyglet-1.5.27-py37h03978a9_0.tar.bz2",
+  "version": "1.5.27"
+}

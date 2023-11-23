@@ -1,0 +1,104 @@
+==> 2023-11-23 12:40:34 <==
+# cmd: C:\Users\Portable\anaconda3\Scripts\conda-script.py create --yes --json --prefix C:\Users\Portable\anaconda3\envs\drone3 python=3.7
+# conda version: 22.9.0
++conda-forge/noarch::pip-23.3.1-pyhd8ed1ab_0
++conda-forge/noarch::setuptools-68.2.2-pyhd8ed1ab_0
++conda-forge/noarch::wheel-0.41.3-pyhd8ed1ab_0
++conda-forge/win-64::ca-certificates-2023.11.17-h56e8100_0
++conda-forge/win-64::libsqlite-3.44.1-hcfcfb64_0
++conda-forge/win-64::openssl-3.1.4-hcfcfb64_0
++conda-forge/win-64::python-3.7.12-h900ac77_100_cpython
++conda-forge/win-64::sqlite-3.44.1-hcfcfb64_0
++conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
++conda-forge/win-64::vc-14.3-h64f974e_17
++conda-forge/win-64::vc14_runtime-14.36.32532-hdcecf7f_17
++conda-forge/win-64::vs2015_runtime-14.36.32532-h05e6639_17
+# update specs: ['python=3.7']
+==> 2023-11-23 12:49:41 <==
+# cmd: C:\Users\Portable\anaconda3\Scripts\conda-script.py install --yes --json --force-pscheck --prefix C:\Users\Portable\anaconda3\envs\drone3 numpy
+# conda version: 22.9.0
++conda-forge/win-64::intel-openmp-2023.2.0-h57928b3_50497
++conda-forge/win-64::libblas-3.9.0-20_win64_mkl
++conda-forge/win-64::libcblas-3.9.0-20_win64_mkl
++conda-forge/win-64::libhwloc-2.9.3-default_haede6df_1009
++conda-forge/win-64::libiconv-1.17-h8ffe710_0
++conda-forge/win-64::liblapack-3.9.0-20_win64_mkl
++conda-forge/win-64::libxml2-2.11.6-hc3477c8_0
++conda-forge/win-64::libzlib-1.2.13-hcfcfb64_5
++conda-forge/win-64::mkl-2023.2.0-h6a75c08_50497
++conda-forge/win-64::numpy-1.21.6-py37h2830a78_0
++conda-forge/win-64::pthreads-win32-2.9.1-hfa6e2cd_3
++conda-forge/win-64::python_abi-3.7-4_cp37m
++conda-forge/win-64::tbb-2021.10.0-h91493d7_2
+# update specs: ['numpy']
+==> 2023-11-23 12:54:01 <==
+# cmd: C:\Users\Portable\anaconda3\Scripts\conda-script.py install --yes --json --force-pscheck --prefix C:\Users\Portable\anaconda3\envs\drone3 matplotlib
+# conda version: 22.9.0
+-conda-forge/win-64::openssl-3.1.4-hcfcfb64_0
+-conda-forge/win-64::python-3.7.12-h900ac77_100_cpython
++conda-forge/noarch::certifi-2023.11.17-pyhd8ed1ab_0
++conda-forge/noarch::munkres-1.1.4-pyh9f0ad1d_0
++conda-forge/noarch::packaging-23.2-pyhd8ed1ab_0
++conda-forge/noarch::pyparsing-3.1.1-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.8.2-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::typing_extensions-4.5.0-pyha770c72_0
++conda-forge/win-64::brotli-1.1.0-hcfcfb64_1
++conda-forge/win-64::brotli-bin-1.1.0-hcfcfb64_1
++conda-forge/win-64::freetype-2.12.1-hdaf720e_2
++conda-forge/win-64::giflib-5.2.1-h64bf75a_3
++conda-forge/win-64::icu-68.2-h0e60522_0
++conda-forge/win-64::jpeg-9e-hcfcfb64_3
++conda-forge/win-64::libbrotlicommon-1.1.0-hcfcfb64_1
++conda-forge/win-64::libbrotlidec-1.1.0-hcfcfb64_1
++conda-forge/win-64::libbrotlienc-1.1.0-hcfcfb64_1
++conda-forge/win-64::libclang-11.1.0-default_h5c34c98_1
++conda-forge/win-64::libpng-1.6.39-h19919ed_0
++conda-forge/win-64::matplotlib-3.5.3-py37h03978a9_2
++conda-forge/win-64::matplotlib-base-3.5.3-py37hbaab90a_2
++conda-forge/win-64::openssl-1.1.1w-hcfcfb64_0
++conda-forge/win-64::pyqt-5.12.3-py37h1834ac0_4
++conda-forge/win-64::python-3.7.12-h7840368_100_cpython
++conda-forge/win-64::qt-5.12.9-h5909a2a_4
++conda-forge/win-64::tk-8.6.13-h5226925_1
++conda-forge/win-64::tornado-6.2-py37hcc03f2d_0
++conda-forge/win-64::zlib-1.2.13-hcfcfb64_5
++conda-forge/win-64::zstd-1.5.5-h12be248_0
++defaults/noarch::cycler-0.11.0-pyhd3eb1b0_0
++defaults/noarch::fonttools-4.25.0-pyhd3eb1b0_0
++defaults/win-64::kiwisolver-1.4.4-py37hd77b12b_0
++defaults/win-64::lerc-3.0-hd77b12b_0
++defaults/win-64::libdeflate-1.17-h2bbff1b_1
++defaults/win-64::libtiff-4.5.1-hd77b12b_0
++defaults/win-64::libwebp-1.2.4-hbc33d0d_1
++defaults/win-64::libwebp-base-1.2.4-h2bbff1b_1
++defaults/win-64::pillow-9.4.0-py37hd77b12b_0
++defaults/win-64::xz-5.4.2-h8cc25b3_0
+# update specs: ['matplotlib']
+==> 2023-11-23 13:00:46 <==
+# cmd: C:\Users\Portable\anaconda3\Scripts\conda-script.py install --yes --json --force-pscheck --prefix C:\Users\Portable\anaconda3\envs\drone3 pybullet
+# conda version: 22.9.0
++conda-forge/win-64::bullet-cpp-3.21-h3182a2c_3
++conda-forge/win-64::pybullet-3.21-py37h3182a2c_3
+# update specs: ['pybullet']
+==> 2023-11-23 13:04:04 <==
+# cmd: C:\Users\Portable\anaconda3\Scripts\conda-script.py install --yes --json --force-pscheck --prefix C:\Users\Portable\anaconda3\envs\drone3 gym
+# conda version: 22.9.0
++conda-forge/noarch::cloudpickle-1.6.0-py_0
++conda-forge/win-64::ffmpeg-4.3.1-ha925a31_0
++conda-forge/win-64::future-0.18.2-py37h03978a9_5
++conda-forge/win-64::gym-0.19.0-py37h4038f58_0
++conda-forge/win-64::m2w64-gcc-libgfortran-5.3.0-6
++conda-forge/win-64::m2w64-gcc-libs-5.3.0-7
++conda-forge/win-64::m2w64-gcc-libs-core-5.3.0-7
++conda-forge/win-64::m2w64-gmp-6.1.0-2
++conda-forge/win-64::m2w64-libwinpthread-git-5.0.0.4634.697f757-2
++conda-forge/win-64::msys2-conda-epoch-20160418-1
++conda-forge/win-64::pyglet-1.5.27-py37h03978a9_0
++conda-forge/win-64::scipy-1.7.3-py37hb6553fb_0
+# update specs: ['gym']
+==> 2023-11-23 13:06:19 <==
+# cmd: C:\Users\Portable\anaconda3\Scripts\conda-script.py install --yes --json --force-pscheck --prefix C:\Users\Portable\anaconda3\envs\drone3 console_shortcut
+# conda version: 22.9.0
++defaults/win-64::console_shortcut-0.1.1-4
+# update specs: ['console_shortcut']

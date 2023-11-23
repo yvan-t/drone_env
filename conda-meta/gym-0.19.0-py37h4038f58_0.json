@@ -1,0 +1,3266 @@
+{
+  "build": "py37h4038f58_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "cloudpickle >=1.2.0,<1.7.0",
+    "numpy",
+    "pyglet >=1.4.0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "scipy"
+  ],
+  "extracted_package_dir": "C:\\Users\\Portable\\anaconda3\\pkgs\\gym-0.19.0-py37h4038f58_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/gym-0.19.0.dist-info/INSTALLER",
+    "Lib/site-packages/gym-0.19.0.dist-info/METADATA",
+    "Lib/site-packages/gym-0.19.0.dist-info/RECORD",
+    "Lib/site-packages/gym-0.19.0.dist-info/REQUESTED",
+    "Lib/site-packages/gym-0.19.0.dist-info/WHEEL",
+    "Lib/site-packages/gym-0.19.0.dist-info/direct_url.json",
+    "Lib/site-packages/gym-0.19.0.dist-info/top_level.txt",
+    "Lib/site-packages/gym/__init__.py",
+    "Lib/site-packages/gym/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/__pycache__/core.cpython-37.pyc",
+    "Lib/site-packages/gym/__pycache__/error.cpython-37.pyc",
+    "Lib/site-packages/gym/__pycache__/logger.cpython-37.pyc",
+    "Lib/site-packages/gym/__pycache__/version.cpython-37.pyc",
+    "Lib/site-packages/gym/core.py",
+    "Lib/site-packages/gym/envs/__init__.py",
+    "Lib/site-packages/gym/envs/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/__pycache__/registration.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__init__.py",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/algorithmic_env.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/copy_.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/duplicated_input.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/repeat_copy.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/reverse.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/__pycache__/reversed_addition.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/algorithmic_env.py",
+    "Lib/site-packages/gym/envs/algorithmic/copy_.py",
+    "Lib/site-packages/gym/envs/algorithmic/duplicated_input.py",
+    "Lib/site-packages/gym/envs/algorithmic/repeat_copy.py",
+    "Lib/site-packages/gym/envs/algorithmic/reverse.py",
+    "Lib/site-packages/gym/envs/algorithmic/reversed_addition.py",
+    "Lib/site-packages/gym/envs/algorithmic/tests/__init__.py",
+    "Lib/site-packages/gym/envs/algorithmic/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/tests/__pycache__/test_algorithmic.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/algorithmic/tests/test_algorithmic.py",
+    "Lib/site-packages/gym/envs/atari/__init__.py",
+    "Lib/site-packages/gym/envs/atari/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/atari/__pycache__/atari_env.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/atari/atari_env.py",
+    "Lib/site-packages/gym/envs/box2d/__init__.py",
+    "Lib/site-packages/gym/envs/box2d/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/box2d/__pycache__/bipedal_walker.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/box2d/__pycache__/car_dynamics.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/box2d/__pycache__/car_racing.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/box2d/__pycache__/lunar_lander.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/box2d/__pycache__/test_lunar_lander.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/box2d/bipedal_walker.py",
+    "Lib/site-packages/gym/envs/box2d/car_dynamics.py",
+    "Lib/site-packages/gym/envs/box2d/car_racing.py",
+    "Lib/site-packages/gym/envs/box2d/lunar_lander.py",
+    "Lib/site-packages/gym/envs/box2d/test_lunar_lander.py",
+    "Lib/site-packages/gym/envs/classic_control/__init__.py",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/acrobot.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/cartpole.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/continuous_mountain_car.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/mountain_car.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/pendulum.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/__pycache__/rendering.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/classic_control/acrobot.py",
+    "Lib/site-packages/gym/envs/classic_control/assets/clockwise.png",
+    "Lib/site-packages/gym/envs/classic_control/cartpole.py",
+    "Lib/site-packages/gym/envs/classic_control/continuous_mountain_car.py",
+    "Lib/site-packages/gym/envs/classic_control/mountain_car.py",
+    "Lib/site-packages/gym/envs/classic_control/pendulum.py",
+    "Lib/site-packages/gym/envs/classic_control/rendering.py",
+    "Lib/site-packages/gym/envs/mujoco/__init__.py",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/ant.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/ant_v3.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/half_cheetah.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/half_cheetah_v3.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/hopper.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/hopper_v3.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/humanoid.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/humanoid_v3.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/humanoidstandup.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/inverted_double_pendulum.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/inverted_pendulum.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/mujoco_env.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/pusher.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/reacher.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/striker.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/swimmer.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/swimmer_v3.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/thrower.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/walker2d.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/__pycache__/walker2d_v3.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/mujoco/ant.py",
+    "Lib/site-packages/gym/envs/mujoco/ant_v3.py",
+    "Lib/site-packages/gym/envs/mujoco/assets/ant.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/half_cheetah.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/hopper.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/humanoid.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/humanoidstandup.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/inverted_double_pendulum.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/inverted_pendulum.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/point.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/pusher.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/reacher.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/striker.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/swimmer.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/thrower.xml",
+    "Lib/site-packages/gym/envs/mujoco/assets/walker2d.xml",
+    "Lib/site-packages/gym/envs/mujoco/half_cheetah.py",
+    "Lib/site-packages/gym/envs/mujoco/half_cheetah_v3.py",
+    "Lib/site-packages/gym/envs/mujoco/hopper.py",
+    "Lib/site-packages/gym/envs/mujoco/hopper_v3.py",
+    "Lib/site-packages/gym/envs/mujoco/humanoid.py",
+    "Lib/site-packages/gym/envs/mujoco/humanoid_v3.py",
+    "Lib/site-packages/gym/envs/mujoco/humanoidstandup.py",
+    "Lib/site-packages/gym/envs/mujoco/inverted_double_pendulum.py",
+    "Lib/site-packages/gym/envs/mujoco/inverted_pendulum.py",
+    "Lib/site-packages/gym/envs/mujoco/mujoco_env.py",
+    "Lib/site-packages/gym/envs/mujoco/pusher.py",
+    "Lib/site-packages/gym/envs/mujoco/reacher.py",
+    "Lib/site-packages/gym/envs/mujoco/striker.py",
+    "Lib/site-packages/gym/envs/mujoco/swimmer.py",
+    "Lib/site-packages/gym/envs/mujoco/swimmer_v3.py",
+    "Lib/site-packages/gym/envs/mujoco/thrower.py",
+    "Lib/site-packages/gym/envs/mujoco/walker2d.py",
+    "Lib/site-packages/gym/envs/mujoco/walker2d_v3.py",
+    "Lib/site-packages/gym/envs/registration.py",
+    "Lib/site-packages/gym/envs/robotics/__init__.py",
+    "Lib/site-packages/gym/envs/robotics/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/__pycache__/fetch_env.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/__pycache__/hand_env.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/__pycache__/robot_env.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/__pycache__/rotations.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/assets/LICENSE.md",
+    "Lib/site-packages/gym/envs/robotics/assets/fetch/pick_and_place.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/fetch/push.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/fetch/reach.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/fetch/robot.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/fetch/shared.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/fetch/slide.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_block.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_block_touch_sensors.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_egg.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_egg_touch_sensors.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_pen.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_pen_touch_sensors.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/reach.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/robot.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/robot_touch_sensors_92.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/shared.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/shared_asset.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/hand/shared_touch_sensors_92.xml",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/base_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/bellows_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/elbow_flex_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/estop_link.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/forearm_roll_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/gripper_link.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/head_pan_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/head_tilt_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/l_wheel_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/laser_link.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/r_wheel_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/shoulder_lift_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/shoulder_pan_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/torso_fixed_link.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/torso_lift_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/upperarm_roll_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/wrist_flex_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/wrist_roll_link_collision.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/F1.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/F2.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/F3.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/TH1_z.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/TH2_z.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/TH3_z.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/forearm_electric.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/forearm_electric_cvx.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/knuckle.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/lfmetacarpal.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/palm.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/stls/hand/wrist.stl",
+    "Lib/site-packages/gym/envs/robotics/assets/textures/block.png",
+    "Lib/site-packages/gym/envs/robotics/assets/textures/block_hidden.png",
+    "Lib/site-packages/gym/envs/robotics/fetch/__init__.py",
+    "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/pick_and_place.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/push.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/reach.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/slide.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/fetch/pick_and_place.py",
+    "Lib/site-packages/gym/envs/robotics/fetch/push.py",
+    "Lib/site-packages/gym/envs/robotics/fetch/reach.py",
+    "Lib/site-packages/gym/envs/robotics/fetch/slide.py",
+    "Lib/site-packages/gym/envs/robotics/fetch_env.py",
+    "Lib/site-packages/gym/envs/robotics/hand/__init__.py",
+    "Lib/site-packages/gym/envs/robotics/hand/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/hand/__pycache__/manipulate.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/hand/__pycache__/manipulate_touch_sensors.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/hand/__pycache__/reach.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/robotics/hand/manipulate.py",
+    "Lib/site-packages/gym/envs/robotics/hand/manipulate_touch_sensors.py",
+    "Lib/site-packages/gym/envs/robotics/hand/reach.py",
+    "Lib/site-packages/gym/envs/robotics/hand_env.py",
+    "Lib/site-packages/gym/envs/robotics/robot_env.py",
+    "Lib/site-packages/gym/envs/robotics/rotations.py",
+    "Lib/site-packages/gym/envs/robotics/utils.py",
+    "Lib/site-packages/gym/envs/tests/__init__.py",
+    "Lib/site-packages/gym/envs/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/spec_list.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_determinism.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_envs.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_envs_semantics.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_frozenlake_dfs.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_kellycoinflip.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_mujoco_v2_to_v3_conversion.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/__pycache__/test_registration.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/tests/spec_list.py",
+    "Lib/site-packages/gym/envs/tests/test_determinism.py",
+    "Lib/site-packages/gym/envs/tests/test_envs.py",
+    "Lib/site-packages/gym/envs/tests/test_envs_semantics.py",
+    "Lib/site-packages/gym/envs/tests/test_frozenlake_dfs.py",
+    "Lib/site-packages/gym/envs/tests/test_kellycoinflip.py",
+    "Lib/site-packages/gym/envs/tests/test_mujoco_v2_to_v3_conversion.py",
+    "Lib/site-packages/gym/envs/tests/test_registration.py",
+    "Lib/site-packages/gym/envs/toy_text/__init__.py",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/blackjack.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/cliffwalking.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/discrete.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/frozen_lake.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/guessing_game.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/hotter_colder.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/kellycoinflip.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/nchain.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/roulette.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/__pycache__/taxi.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/toy_text/blackjack.py",
+    "Lib/site-packages/gym/envs/toy_text/cliffwalking.py",
+    "Lib/site-packages/gym/envs/toy_text/discrete.py",
+    "Lib/site-packages/gym/envs/toy_text/frozen_lake.py",
+    "Lib/site-packages/gym/envs/toy_text/guessing_game.py",
+    "Lib/site-packages/gym/envs/toy_text/hotter_colder.py",
+    "Lib/site-packages/gym/envs/toy_text/kellycoinflip.py",
+    "Lib/site-packages/gym/envs/toy_text/nchain.py",
+    "Lib/site-packages/gym/envs/toy_text/roulette.py",
+    "Lib/site-packages/gym/envs/toy_text/taxi.py",
+    "Lib/site-packages/gym/envs/unittest/__init__.py",
+    "Lib/site-packages/gym/envs/unittest/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/unittest/__pycache__/cube_crash.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/unittest/__pycache__/memorize_digits.cpython-37.pyc",
+    "Lib/site-packages/gym/envs/unittest/cube_crash.py",
+    "Lib/site-packages/gym/envs/unittest/memorize_digits.py",
+    "Lib/site-packages/gym/error.py",
+    "Lib/site-packages/gym/logger.py",
+    "Lib/site-packages/gym/spaces/__init__.py",
+    "Lib/site-packages/gym/spaces/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/box.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/dict.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/discrete.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/multi_binary.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/multi_discrete.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/space.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/tuple.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/box.py",
+    "Lib/site-packages/gym/spaces/dict.py",
+    "Lib/site-packages/gym/spaces/discrete.py",
+    "Lib/site-packages/gym/spaces/multi_binary.py",
+    "Lib/site-packages/gym/spaces/multi_discrete.py",
+    "Lib/site-packages/gym/spaces/space.py",
+    "Lib/site-packages/gym/spaces/tests/__init__.py",
+    "Lib/site-packages/gym/spaces/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/tests/__pycache__/test_spaces.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/tests/__pycache__/test_utils.cpython-37.pyc",
+    "Lib/site-packages/gym/spaces/tests/test_spaces.py",
+    "Lib/site-packages/gym/spaces/tests/test_utils.py",
+    "Lib/site-packages/gym/spaces/tuple.py",
+    "Lib/site-packages/gym/spaces/utils.py",
+    "Lib/site-packages/gym/utils/__init__.py",
+    "Lib/site-packages/gym/utils/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/atomic_write.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/closer.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/colorize.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/env_checker.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/ezpickle.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/json_utils.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/play.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/__pycache__/seeding.cpython-37.pyc",
+    "Lib/site-packages/gym/utils/atomic_write.py",
+    "Lib/site-packages/gym/utils/closer.py",
+    "Lib/site-packages/gym/utils/colorize.py",
+    "Lib/site-packages/gym/utils/env_checker.py",
+    "Lib/site-packages/gym/utils/ezpickle.py",
+    "Lib/site-packages/gym/utils/json_utils.py",
+    "Lib/site-packages/gym/utils/play.py",
+    "Lib/site-packages/gym/utils/seeding.py",
+    "Lib/site-packages/gym/vector/__init__.py",
+    "Lib/site-packages/gym/vector/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/__pycache__/async_vector_env.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/__pycache__/sync_vector_env.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/__pycache__/vector_env.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/async_vector_env.py",
+    "Lib/site-packages/gym/vector/sync_vector_env.py",
+    "Lib/site-packages/gym/vector/tests/__init__.py",
+    "Lib/site-packages/gym/vector/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_async_vector_env.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_numpy_utils.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_shared_memory.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_spaces.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_sync_vector_env.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_vector_env.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/test_vector_env_wrapper.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/tests/test_async_vector_env.py",
+    "Lib/site-packages/gym/vector/tests/test_numpy_utils.py",
+    "Lib/site-packages/gym/vector/tests/test_shared_memory.py",
+    "Lib/site-packages/gym/vector/tests/test_spaces.py",
+    "Lib/site-packages/gym/vector/tests/test_sync_vector_env.py",
+    "Lib/site-packages/gym/vector/tests/test_vector_env.py",
+    "Lib/site-packages/gym/vector/tests/test_vector_env_wrapper.py",
+    "Lib/site-packages/gym/vector/tests/utils.py",
+    "Lib/site-packages/gym/vector/utils/__init__.py",
+    "Lib/site-packages/gym/vector/utils/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/utils/__pycache__/misc.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/utils/__pycache__/numpy_utils.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/utils/__pycache__/shared_memory.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/utils/__pycache__/spaces.cpython-37.pyc",
+    "Lib/site-packages/gym/vector/utils/misc.py",
+    "Lib/site-packages/gym/vector/utils/numpy_utils.py",
+    "Lib/site-packages/gym/vector/utils/shared_memory.py",
+    "Lib/site-packages/gym/vector/utils/spaces.py",
+    "Lib/site-packages/gym/vector/vector_env.py",
+    "Lib/site-packages/gym/version.py",
+    "Lib/site-packages/gym/wrappers/__init__.py",
+    "Lib/site-packages/gym/wrappers/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/atari_preprocessing.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/clip_action.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/filter_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/flatten_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/frame_stack.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/gray_scale_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/monitor.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/pixel_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/record_episode_statistics.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/rescale_action.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/resize_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_atari_preprocessing.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_clip_action.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_filter_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_flatten_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_frame_stack.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_gray_scale_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_pixel_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_record_episode_statistics.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_rescale_action.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_resize_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_time_aware_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_transform_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/test_transform_reward.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/time_aware_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/time_limit.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/transform_observation.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/__pycache__/transform_reward.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/atari_preprocessing.py",
+    "Lib/site-packages/gym/wrappers/clip_action.py",
+    "Lib/site-packages/gym/wrappers/filter_observation.py",
+    "Lib/site-packages/gym/wrappers/flatten_observation.py",
+    "Lib/site-packages/gym/wrappers/frame_stack.py",
+    "Lib/site-packages/gym/wrappers/gray_scale_observation.py",
+    "Lib/site-packages/gym/wrappers/monitor.py",
+    "Lib/site-packages/gym/wrappers/monitoring/__init__.py",
+    "Lib/site-packages/gym/wrappers/monitoring/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/monitoring/__pycache__/stats_recorder.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/monitoring/__pycache__/video_recorder.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/monitoring/stats_recorder.py",
+    "Lib/site-packages/gym/wrappers/monitoring/tests/__init__.py",
+    "Lib/site-packages/gym/wrappers/monitoring/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/monitoring/tests/__pycache__/helpers.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/monitoring/tests/__pycache__/test_video_recorder.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/monitoring/tests/helpers.py",
+    "Lib/site-packages/gym/wrappers/monitoring/tests/test_video_recorder.py",
+    "Lib/site-packages/gym/wrappers/monitoring/video_recorder.py",
+    "Lib/site-packages/gym/wrappers/pixel_observation.py",
+    "Lib/site-packages/gym/wrappers/record_episode_statistics.py",
+    "Lib/site-packages/gym/wrappers/rescale_action.py",
+    "Lib/site-packages/gym/wrappers/resize_observation.py",
+    "Lib/site-packages/gym/wrappers/test_atari_preprocessing.py",
+    "Lib/site-packages/gym/wrappers/test_clip_action.py",
+    "Lib/site-packages/gym/wrappers/test_filter_observation.py",
+    "Lib/site-packages/gym/wrappers/test_flatten_observation.py",
+    "Lib/site-packages/gym/wrappers/test_frame_stack.py",
+    "Lib/site-packages/gym/wrappers/test_gray_scale_observation.py",
+    "Lib/site-packages/gym/wrappers/test_pixel_observation.py",
+    "Lib/site-packages/gym/wrappers/test_record_episode_statistics.py",
+    "Lib/site-packages/gym/wrappers/test_rescale_action.py",
+    "Lib/site-packages/gym/wrappers/test_resize_observation.py",
+    "Lib/site-packages/gym/wrappers/test_time_aware_observation.py",
+    "Lib/site-packages/gym/wrappers/test_transform_observation.py",
+    "Lib/site-packages/gym/wrappers/test_transform_reward.py",
+    "Lib/site-packages/gym/wrappers/tests/__init__.py",
+    "Lib/site-packages/gym/wrappers/tests/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/gym/wrappers/time_aware_observation.py",
+    "Lib/site-packages/gym/wrappers/time_limit.py",
+    "Lib/site-packages/gym/wrappers/transform_observation.py",
+    "Lib/site-packages/gym/wrappers/transform_reward.py",
+    ".nonadmin"
+  ],
+  "fn": "gym-0.19.0-py37h4038f58_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\Portable\\anaconda3\\pkgs\\gym-0.19.0-py37h4038f58_0",
+    "type": 1
+  },
+  "md5": "be73c82821c6caf020dd8bbac4f8816e",
+  "name": "gym",
+  "package_tarball_full_path": "C:\\Users\\Portable\\anaconda3\\pkgs\\gym-0.19.0-py37h4038f58_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cd8c1430ee5aa709103c2d3204d8119db4b2dee4d2e6707ec78805d3d49a1a07",
+        "sha256_in_prefix": "cd8c1430ee5aa709103c2d3204d8119db4b2dee4d2e6707ec78805d3d49a1a07",
+        "size_in_bytes": 1948
+      },
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "799006f59adb3707d7e9ac58251f49972d5aa83e12f342772dcb0a8460d7d3c8",
+        "sha256_in_prefix": "799006f59adb3707d7e9ac58251f49972d5aa83e12f342772dcb0a8460d7d3c8",
+        "size_in_bytes": 32005
+      },
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bd57db6ccf31cf3ba0b6178edc563a4095861bc05f9b2cc61860bd660a9284c5",
+        "sha256_in_prefix": "bd57db6ccf31cf3ba0b6178edc563a4095861bc05f9b2cc61860bd660a9284c5",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "Lib/site-packages/gym-0.19.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8b9e1c583550bea08d97dfd68e9643d83efd7d0c41bc9ffe09474186a9d11da9",
+        "sha256_in_prefix": "8b9e1c583550bea08d97dfd68e9643d83efd7d0c41bc9ffe09474186a9d11da9",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/gym/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "40198d9750b027574088d2ea910a144a8769ff98d59dc812d3dbf086f764e94f",
+        "sha256_in_prefix": "40198d9750b027574088d2ea910a144a8769ff98d59dc812d3dbf086f764e94f",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "Lib/site-packages/gym/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "95eb6db743711f56fd252c00332e69c0d5c4375964befb3b832c875f8feb687f",
+        "sha256_in_prefix": "95eb6db743711f56fd252c00332e69c0d5c4375964befb3b832c875f8feb687f",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "Lib/site-packages/gym/__pycache__/core.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "54ce30a773a0dabb8134b5a3b6d6aa3d8ae7eeb9f6a930bd1f017c18fd3203de",
+        "sha256_in_prefix": "54ce30a773a0dabb8134b5a3b6d6aa3d8ae7eeb9f6a930bd1f017c18fd3203de",
+        "size_in_bytes": 12884
+      },
+      {
+        "_path": "Lib/site-packages/gym/__pycache__/error.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf692f228772dc93d97cfab6059c9cb13889634596f328fae343385730b77c01",
+        "sha256_in_prefix": "bf692f228772dc93d97cfab6059c9cb13889634596f328fae343385730b77c01",
+        "size_in_bytes": 6875
+      },
+      {
+        "_path": "Lib/site-packages/gym/__pycache__/logger.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e2e5523c96673b25217b1605a021b6fe80a2bca270dba27d8c6ae14668ed466",
+        "sha256_in_prefix": "5e2e5523c96673b25217b1605a021b6fe80a2bca270dba27d8c6ae14668ed466",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "Lib/site-packages/gym/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "45f2aae43657124fe3f08d49336ddcd60ec56177ad86f07c3686e17910d10039",
+        "sha256_in_prefix": "45f2aae43657124fe3f08d49336ddcd60ec56177ad86f07c3686e17910d10039",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "Lib/site-packages/gym/core.py",
+        "path_type": "hardlink",
+        "sha256": "90d03b81a8b0e7c50f00f1ca05c12d934265fc0cb250167538d426f9838a8579",
+        "sha256_in_prefix": "90d03b81a8b0e7c50f00f1ca05c12d934265fc0cb250167538d426f9838a8579",
+        "size_in_bytes": 10890
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "89e6aa3c42ea3d5c858f154f8a627126bea40479ef340defe2b584fd3a49d2e2",
+        "sha256_in_prefix": "89e6aa3c42ea3d5c858f154f8a627126bea40479ef340defe2b584fd3a49d2e2",
+        "size_in_bytes": 22191
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "740ab4e007ff358cb6f3a56684cdf06da1933d195b4ed8886cc1571f5b543278",
+        "sha256_in_prefix": "740ab4e007ff358cb6f3a56684cdf06da1933d195b4ed8886cc1571f5b543278",
+        "size_in_bytes": 9419
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/__pycache__/registration.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb09e650f5d20cbdda7ccbd379c254b5369c5b87b8a58eb78aa7f752dcb29bcb",
+        "sha256_in_prefix": "cb09e650f5d20cbdda7ccbd379c254b5369c5b87b8a58eb78aa7f752dcb29bcb",
+        "size_in_bytes": 6456
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d50d5e9f0742df5d64733cb050667b7d2bc791854647bdee957ae159f85df85a",
+        "sha256_in_prefix": "d50d5e9f0742df5d64733cb050667b7d2bc791854647bdee957ae159f85df85a",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9a4170ecc520343258f540e8e684f236af34c6c59612bcb3984af7171947e84",
+        "sha256_in_prefix": "e9a4170ecc520343258f540e8e684f236af34c6c59612bcb3984af7171947e84",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/algorithmic_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b414faaa2c1ff3aa551aec7c32932111d4a6ef642b173cb9846c060dc34f850",
+        "sha256_in_prefix": "3b414faaa2c1ff3aa551aec7c32932111d4a6ef642b173cb9846c060dc34f850",
+        "size_in_bytes": 11951
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/copy_.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f784202d2f56fb303b8deb761b50192454a8456bfbf1051ea14fc9ffd1541018",
+        "sha256_in_prefix": "f784202d2f56fb303b8deb761b50192454a8456bfbf1051ea14fc9ffd1541018",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/duplicated_input.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "66c358cb9dca5dd4f486e0446f2505e8181028a3d485b570b4ef6f225e5713ad",
+        "sha256_in_prefix": "66c358cb9dca5dd4f486e0446f2505e8181028a3d485b570b4ef6f225e5713ad",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/repeat_copy.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b3c3a13db891dee9f9c817f82eb2bbad833d0315bceccc288d15b7d768cd5a3",
+        "sha256_in_prefix": "7b3c3a13db891dee9f9c817f82eb2bbad833d0315bceccc288d15b7d768cd5a3",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/reverse.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e003acbd0d663b81e2b2d8990782d593b61f0b9f19dfb791bb3e65672f1b39b",
+        "sha256_in_prefix": "0e003acbd0d663b81e2b2d8990782d593b61f0b9f19dfb791bb3e65672f1b39b",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/__pycache__/reversed_addition.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbae26fbee1517fddd5d6e1e4aeb54c0ba9932eed9048de09bae443b87265e98",
+        "sha256_in_prefix": "bbae26fbee1517fddd5d6e1e4aeb54c0ba9932eed9048de09bae443b87265e98",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/algorithmic_env.py",
+        "path_type": "hardlink",
+        "sha256": "297a896f7bfe5812979c398787130774e3a4c7d7c22e1c211a4a623b356d3388",
+        "sha256_in_prefix": "297a896f7bfe5812979c398787130774e3a4c7d7c22e1c211a4a623b356d3388",
+        "size_in_bytes": 12472
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/copy_.py",
+        "path_type": "hardlink",
+        "sha256": "5c94405637474eccd037aa45b1227fad6fa20fa9e71dd0ad8ffe52d365eed36a",
+        "sha256_in_prefix": "5c94405637474eccd037aa45b1227fad6fa20fa9e71dd0ad8ffe52d365eed36a",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/duplicated_input.py",
+        "path_type": "hardlink",
+        "sha256": "bb7fca4d8a62e0e34bdaa8aaafc456307c8a76d9ca1d35ed92f2ae05b022bf25",
+        "sha256_in_prefix": "bb7fca4d8a62e0e34bdaa8aaafc456307c8a76d9ca1d35ed92f2ae05b022bf25",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/repeat_copy.py",
+        "path_type": "hardlink",
+        "sha256": "b7d8855fd5d2e2b6ea97a4518a76ca8ed66b6d16e02a84415400b445fcab6df2",
+        "sha256_in_prefix": "b7d8855fd5d2e2b6ea97a4518a76ca8ed66b6d16e02a84415400b445fcab6df2",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/reverse.py",
+        "path_type": "hardlink",
+        "sha256": "6d7742e8868687770b3bcc5eeb6676bde88ed2e64eb1a217e20ecc71bf6a672b",
+        "sha256_in_prefix": "6d7742e8868687770b3bcc5eeb6676bde88ed2e64eb1a217e20ecc71bf6a672b",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/reversed_addition.py",
+        "path_type": "hardlink",
+        "sha256": "806c992fd2ad49cd9991cadd2e7e11a2b6b7bd43e3256f51e57c4bc86be71fbd",
+        "sha256_in_prefix": "806c992fd2ad49cd9991cadd2e7e11a2b6b7bd43e3256f51e57c4bc86be71fbd",
+        "size_in_bytes": 1124
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f65b8d9c6eb7b7bfc72f92b5277032513a30682410416461abae5de6f6583dfd",
+        "sha256_in_prefix": "f65b8d9c6eb7b7bfc72f92b5277032513a30682410416461abae5de6f6583dfd",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/tests/__pycache__/test_algorithmic.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5d23d2d321d4b617107fb9557dea7f06455b4678b5a1bcb4fd5cd46f2076f10",
+        "sha256_in_prefix": "f5d23d2d321d4b617107fb9557dea7f06455b4678b5a1bcb4fd5cd46f2076f10",
+        "size_in_bytes": 9848
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/algorithmic/tests/test_algorithmic.py",
+        "path_type": "hardlink",
+        "sha256": "22827001f27472e4752bab7fe8d4aabee14eb9b4320e2525b472ee8e88d6af8b",
+        "sha256_in_prefix": "22827001f27472e4752bab7fe8d4aabee14eb9b4320e2525b472ee8e88d6af8b",
+        "size_in_bytes": 10003
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/atari/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a3ce5905c89b31eabaeb3c7d58be92c155ed7e44dfab8d64f243da0124397fa",
+        "sha256_in_prefix": "5a3ce5905c89b31eabaeb3c7d58be92c155ed7e44dfab8d64f243da0124397fa",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/atari/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "444352c6b05d9ee5858930e704612da312b9374a31ff4214f850668b6a164945",
+        "sha256_in_prefix": "444352c6b05d9ee5858930e704612da312b9374a31ff4214f850668b6a164945",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/atari/__pycache__/atari_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a551a6b69d031e864ad6021a9caeb7620a1d5c94daf562c1057dcab376b1430e",
+        "sha256_in_prefix": "a551a6b69d031e864ad6021a9caeb7620a1d5c94daf562c1057dcab376b1430e",
+        "size_in_bytes": 7144
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/atari/atari_env.py",
+        "path_type": "hardlink",
+        "sha256": "e0aa4973719a43dc71921248afd43cd33f9892753a60c616c6d2737c2e311712",
+        "sha256_in_prefix": "e0aa4973719a43dc71921248afd43cd33f9892753a60c616c6d2737c2e311712",
+        "size_in_bytes": 7842
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a3355eaeb5af6733afba3b1212d0b798c570710445b760e1cd2eaafde9b68115",
+        "sha256_in_prefix": "a3355eaeb5af6733afba3b1212d0b798c570710445b760e1cd2eaafde9b68115",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "445c7ee1e829453ec66c286f09f3eed0bbfa80f323b2de5bf8971a287ab12b13",
+        "sha256_in_prefix": "445c7ee1e829453ec66c286f09f3eed0bbfa80f323b2de5bf8971a287ab12b13",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__pycache__/bipedal_walker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5540cf144904967ccf753a577c89725588bdd876e1cea4324a04c15561456adc",
+        "sha256_in_prefix": "5540cf144904967ccf753a577c89725588bdd876e1cea4324a04c15561456adc",
+        "size_in_bytes": 15503
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__pycache__/car_dynamics.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "65a6837944eedf104b970633e3d46c31f9ea9e2ce4e501005349dff1c51cb2fc",
+        "sha256_in_prefix": "65a6837944eedf104b970633e3d46c31f9ea9e2ce4e501005349dff1c51cb2fc",
+        "size_in_bytes": 7699
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__pycache__/car_racing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a755fee7ab977ea4408e71897a6a94fe293727d44bdba9c3933658dc66f96945",
+        "sha256_in_prefix": "a755fee7ab977ea4408e71897a6a94fe293727d44bdba9c3933658dc66f96945",
+        "size_in_bytes": 14954
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__pycache__/lunar_lander.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d67fbac7e297aa319722dae44d2554c9980f0e1da14cbea377302537d03171bd",
+        "sha256_in_prefix": "d67fbac7e297aa319722dae44d2554c9980f0e1da14cbea377302537d03171bd",
+        "size_in_bytes": 13522
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/__pycache__/test_lunar_lander.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c48b59a8e48483696f3899bd5a1d1913cef5d6462c41ac939f934f64e19dacba",
+        "sha256_in_prefix": "c48b59a8e48483696f3899bd5a1d1913cef5d6462c41ac939f934f64e19dacba",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/bipedal_walker.py",
+        "path_type": "hardlink",
+        "sha256": "36251fc308973c35a9e4f552396175ee9cb04bf7cdbf6776f33703d3644a871a",
+        "sha256_in_prefix": "36251fc308973c35a9e4f552396175ee9cb04bf7cdbf6776f33703d3644a871a",
+        "size_in_bytes": 24173
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/car_dynamics.py",
+        "path_type": "hardlink",
+        "sha256": "8ccbfa7e6774f7f16ab51b4945e2ae698840fbe21e5d80c4a9e94aa8256b9ef4",
+        "sha256_in_prefix": "8ccbfa7e6774f7f16ab51b4945e2ae698840fbe21e5d80c4a9e94aa8256b9ef4",
+        "size_in_bytes": 10672
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/car_racing.py",
+        "path_type": "hardlink",
+        "sha256": "e577e732599e5262f726bd2797ab2275682449c2159b970d39b9986ff98d764f",
+        "sha256_in_prefix": "e577e732599e5262f726bd2797ab2275682449c2159b970d39b9986ff98d764f",
+        "size_in_bytes": 21173
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/lunar_lander.py",
+        "path_type": "hardlink",
+        "sha256": "0bb7fad0821cd84db6aa67eca267a446bf19197267879d72f844075779a21863",
+        "sha256_in_prefix": "0bb7fad0821cd84db6aa67eca267a446bf19197267879d72f844075779a21863",
+        "size_in_bytes": 18642
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/box2d/test_lunar_lander.py",
+        "path_type": "hardlink",
+        "sha256": "124dbd47a144a87cceea92ed24747b8428ddee7461737fdd561e6b473925d0bd",
+        "sha256_in_prefix": "124dbd47a144a87cceea92ed24747b8428ddee7461737fdd561e6b473925d0bd",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e7bf71f0dff55ad28aaa60c303c7acf2f7df72e12b5428b8ea90090f8617c26f",
+        "sha256_in_prefix": "e7bf71f0dff55ad28aaa60c303c7acf2f7df72e12b5428b8ea90090f8617c26f",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ed69b8493afbc927402c0beef9ea5a24ab122ed437d4c510b2c07983206ffb3",
+        "sha256_in_prefix": "6ed69b8493afbc927402c0beef9ea5a24ab122ed437d4c510b2c07983206ffb3",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/acrobot.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5d0a8a76f65c35c9c8432cafeed86c0f42c13c359ec6f16a88e82d3ebb1d38b",
+        "sha256_in_prefix": "c5d0a8a76f65c35c9c8432cafeed86c0f42c13c359ec6f16a88e82d3ebb1d38b",
+        "size_in_bytes": 9834
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/cartpole.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3895172682ec31c9eee18e4056e629ab9d7acaca61772269e678225d69010eca",
+        "sha256_in_prefix": "3895172682ec31c9eee18e4056e629ab9d7acaca61772269e678225d69010eca",
+        "size_in_bytes": 6341
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/continuous_mountain_car.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "856683dd6865335f7cf4587ff33fcae217e7ef38ae651c81618d3d058df94904",
+        "sha256_in_prefix": "856683dd6865335f7cf4587ff33fcae217e7ef38ae651c81618d3d058df94904",
+        "size_in_bytes": 5670
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/mountain_car.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "74736fedbf9d6c1f871fa7342a8bdbd9ef0cb52c4c01bb4e665f979a816b3e85",
+        "sha256_in_prefix": "74736fedbf9d6c1f871fa7342a8bdbd9ef0cb52c4c01bb4e665f979a816b3e85",
+        "size_in_bytes": 5418
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/pendulum.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d848800fd74b05e7fb70d1c3e2d3b5747a44e41808d627ec2a630d5518f8248",
+        "sha256_in_prefix": "1d848800fd74b05e7fb70d1c3e2d3b5747a44e41808d627ec2a630d5518f8248",
+        "size_in_bytes": 3309
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/__pycache__/rendering.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "df00d01d252c24697a4b43eb397abcf129e4b39b53488208183e66dce98fa089",
+        "sha256_in_prefix": "df00d01d252c24697a4b43eb397abcf129e4b39b53488208183e66dce98fa089",
+        "size_in_bytes": 15692
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/acrobot.py",
+        "path_type": "hardlink",
+        "sha256": "2b9e2e80145b68517c8ca2fffae9f93cbcfbd1b641a2f15f6b0409da3052ecc1",
+        "sha256_in_prefix": "2b9e2e80145b68517c8ca2fffae9f93cbcfbd1b641a2f15f6b0409da3052ecc1",
+        "size_in_bytes": 11138
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/assets/clockwise.png",
+        "path_type": "hardlink",
+        "sha256": "97b50edad865fb564c7634cc26fb5712880a16870f9f8b89b52d89f0374ac9a9",
+        "sha256_in_prefix": "97b50edad865fb564c7634cc26fb5712880a16870f9f8b89b52d89f0374ac9a9",
+        "size_in_bytes": 6992
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/cartpole.py",
+        "path_type": "hardlink",
+        "sha256": "44d7d9fbb0a2ad90f953ee6b401978d2c2aaedb94b676f4a97d1cf2418d7cbc6",
+        "sha256_in_prefix": "44d7d9fbb0a2ad90f953ee6b401978d2c2aaedb94b676f4a97d1cf2418d7cbc6",
+        "size_in_bytes": 8320
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/continuous_mountain_car.py",
+        "path_type": "hardlink",
+        "sha256": "49ec51be2afc5d3fe6f1a0b33d0817a0ddaca94cc693b5ab06a787c82d5f0d87",
+        "sha256_in_prefix": "49ec51be2afc5d3fe6f1a0b33d0817a0ddaca94cc693b5ab06a787c82d5f0d87",
+        "size_in_bytes": 6759
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/mountain_car.py",
+        "path_type": "hardlink",
+        "sha256": "ea9a3e030da5713b339b65430c3894dedc2ea5e0f843d0b570e63bcb26d8bd69",
+        "sha256_in_prefix": "ea9a3e030da5713b339b65430c3894dedc2ea5e0f843d0b570e63bcb26d8bd69",
+        "size_in_bytes": 6105
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "d9803ac5ce6d0b0c6a4001a993c1861973ff1d89b8fc749802e2d4cc1753fb01",
+        "sha256_in_prefix": "d9803ac5ce6d0b0c6a4001a993c1861973ff1d89b8fc749802e2d4cc1753fb01",
+        "size_in_bytes": 3109
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/classic_control/rendering.py",
+        "path_type": "hardlink",
+        "sha256": "42c0c6adae59616d96d77ebd40afe09ea8e63a153f1d96c834b61b577c31db20",
+        "sha256_in_prefix": "42c0c6adae59616d96d77ebd40afe09ea8e63a153f1d96c834b61b577c31db20",
+        "size_in_bytes": 12839
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7b85263516d29a19298a74b4e73c85c636657b5a42d20ce2a97807ac190edd3c",
+        "sha256_in_prefix": "7b85263516d29a19298a74b4e73c85c636657b5a42d20ce2a97807ac190edd3c",
+        "size_in_bytes": 820
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a06c560299131216f9e2052b594cdc73fb0cb1e6aa2694968b5e6174de93902",
+        "sha256_in_prefix": "4a06c560299131216f9e2052b594cdc73fb0cb1e6aa2694968b5e6174de93902",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/ant.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bb485b424db3181157a500b6d1bb24822350c5e044d0e6e62abc238b40466d3",
+        "sha256_in_prefix": "1bb485b424db3181157a500b6d1bb24822350c5e044d0e6e62abc238b40466d3",
+        "size_in_bytes": 2065
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/ant_v3.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "62c748ef827cbf044c5a57b9129747a33748c6c68de54dd73499362e16ad66a7",
+        "sha256_in_prefix": "62c748ef827cbf044c5a57b9129747a33748c6c68de54dd73499362e16ad66a7",
+        "size_in_bytes": 4129
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/half_cheetah.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a20dd84313d0a21211c3a22a4ef56f280142ef924005699b69183433ab24650b",
+        "sha256_in_prefix": "a20dd84313d0a21211c3a22a4ef56f280142ef924005699b69183433ab24650b",
+        "size_in_bytes": 1767
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/half_cheetah_v3.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "403d2bb991749b0fbd720746d06017213077741ac375c23db22bb85471e55e19",
+        "sha256_in_prefix": "403d2bb991749b0fbd720746d06017213077741ac375c23db22bb85471e55e19",
+        "size_in_bytes": 2611
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/hopper.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff2a60b55cee0aed0126b3474b25f1340c5d3f7213bf6593f00c2e686b71178b",
+        "sha256_in_prefix": "ff2a60b55cee0aed0126b3474b25f1340c5d3f7213bf6593f00c2e686b71178b",
+        "size_in_bytes": 1977
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/hopper_v3.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c1876c98fdd9730bf6681b28260818877de78e0ce579b0af2ee0d74a4d11931",
+        "sha256_in_prefix": "0c1876c98fdd9730bf6681b28260818877de78e0ce579b0af2ee0d74a4d11931",
+        "size_in_bytes": 3848
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/humanoid.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ede9a8c31e9e1cc1c1fb1218d5817372b0784a99735307558dd51257470305b",
+        "sha256_in_prefix": "9ede9a8c31e9e1cc1c1fb1218d5817372b0784a99735307558dd51257470305b",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/humanoid_v3.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c70fd1d474c685dc0312a593e18ef7233abc62c61946e9fbb8f823ec8a1a5e02",
+        "sha256_in_prefix": "c70fd1d474c685dc0312a593e18ef7233abc62c61946e9fbb8f823ec8a1a5e02",
+        "size_in_bytes": 4547
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/humanoidstandup.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e8c24e3658098f0eb826624f42a175aea83243557c649cabebc9d99ba049b94",
+        "sha256_in_prefix": "6e8c24e3658098f0eb826624f42a175aea83243557c649cabebc9d99ba049b94",
+        "size_in_bytes": 2117
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/inverted_double_pendulum.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8163e3cacd424ddf5770e5caf541906927e2d5646245de2618bb8bef59205d2",
+        "sha256_in_prefix": "f8163e3cacd424ddf5770e5caf541906927e2d5646245de2618bb8bef59205d2",
+        "size_in_bytes": 2092
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/inverted_pendulum.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b955788f4c99406acf9d93db1d0ff98260794701e78b61e48cc1c6e6b92d1ad2",
+        "sha256_in_prefix": "b955788f4c99406acf9d93db1d0ff98260794701e78b61e48cc1c6e6b92d1ad2",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/mujoco_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ed77c34ca02246a63e0ac055222057c8e44327a3ffcf39bbeb11179cb766813",
+        "sha256_in_prefix": "2ed77c34ca02246a63e0ac055222057c8e44327a3ffcf39bbeb11179cb766813",
+        "size_in_bytes": 5890
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/pusher.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "38b4c63517f3ff1d5ec941c1b2783c64a0c79b84ba27cfcef442c692c3b3122b",
+        "sha256_in_prefix": "38b4c63517f3ff1d5ec941c1b2783c64a0c79b84ba27cfcef442c692c3b3122b",
+        "size_in_bytes": 2110
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/reacher.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9759d0f615a05cd31ec51fe9b52190d276d6ae9dab3ab3cab4ec9a2ecc01b5b",
+        "sha256_in_prefix": "e9759d0f615a05cd31ec51fe9b52190d276d6ae9dab3ab3cab4ec9a2ecc01b5b",
+        "size_in_bytes": 1938
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/striker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2edfaaaac1edb017fe3bd78ce1e19a90b1fb3d39e71c5f0f1ffe27ce922c49b",
+        "sha256_in_prefix": "e2edfaaaac1edb017fe3bd78ce1e19a90b1fb3d39e71c5f0f1ffe27ce922c49b",
+        "size_in_bytes": 2527
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/swimmer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c6c0be88708303f8149ff88db5257f3f03da6d6e70b33488aaa1326c3c08f7f",
+        "sha256_in_prefix": "9c6c0be88708303f8149ff88db5257f3f03da6d6e70b33488aaa1326c3c08f7f",
+        "size_in_bytes": 1545
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/swimmer_v3.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d2446c941214199ea8ce0eeb42986b79bc44550438c5dd00badfa36c87fa23e",
+        "sha256_in_prefix": "1d2446c941214199ea8ce0eeb42986b79bc44550438c5dd00badfa36c87fa23e",
+        "size_in_bytes": 2726
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/thrower.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "367d7e771dd0016b1f862ac5ab3cbad052b82e22475787c68b6cdc13ad335b41",
+        "sha256_in_prefix": "367d7e771dd0016b1f862ac5ab3cbad052b82e22475787c68b6cdc13ad335b41",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/walker2d.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ffcc66d005d067a53c1c836c3ecee07bf52eba20d9e41a56a4f8a5eb9177874",
+        "sha256_in_prefix": "6ffcc66d005d067a53c1c836c3ecee07bf52eba20d9e41a56a4f8a5eb9177874",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/__pycache__/walker2d_v3.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "66ee05eaf7a75619b63f1ac6974e7bd7f7e2f08dc2a13a20e409f49774a3ca95",
+        "sha256_in_prefix": "66ee05eaf7a75619b63f1ac6974e7bd7f7e2f08dc2a13a20e409f49774a3ca95",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/ant.py",
+        "path_type": "hardlink",
+        "sha256": "ae7cd7f388f5d34bc5c3ed909cbef8e203d52e8d514cadaf0cc501bb1f42e453",
+        "sha256_in_prefix": "ae7cd7f388f5d34bc5c3ed909cbef8e203d52e8d514cadaf0cc501bb1f42e453",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/ant_v3.py",
+        "path_type": "hardlink",
+        "sha256": "02bb63edc99783525ea53ee6660386cc9be14632eed29333f7aa0cd7e0c20a54",
+        "sha256_in_prefix": "02bb63edc99783525ea53ee6660386cc9be14632eed29333f7aa0cd7e0c20a54",
+        "size_in_bytes": 4621
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/ant.xml",
+        "path_type": "hardlink",
+        "sha256": "cd5f83ef0ea35b0969e65d360c5bacd5b74ccaef6b27e4433b5168c605e3e2be",
+        "sha256_in_prefix": "cd5f83ef0ea35b0969e65d360c5bacd5b74ccaef6b27e4433b5168c605e3e2be",
+        "size_in_bytes": 4934
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/half_cheetah.xml",
+        "path_type": "hardlink",
+        "sha256": "11797a5d69e8ac955e89ca6fdd3a0087f1c990094fda401ac51420de1b6c5494",
+        "sha256_in_prefix": "11797a5d69e8ac955e89ca6fdd3a0087f1c990094fda401ac51420de1b6c5494",
+        "size_in_bytes": 5616
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/hopper.xml",
+        "path_type": "hardlink",
+        "sha256": "a181c527c392c14b8e41de9e64d3a235db3279a0c3fb74eaec99170f5d87ec79",
+        "sha256_in_prefix": "a181c527c392c14b8e41de9e64d3a235db3279a0c3fb74eaec99170f5d87ec79",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/humanoid.xml",
+        "path_type": "hardlink",
+        "sha256": "28ddce0cefce55d9d7f1a54eb4a1f229fda1d4630828a95871e8ae620e367e7f",
+        "sha256_in_prefix": "28ddce0cefce55d9d7f1a54eb4a1f229fda1d4630828a95871e8ae620e367e7f",
+        "size_in_bytes": 8866
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/humanoidstandup.xml",
+        "path_type": "hardlink",
+        "sha256": "c135edbf02a7b59a8371ba244e8c27a720aa4d8cf502f68157598e0b1106cb33",
+        "sha256_in_prefix": "c135edbf02a7b59a8371ba244e8c27a720aa4d8cf502f68157598e0b1106cb33",
+        "size_in_bytes": 8854
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/inverted_double_pendulum.xml",
+        "path_type": "hardlink",
+        "sha256": "57d1254a8c0f5300e6102b086396c5a6ef4c30192d72ed7c0cfae1f6b7187be6",
+        "sha256_in_prefix": "57d1254a8c0f5300e6102b086396c5a6ef4c30192d72ed7c0cfae1f6b7187be6",
+        "size_in_bytes": 1953
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/inverted_pendulum.xml",
+        "path_type": "hardlink",
+        "sha256": "4e23fe88faa6df077e7488ec9114c6e867e5b1c7e24a70c0aa577b7509f40e01",
+        "sha256_in_prefix": "4e23fe88faa6df077e7488ec9114c6e867e5b1c7e24a70c0aa577b7509f40e01",
+        "size_in_bytes": 1342
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/point.xml",
+        "path_type": "hardlink",
+        "sha256": "d0f71754a08c82fb4421801c56abeab45f7c186aa55f88809909a8ae2ff5c24f",
+        "sha256_in_prefix": "d0f71754a08c82fb4421801c56abeab45f7c186aa55f88809909a8ae2ff5c24f",
+        "size_in_bytes": 1815
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/pusher.xml",
+        "path_type": "hardlink",
+        "sha256": "e82298df4e34e6c424f220c20af6247b2f1e86c8820c1ef62e81b5d11b2bfe6e",
+        "sha256_in_prefix": "e82298df4e34e6c424f220c20af6247b2f1e86c8820c1ef62e81b5d11b2bfe6e",
+        "size_in_bytes": 5368
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/reacher.xml",
+        "path_type": "hardlink",
+        "sha256": "c52c29cf7baeb532296b8666584ac2001fd0bdce6c66a26ee6e212250fa984fd",
+        "sha256_in_prefix": "c52c29cf7baeb532296b8666584ac2001fd0bdce6c66a26ee6e212250fa984fd",
+        "size_in_bytes": 2360
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/striker.xml",
+        "path_type": "hardlink",
+        "sha256": "ed7e4c0be909e72e72321363acdca7c6be8cfe8cd80066014337c3f63dae94de",
+        "sha256_in_prefix": "ed7e4c0be909e72e72321363acdca7c6be8cfe8cd80066014337c3f63dae94de",
+        "size_in_bytes": 5474
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/swimmer.xml",
+        "path_type": "hardlink",
+        "sha256": "28efb76ee28aa2b196e9626029ef0774224b3fd5225c0cf614cf45661c1bffae",
+        "sha256_in_prefix": "28efb76ee28aa2b196e9626029ef0774224b3fd5225c0cf614cf45661c1bffae",
+        "size_in_bytes": 2327
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/thrower.xml",
+        "path_type": "hardlink",
+        "sha256": "bf854ec08593f9793dfbaf9fea3038143abe3b9182a37e6af896061c928f9564",
+        "sha256_in_prefix": "bf854ec08593f9793dfbaf9fea3038143abe3b9182a37e6af896061c928f9564",
+        "size_in_bytes": 9401
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/assets/walker2d.xml",
+        "path_type": "hardlink",
+        "sha256": "88dff0833ee2c6ec30854c7616b86d2ce5bd5b26ea0cd6367768c5aca4700296",
+        "sha256_in_prefix": "88dff0833ee2c6ec30854c7616b86d2ce5bd5b26ea0cd6367768c5aca4700296",
+        "size_in_bytes": 4293
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/half_cheetah.py",
+        "path_type": "hardlink",
+        "sha256": "8a856bee1eeedcd74b66748e3f1eb992b919178fe3de0596058f3a71c76d4171",
+        "sha256_in_prefix": "8a856bee1eeedcd74b66748e3f1eb992b919178fe3de0596058f3a71c76d4171",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/half_cheetah_v3.py",
+        "path_type": "hardlink",
+        "sha256": "2f0748837d3eb00e6d318ef8c1d863d86009137f8437a536ea22ec357e5a3966",
+        "sha256_in_prefix": "2f0748837d3eb00e6d318ef8c1d863d86009137f8437a536ea22ec357e5a3966",
+        "size_in_bytes": 2705
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/hopper.py",
+        "path_type": "hardlink",
+        "sha256": "3cdf42416ab559b9847212e3f0b6233e25c4f9e2021eaa380509cdbf7606e3ee",
+        "sha256_in_prefix": "3cdf42416ab559b9847212e3f0b6233e25c4f9e2021eaa380509cdbf7606e3ee",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/hopper_v3.py",
+        "path_type": "hardlink",
+        "sha256": "ba6f138eba3c3b39bafe0f1ce1fea30b3a18f870d27661fc0ab82bb8f9d17d02",
+        "sha256_in_prefix": "ba6f138eba3c3b39bafe0f1ce1fea30b3a18f870d27661fc0ab82bb8f9d17d02",
+        "size_in_bytes": 4190
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/humanoid.py",
+        "path_type": "hardlink",
+        "sha256": "152150ac12a6c07a634985b3e4ee3f3adbc2d45f20585fc078d81f989ba8c00f",
+        "sha256_in_prefix": "152150ac12a6c07a634985b3e4ee3f3adbc2d45f20585fc078d81f989ba8c00f",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/humanoid_v3.py",
+        "path_type": "hardlink",
+        "sha256": "a332dc3bfc5abeddba15946f8931f64639d974f92646ec5c712b1b99de244abd",
+        "sha256_in_prefix": "a332dc3bfc5abeddba15946f8931f64639d974f92646ec5c712b1b99de244abd",
+        "size_in_bytes": 5206
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/humanoidstandup.py",
+        "path_type": "hardlink",
+        "sha256": "b5a42378d1cff0ff0b5dc7beae3b5e0600cb013736fd25d9b7b9aa59f4909154",
+        "sha256_in_prefix": "b5a42378d1cff0ff0b5dc7beae3b5e0600cb013736fd25d9b7b9aa59f4909154",
+        "size_in_bytes": 1931
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/inverted_double_pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "e3f96e7b8d4322b358c50548f92b5b3b17d9dc8cecfb671ff45931dacb230053",
+        "sha256_in_prefix": "e3f96e7b8d4322b358c50548f92b5b3b17d9dc8cecfb671ff45931dacb230053",
+        "size_in_bytes": 1598
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/inverted_pendulum.py",
+        "path_type": "hardlink",
+        "sha256": "defe84b651309377a730b8b4369aeac14b1a1d9134843999ca2605098ba51b88",
+        "sha256_in_prefix": "defe84b651309377a730b8b4369aeac14b1a1d9134843999ca2605098ba51b88",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/mujoco_env.py",
+        "path_type": "hardlink",
+        "sha256": "9e8d7b4d8043ec4ea8ee284d69a8dceaee638713a6d8a388dba7651271d2e663",
+        "sha256_in_prefix": "9e8d7b4d8043ec4ea8ee284d69a8dceaee638713a6d8a388dba7651271d2e663",
+        "size_in_bytes": 6358
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/pusher.py",
+        "path_type": "hardlink",
+        "sha256": "5a053dc948be5a670a768dd03e153d719a533bca2c3ba52563e7c9c3a07328a1",
+        "sha256_in_prefix": "5a053dc948be5a670a768dd03e153d719a533bca2c3ba52563e7c9c3a07328a1",
+        "size_in_bytes": 2007
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/reacher.py",
+        "path_type": "hardlink",
+        "sha256": "3b29d5e0caabd45a837a2d445745b7c354a453cef4ae6ddd84d8c1a0a77ce43d",
+        "sha256_in_prefix": "3b29d5e0caabd45a837a2d445745b7c354a453cef4ae6ddd84d8c1a0a77ce43d",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/striker.py",
+        "path_type": "hardlink",
+        "sha256": "3226ca641d19a2ab0ba933a2fd5cff372fa15b31301eff173a0b67a4071fb2c1",
+        "sha256_in_prefix": "3226ca641d19a2ab0ba933a2fd5cff372fa15b31301eff173a0b67a4071fb2c1",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/swimmer.py",
+        "path_type": "hardlink",
+        "sha256": "6879f283c084197107303dbdcb1358fa0f75cc7cb20a8c60d8c1852c9d501f23",
+        "sha256_in_prefix": "6879f283c084197107303dbdcb1358fa0f75cc7cb20a8c60d8c1852c9d501f23",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/swimmer_v3.py",
+        "path_type": "hardlink",
+        "sha256": "2d112dc383b904da684c4a4fe628437ee989733cabba9ae4fdca8c8fbf23094f",
+        "sha256_in_prefix": "2d112dc383b904da684c4a4fe628437ee989733cabba9ae4fdca8c8fbf23094f",
+        "size_in_bytes": 2970
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/thrower.py",
+        "path_type": "hardlink",
+        "sha256": "d158752c0de5a45dd8ac3fb379e8cfa1a603f1dbd5ddb3d71cf9859d6dfb16ea",
+        "sha256_in_prefix": "d158752c0de5a45dd8ac3fb379e8cfa1a603f1dbd5ddb3d71cf9859d6dfb16ea",
+        "size_in_bytes": 2151
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/walker2d.py",
+        "path_type": "hardlink",
+        "sha256": "dec05f755efa64c32dfd76bbb278f5e52d307b1af1b976f07eaf6633268af375",
+        "sha256_in_prefix": "dec05f755efa64c32dfd76bbb278f5e52d307b1af1b976f07eaf6633268af375",
+        "size_in_bytes": 1420
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/mujoco/walker2d_v3.py",
+        "path_type": "hardlink",
+        "sha256": "5256295710e694fc00e507fdce879e2e0df19e1489319d0a65ba8d95e5ae7d8d",
+        "sha256_in_prefix": "5256295710e694fc00e507fdce879e2e0df19e1489319d0a65ba8d95e5ae7d8d",
+        "size_in_bytes": 3881
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/registration.py",
+        "path_type": "hardlink",
+        "sha256": "f5eded7852a489e7bc455ffc4e5cdb6b234c7b162c39db35dc4d4d85ef9b932f",
+        "sha256_in_prefix": "f5eded7852a489e7bc455ffc4e5cdb6b234c7b162c39db35dc4d4d85ef9b932f",
+        "size_in_bytes": 7260
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "27f6b8ab07856baeacd57664e4d1dc8bcc301251f5e1a2f1e81022a443435b03",
+        "sha256_in_prefix": "27f6b8ab07856baeacd57664e4d1dc8bcc301251f5e1a2f1e81022a443435b03",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b812e48468f86dced279211086728eb517082a26841407bb6299d481bd7de1f2",
+        "sha256_in_prefix": "b812e48468f86dced279211086728eb517082a26841407bb6299d481bd7de1f2",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__pycache__/fetch_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e0e8ad29de44729b1e9b73f8d6add58ecbeeb9ce32f8bc41dd097c926a42889",
+        "sha256_in_prefix": "2e0e8ad29de44729b1e9b73f8d6add58ecbeeb9ce32f8bc41dd097c926a42889",
+        "size_in_bytes": 6954
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__pycache__/hand_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccf4f5298f5ded0b02bd01752d0e78236440f4e56bad95bddf624eb0da55b192",
+        "sha256_in_prefix": "ccf4f5298f5ded0b02bd01752d0e78236440f4e56bad95bddf624eb0da55b192",
+        "size_in_bytes": 2191
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__pycache__/robot_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7426a7fab29377fea310c4f5641bf1aeea2ca1bb1b93b789a9479d1fa633f836",
+        "sha256_in_prefix": "7426a7fab29377fea310c4f5641bf1aeea2ca1bb1b93b789a9479d1fa633f836",
+        "size_in_bytes": 5799
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__pycache__/rotations.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0d753efa75e9ebba3fca751072254b5ca81e551c173723f55128ec5fff25673",
+        "sha256_in_prefix": "a0d753efa75e9ebba3fca751072254b5ca81e551c173723f55128ec5fff25673",
+        "size_in_bytes": 9154
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fd451e4806b827a046d84d9e1f687434900679528f2e11611c9e117feb6194b",
+        "sha256_in_prefix": "9fd451e4806b827a046d84d9e1f687434900679528f2e11611c9e117feb6194b",
+        "size_in_bytes": 3654
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "1f293999c0191f530033b34ed87763b1b9d4bf65913e4675bb79a71b5ea4e07b",
+        "sha256_in_prefix": "1f293999c0191f530033b34ed87763b1b9d4bf65913e4675bb79a71b5ea4e07b",
+        "size_in_bytes": 12965
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/fetch/pick_and_place.xml",
+        "path_type": "hardlink",
+        "sha256": "5428390e750f32d1e62778e262fe9cee1e3920f430b722bb8b8737f4c359a1b2",
+        "sha256_in_prefix": "5428390e750f32d1e62778e262fe9cee1e3920f430b722bb8b8737f4c359a1b2",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/fetch/push.xml",
+        "path_type": "hardlink",
+        "sha256": "3b7aa7253b1440422c5c210d1f1a267a84d6cebbccd15e90ef1d612cbfe07226",
+        "sha256_in_prefix": "3b7aa7253b1440422c5c210d1f1a267a84d6cebbccd15e90ef1d612cbfe07226",
+        "size_in_bytes": 1258
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/fetch/reach.xml",
+        "path_type": "hardlink",
+        "sha256": "7885762c9e6f5afe5f0ba5557a127932d7fbb36cae6b4068cc9c324e1fc47aaa",
+        "sha256_in_prefix": "7885762c9e6f5afe5f0ba5557a127932d7fbb36cae6b4068cc9c324e1fc47aaa",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/fetch/robot.xml",
+        "path_type": "hardlink",
+        "sha256": "6398d8cb0f986b3ea48d82618a44ac9ae95aa3394e442a45339f453f4b94e10b",
+        "sha256_in_prefix": "6398d8cb0f986b3ea48d82618a44ac9ae95aa3394e442a45339f453f4b94e10b",
+        "size_in_bytes": 9584
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/fetch/shared.xml",
+        "path_type": "hardlink",
+        "sha256": "f0fb68a9808bb855dbbebc6d061f540440277ffdc35e0ba81a44a43c5f3dd581",
+        "sha256_in_prefix": "f0fb68a9808bb855dbbebc6d061f540440277ffdc35e0ba81a44a43c5f3dd581",
+        "size_in_bytes": 4331
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/fetch/slide.xml",
+        "path_type": "hardlink",
+        "sha256": "5293d79e3b62deb527b1ff77bea45ec699086b91a68ae02ec1e3360c5d910e00",
+        "sha256_in_prefix": "5293d79e3b62deb527b1ff77bea45ec699086b91a68ae02ec1e3360c5d910e00",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_block.xml",
+        "path_type": "hardlink",
+        "sha256": "924971847ef0d5dcc0e6464daa4a1ff3103f88d322e25ed6213c8f161f6c1cea",
+        "sha256_in_prefix": "924971847ef0d5dcc0e6464daa4a1ff3103f88d322e25ed6213c8f161f6c1cea",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_block_touch_sensors.xml",
+        "path_type": "hardlink",
+        "sha256": "38e7e26a6f697c930ea4ff3f3d06b8d5851462b7f72f99c73a1fd039372bbb82",
+        "sha256_in_prefix": "38e7e26a6f697c930ea4ff3f3d06b8d5851462b7f72f99c73a1fd039372bbb82",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_egg.xml",
+        "path_type": "hardlink",
+        "sha256": "1da5d2f1bdcd6d5d4a6e39feb167ab9d77e31130a9fd2a7eb5223accebd68150",
+        "sha256_in_prefix": "1da5d2f1bdcd6d5d4a6e39feb167ab9d77e31130a9fd2a7eb5223accebd68150",
+        "size_in_bytes": 2326
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_egg_touch_sensors.xml",
+        "path_type": "hardlink",
+        "sha256": "75cd6554dbce97369d3bd43db69c6a776a3c5f12d2007e3640725155809ae174",
+        "sha256_in_prefix": "75cd6554dbce97369d3bd43db69c6a776a3c5f12d2007e3640725155809ae174",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_pen.xml",
+        "path_type": "hardlink",
+        "sha256": "0594970c4be637b49240c2b193b2e3ceedf188553ab6df19a1bfbcd488fa3064",
+        "sha256_in_prefix": "0594970c4be637b49240c2b193b2e3ceedf188553ab6df19a1bfbcd488fa3064",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/manipulate_pen_touch_sensors.xml",
+        "path_type": "hardlink",
+        "sha256": "f0b294b37461351d438dfa875672d23541c9d8e1f7f4761af06c0013276385e7",
+        "sha256_in_prefix": "f0b294b37461351d438dfa875672d23541c9d8e1f7f4761af06c0013276385e7",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/reach.xml",
+        "path_type": "hardlink",
+        "sha256": "ea578be0f4857880465d809c9761e978f322ffe9ad6115d4b559449f19d0b159",
+        "sha256_in_prefix": "ea578be0f4857880465d809c9761e978f322ffe9ad6115d4b559449f19d0b159",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/robot.xml",
+        "path_type": "hardlink",
+        "sha256": "d23af9f9ab8f0ad479964fd31663536d8866b129d82ef2f676165990a1c8514b",
+        "sha256_in_prefix": "d23af9f9ab8f0ad479964fd31663536d8866b129d82ef2f676165990a1c8514b",
+        "size_in_bytes": 16788
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/robot_touch_sensors_92.xml",
+        "path_type": "hardlink",
+        "sha256": "9b6f70c49c8bb043ce3e52d181a0797c514a3b85f44f0cf59600d9f906df9f64",
+        "sha256_in_prefix": "9b6f70c49c8bb043ce3e52d181a0797c514a3b85f44f0cf59600d9f906df9f64",
+        "size_in_bytes": 32115
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/shared.xml",
+        "path_type": "hardlink",
+        "sha256": "fbc404e52def67e38222a395fcc39c051eacc503dbf8e22a22a5bcce36992524",
+        "sha256_in_prefix": "fbc404e52def67e38222a395fcc39c051eacc503dbf8e22a22a5bcce36992524",
+        "size_in_bytes": 16537
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/shared_asset.xml",
+        "path_type": "hardlink",
+        "sha256": "95a9153e6bba4c555ad7cdcea746520eab38e0d57415fa9b3bfaf987dd0418f1",
+        "sha256_in_prefix": "95a9153e6bba4c555ad7cdcea746520eab38e0d57415fa9b3bfaf987dd0418f1",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/hand/shared_touch_sensors_92.xml",
+        "path_type": "hardlink",
+        "sha256": "248bc2cb73920c88903786842aaa5476262d550bd01c2c716dd5f2ee642f3318",
+        "sha256_in_prefix": "248bc2cb73920c88903786842aaa5476262d550bd01c2c716dd5f2ee642f3318",
+        "size_in_bytes": 9201
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/base_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "ddbbecaa94eebb923a153935b9ff02893ca159361ce4fb40363fe64ee6733b81",
+        "sha256_in_prefix": "ddbbecaa94eebb923a153935b9ff02893ca159361ce4fb40363fe64ee6733b81",
+        "size_in_bytes": 236084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/bellows_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "23b1ad0022edb12a65859bedf65dd6d018ee3769c1e48665c8ba2868c845306e",
+        "sha256_in_prefix": "23b1ad0022edb12a65859bedf65dd6d018ee3769c1e48665c8ba2868c845306e",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/elbow_flex_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "fa200b07d6ffe096eb7823b2c2154cc8ce8e22ea5516f557719b9fb308283cb1",
+        "sha256_in_prefix": "fa200b07d6ffe096eb7823b2c2154cc8ce8e22ea5516f557719b9fb308283cb1",
+        "size_in_bytes": 48684
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/estop_link.stl",
+        "path_type": "hardlink",
+        "sha256": "08ee8f343d047983477a5c57292ec6b4a4d317e9a999c8fbfd45b3249c8226fe",
+        "sha256_in_prefix": "08ee8f343d047983477a5c57292ec6b4a4d317e9a999c8fbfd45b3249c8226fe",
+        "size_in_bytes": 386884
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/forearm_roll_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "a74b8d891845f56c58cdc9c4fb115b5ad1a89893cf9d5902310ea5bd7c70c81e",
+        "sha256_in_prefix": "a74b8d891845f56c58cdc9c4fb115b5ad1a89893cf9d5902310ea5bd7c70c81e",
+        "size_in_bytes": 50084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/gripper_link.stl",
+        "path_type": "hardlink",
+        "sha256": "d292a962df7d90eb13919ae8dd269e5ca55f2f54e2f6fa035c562684ff7ec26f",
+        "sha256_in_prefix": "d292a962df7d90eb13919ae8dd269e5ca55f2f54e2f6fa035c562684ff7ec26f",
+        "size_in_bytes": 75384
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/head_pan_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "36362238ca8c68d5aec127130014aa5c7b0ae5613b52ebd82603f6d9b03cf426",
+        "sha256_in_prefix": "36362238ca8c68d5aec127130014aa5c7b0ae5613b52ebd82603f6d9b03cf426",
+        "size_in_bytes": 105984
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/head_tilt_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "3444f186e3faa628654ba7c9ee096d422c34d07948fd5f502918ac4781238919",
+        "sha256_in_prefix": "3444f186e3faa628654ba7c9ee096d422c34d07948fd5f502918ac4781238919",
+        "size_in_bytes": 35384
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/l_wheel_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "0be83a03318e7f2d51b59c2b13e56a5ecdfeaa2ba465bbd841f3605334be6a63",
+        "sha256_in_prefix": "0be83a03318e7f2d51b59c2b13e56a5ecdfeaa2ba465bbd841f3605334be6a63",
+        "size_in_bytes": 68684
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/laser_link.stl",
+        "path_type": "hardlink",
+        "sha256": "285e57045df959a58c14d0b26c1a24203bd213acd17554f5b07bc526dfbc0747",
+        "sha256_in_prefix": "285e57045df959a58c14d0b26c1a24203bd213acd17554f5b07bc526dfbc0747",
+        "size_in_bytes": 355884
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/r_wheel_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "1280da184382df0ab072c91024046fc82c70d4f46c8d6697245d328af97aeeac",
+        "sha256_in_prefix": "1280da184382df0ab072c91024046fc82c70d4f46c8d6697245d328af97aeeac",
+        "size_in_bytes": 68684
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/shoulder_lift_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "af0703cad45527a1e7e5c76e15a43a81600b8482e479e1ecceedff3624b381af",
+        "sha256_in_prefix": "af0703cad45527a1e7e5c76e15a43a81600b8482e479e1ecceedff3624b381af",
+        "size_in_bytes": 45384
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/shoulder_pan_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "7d6e74913589c3b7ee113c6b55170a40b3cc7d4095c7c1c520464655e6e2d301",
+        "sha256_in_prefix": "7d6e74913589c3b7ee113c6b55170a40b3cc7d4095c7c1c520464655e6e2d301",
+        "size_in_bytes": 65684
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/torso_fixed_link.stl",
+        "path_type": "hardlink",
+        "sha256": "ee88311cd5ae20727c4ea7af579edea4da832b54a86b77d6804e4be30c638158",
+        "sha256_in_prefix": "ee88311cd5ae20727c4ea7af579edea4da832b54a86b77d6804e4be30c638158",
+        "size_in_bytes": 5884
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/torso_lift_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "4f24652be8a346b040ee199d3586af874ca0359460d91b86d893ff2a85afdfde",
+        "sha256_in_prefix": "4f24652be8a346b040ee199d3586af874ca0359460d91b86d893ff2a85afdfde",
+        "size_in_bytes": 50084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/upperarm_roll_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "b52550449cfa148390cbbcb3879ff3ee67a484e98bbd2ad91046c09d49dae9d1",
+        "sha256_in_prefix": "b52550449cfa148390cbbcb3879ff3ee67a484e98bbd2ad91046c09d49dae9d1",
+        "size_in_bytes": 49984
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/wrist_flex_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "435f181dea365137f63e74f718911b7dfd780af6fc92ce5c74908e7d0790413b",
+        "sha256_in_prefix": "435f181dea365137f63e74f718911b7dfd780af6fc92ce5c74908e7d0790413b",
+        "size_in_bytes": 49784
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/fetch/wrist_roll_link_collision.stl",
+        "path_type": "hardlink",
+        "sha256": "942ca8736eecefd12c6d5397292c5725546b70c0826d9daf67b68d69255011d5",
+        "sha256_in_prefix": "942ca8736eecefd12c6d5397292c5725546b70c0826d9daf67b68d69255011d5",
+        "size_in_bytes": 26084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/F1.stl",
+        "path_type": "hardlink",
+        "sha256": "a2d35742067f71e4888954d1aa55d043dbc6ec0c63f4cc715f339cb45fd13734",
+        "sha256_in_prefix": "a2d35742067f71e4888954d1aa55d043dbc6ec0c63f4cc715f339cb45fd13734",
+        "size_in_bytes": 17084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/F2.stl",
+        "path_type": "hardlink",
+        "sha256": "0eeb932dcc102dd1fc6bef55fe83f6a74d97aebd32c34d6ee7020c19647306c5",
+        "sha256_in_prefix": "0eeb932dcc102dd1fc6bef55fe83f6a74d97aebd32c34d6ee7020c19647306c5",
+        "size_in_bytes": 22884
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/F3.stl",
+        "path_type": "hardlink",
+        "sha256": "d11a521ae498e947491ba947df8f999136fdf1401d1ba86d594eec20da656ad1",
+        "sha256_in_prefix": "d11a521ae498e947491ba947df8f999136fdf1401d1ba86d594eec20da656ad1",
+        "size_in_bytes": 54684
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/TH1_z.stl",
+        "path_type": "hardlink",
+        "sha256": "83fd93c9e4c1bf240aa6def2e5fdf5b1adcf4e341c146b05313aeaa8c54fd36a",
+        "sha256_in_prefix": "83fd93c9e4c1bf240aa6def2e5fdf5b1adcf4e341c146b05313aeaa8c54fd36a",
+        "size_in_bytes": 6334
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/TH2_z.stl",
+        "path_type": "hardlink",
+        "sha256": "98e26cf013cd8d7f6ed890d3402ba0aceb11ec5c78779e388390ca2cddc7daf2",
+        "sha256_in_prefix": "98e26cf013cd8d7f6ed890d3402ba0aceb11ec5c78779e388390ca2cddc7daf2",
+        "size_in_bytes": 63184
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/TH3_z.stl",
+        "path_type": "hardlink",
+        "sha256": "80aae0002a6684428278cf214a31040f7cd7aeb3e2e648bd4b68baa375c2d2ad",
+        "sha256_in_prefix": "80aae0002a6684428278cf214a31040f7cd7aeb3e2e648bd4b68baa375c2d2ad",
+        "size_in_bytes": 21184
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/forearm_electric.stl",
+        "path_type": "hardlink",
+        "sha256": "01aca61837d9db13c52dd170245cacb6f1cedc8238d66fe7239602c80c7a0130",
+        "sha256_in_prefix": "01aca61837d9db13c52dd170245cacb6f1cedc8238d66fe7239602c80c7a0130",
+        "size_in_bytes": 934534
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/forearm_electric_cvx.stl",
+        "path_type": "hardlink",
+        "sha256": "874ae2ac813c6c9d873d04f872cb13de3cabd427cb24a8924619d0a1719d6da7",
+        "sha256_in_prefix": "874ae2ac813c6c9d873d04f872cb13de3cabd427cb24a8924619d0a1719d6da7",
+        "size_in_bytes": 45384
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/knuckle.stl",
+        "path_type": "hardlink",
+        "sha256": "a8a9c1659aa4391291531b46997ba5eeda1b36e597070ae8a3cd824159937aae",
+        "sha256_in_prefix": "a8a9c1659aa4391291531b46997ba5eeda1b36e597070ae8a3cd824159937aae",
+        "size_in_bytes": 30184
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/lfmetacarpal.stl",
+        "path_type": "hardlink",
+        "sha256": "b6901da4d4b93059c02b8803650ad484b3f31aebce46badfa411897d521a4877",
+        "sha256_in_prefix": "b6901da4d4b93059c02b8803650ad484b3f31aebce46badfa411897d521a4877",
+        "size_in_bytes": 75084
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/palm.stl",
+        "path_type": "hardlink",
+        "sha256": "12593bcba03bbf278cd7d7db3ca79ba753ada3cb58ee93e725603e9b5e29fd0c",
+        "sha256_in_prefix": "12593bcba03bbf278cd7d7db3ca79ba753ada3cb58ee93e725603e9b5e29fd0c",
+        "size_in_bytes": 347784
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/stls/hand/wrist.stl",
+        "path_type": "hardlink",
+        "sha256": "47d0f252ae456541993746ff76d7022135b1bf54263f8f83b19d61f6f94871c9",
+        "sha256_in_prefix": "47d0f252ae456541993746ff76d7022135b1bf54263f8f83b19d61f6f94871c9",
+        "size_in_bytes": 92784
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/textures/block.png",
+        "path_type": "hardlink",
+        "sha256": "d39ffb85a87d00c346764191e38ecac3135f2d6f690f64a8ee5da4783ef18e76",
+        "sha256_in_prefix": "d39ffb85a87d00c346764191e38ecac3135f2d6f690f64a8ee5da4783ef18e76",
+        "size_in_bytes": 15879
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/assets/textures/block_hidden.png",
+        "path_type": "hardlink",
+        "sha256": "3649cb94a9a5f74751d15c0f38291dd666b7eecc286977888b64b6c3c626c9d3",
+        "sha256_in_prefix": "3649cb94a9a5f74751d15c0f38291dd666b7eecc286977888b64b6c3c626c9d3",
+        "size_in_bytes": 40953
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4bf431a5043828e39daae6d189dd03e9c175fd37be0c3cd28b2988b339d818b",
+        "sha256_in_prefix": "d4bf431a5043828e39daae6d189dd03e9c175fd37be0c3cd28b2988b339d818b",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/pick_and_place.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a16fc75373a1ad475ab97a01d2bc2fa2357d08f5b077095e9a89ceab41ebc45",
+        "sha256_in_prefix": "4a16fc75373a1ad475ab97a01d2bc2fa2357d08f5b077095e9a89ceab41ebc45",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/push.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "69a96c9aaee5a70621e1d8b34403a957b6facc17df264fe112f7a217db619bbc",
+        "sha256_in_prefix": "69a96c9aaee5a70621e1d8b34403a957b6facc17df264fe112f7a217db619bbc",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/reach.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5705534bde0249bf2577b6aa8ec2354a4dfe3042f74a250d6c5c07de5bdadb3a",
+        "sha256_in_prefix": "5705534bde0249bf2577b6aa8ec2354a4dfe3042f74a250d6c5c07de5bdadb3a",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/__pycache__/slide.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f3d9cfa24e217504965b6086d528ead48a43e1324863ac2f845fc47a60a0cb2",
+        "sha256_in_prefix": "1f3d9cfa24e217504965b6086d528ead48a43e1324863ac2f845fc47a60a0cb2",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/pick_and_place.py",
+        "path_type": "hardlink",
+        "sha256": "8a6f5a0d36406488060b9f427122c6f7c6766ec4cc8afc8dc6fc522efb42ea0c",
+        "sha256_in_prefix": "8a6f5a0d36406488060b9f427122c6f7c6766ec4cc8afc8dc6fc522efb42ea0c",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/push.py",
+        "path_type": "hardlink",
+        "sha256": "2581a015681f381517f803f694b64f6f59c0f889f5c7ddc1dc3d88bc01f69403",
+        "sha256_in_prefix": "2581a015681f381517f803f694b64f6f59c0f889f5c7ddc1dc3d88bc01f69403",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/reach.py",
+        "path_type": "hardlink",
+        "sha256": "a19ecd174a11e9637250725389464e87e90e1d9c679ce76d5e14d6a2950476ba",
+        "sha256_in_prefix": "a19ecd174a11e9637250725389464e87e90e1d9c679ce76d5e14d6a2950476ba",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch/slide.py",
+        "path_type": "hardlink",
+        "sha256": "71633abdf38f059928a23746609526d35f75c274fd1e018ce2ff7f08f718bde2",
+        "sha256_in_prefix": "71633abdf38f059928a23746609526d35f75c274fd1e018ce2ff7f08f718bde2",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/fetch_env.py",
+        "path_type": "hardlink",
+        "sha256": "5376a34d12745387ee34c2769d22b9ef64ebd50d3b61cbcd83223fecf2720a73",
+        "sha256_in_prefix": "5376a34d12745387ee34c2769d22b9ef64ebd50d3b61cbcd83223fecf2720a73",
+        "size_in_bytes": 8927
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c3a53d03b420ca2166641f8ac3008e03b8a83de6c9ca11e7087a11d33b6e00e",
+        "sha256_in_prefix": "9c3a53d03b420ca2166641f8ac3008e03b8a83de6c9ca11e7087a11d33b6e00e",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/__pycache__/manipulate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae139b8574a6c19a4e2888d789f5dbdaa97bd41ef04ab7ec0aba0e9befb888a8",
+        "sha256_in_prefix": "ae139b8574a6c19a4e2888d789f5dbdaa97bd41ef04ab7ec0aba0e9befb888a8",
+        "size_in_bytes": 11208
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/__pycache__/manipulate_touch_sensors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9155235f5ece278ece89df25499a9a0b08a42ea5fc602b359c5a2c350c759336",
+        "sha256_in_prefix": "9155235f5ece278ece89df25499a9a0b08a42ea5fc602b359c5a2c350c759336",
+        "size_in_bytes": 5585
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/__pycache__/reach.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1011ca8d84e36ea666294e0f6238f74b3e4bdebb394067abe9de0b7e8f4e5909",
+        "sha256_in_prefix": "1011ca8d84e36ea666294e0f6238f74b3e4bdebb394067abe9de0b7e8f4e5909",
+        "size_in_bytes": 4751
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/manipulate.py",
+        "path_type": "hardlink",
+        "sha256": "4df1dc1ec388aea3539d6b2773838b36fa009509bc351c0c6b860d6af48c17c3",
+        "sha256_in_prefix": "4df1dc1ec388aea3539d6b2773838b36fa009509bc351c0c6b860d6af48c17c3",
+        "size_in_bytes": 15503
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/manipulate_touch_sensors.py",
+        "path_type": "hardlink",
+        "sha256": "5b8a4890e33fb8f2ce88bca2df84ed731c2abf71dac220516b9000ef06eff540",
+        "sha256_in_prefix": "5b8a4890e33fb8f2ce88bca2df84ed731c2abf71dac220516b9000ef06eff540",
+        "size_in_bytes": 7929
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand/reach.py",
+        "path_type": "hardlink",
+        "sha256": "c9835eb75c29116e9818fe4ba399b87aae76cb410e1f98c448c17845d0658389",
+        "sha256_in_prefix": "c9835eb75c29116e9818fe4ba399b87aae76cb410e1f98c448c17845d0658389",
+        "size_in_bytes": 5635
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/hand_env.py",
+        "path_type": "hardlink",
+        "sha256": "c5fae6c273cd645b9b8a85eabe925de4a4aece9eda56407fe7637b2f02c7a71e",
+        "sha256_in_prefix": "c5fae6c273cd645b9b8a85eabe925de4a4aece9eda56407fe7637b2f02c7a71e",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/robot_env.py",
+        "path_type": "hardlink",
+        "sha256": "dc164885404ce9c439b090e5997d4b4ccbdf94ba90ec4db84228ecbc64277456",
+        "sha256_in_prefix": "dc164885404ce9c439b090e5997d4b4ccbdf94ba90ec4db84228ecbc64277456",
+        "size_in_bytes": 6244
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/rotations.py",
+        "path_type": "hardlink",
+        "sha256": "cc147aa3fcaae409dc32527b559b484cd591b85a0a886a70f1bc0438aaea58cb",
+        "sha256_in_prefix": "cc147aa3fcaae409dc32527b559b484cd591b85a0a886a70f1bc0438aaea58cb",
+        "size_in_bytes": 13271
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/robotics/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a0fa29c640cabafefd58fbb591a34f561ff99a75bf2bf2b37c032e3c82dd3a25",
+        "sha256_in_prefix": "a0fa29c640cabafefd58fbb591a34f561ff99a75bf2bf2b37c032e3c82dd3a25",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d11c680d212a6e4b71639fd4b5ebb08a41f29b2f6fc22c63dd2c82d38749cf3f",
+        "sha256_in_prefix": "d11c680d212a6e4b71639fd4b5ebb08a41f29b2f6fc22c63dd2c82d38749cf3f",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/spec_list.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdbfa6d9c79defd4d5586e7f3cba9b60de973bbb25adb8c8f4b8c5429d102ce4",
+        "sha256_in_prefix": "fdbfa6d9c79defd4d5586e7f3cba9b60de973bbb25adb8c8f4b8c5429d102ce4",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_determinism.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f1eb1d4c7b27a2712284687dabd064da477f23fd6af77a072ddeb7cca798db7",
+        "sha256_in_prefix": "6f1eb1d4c7b27a2712284687dabd064da477f23fd6af77a072ddeb7cca798db7",
+        "size_in_bytes": 2479
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_envs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8dc1c3ee5a3abfc8e1e4ef6c688562cbd3f9d18254003762d90e525fbe4dd5f",
+        "sha256_in_prefix": "b8dc1c3ee5a3abfc8e1e4ef6c688562cbd3f9d18254003762d90e525fbe4dd5f",
+        "size_in_bytes": 2130
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_envs_semantics.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c0e0fae554b6401933904ce5c13c70ff4a4cf99779402146c70f2fea4981d2a",
+        "sha256_in_prefix": "7c0e0fae554b6401933904ce5c13c70ff4a4cf99779402146c70f2fea4981d2a",
+        "size_in_bytes": 2746
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_frozenlake_dfs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3e8c351080f0d131bd98d70316fb4bc01df9b026b16804478025ac7648bca30",
+        "sha256_in_prefix": "a3e8c351080f0d131bd98d70316fb4bc01df9b026b16804478025ac7648bca30",
+        "size_in_bytes": 1117
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_kellycoinflip.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "10b546ab6b9e44c88763eace50333ffdfc8ef0ed5335f911dfe62f245f684883",
+        "sha256_in_prefix": "10b546ab6b9e44c88763eace50333ffdfc8ef0ed5335f911dfe62f245f684883",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_mujoco_v2_to_v3_conversion.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "90aa9fc2ba0601a755800e3f48da73ea43f92ac818e07d4f0185701e799c2ea2",
+        "sha256_in_prefix": "90aa9fc2ba0601a755800e3f48da73ea43f92ac818e07d4f0185701e799c2ea2",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/__pycache__/test_registration.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "886958dfe843dea4aaeee68ba47c1200e4bdea2cae0ea4ec784d0c91562572d4",
+        "sha256_in_prefix": "886958dfe843dea4aaeee68ba47c1200e4bdea2cae0ea4ec784d0c91562572d4",
+        "size_in_bytes": 2740
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/spec_list.py",
+        "path_type": "hardlink",
+        "sha256": "ee9dc9b7bc9f0dbf744f09d551f051a4b7e9c93e6e3f4bfd0994a5a551ba777c",
+        "sha256_in_prefix": "ee9dc9b7bc9f0dbf744f09d551f051a4b7e9c93e6e3f4bfd0994a5a551ba777c",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_determinism.py",
+        "path_type": "hardlink",
+        "sha256": "e1164f51bf81bf9200372268669bb52867712925e2bd510b668d400ac1b8da00",
+        "sha256_in_prefix": "e1164f51bf81bf9200372268669bb52867712925e2bd510b668d400ac1b8da00",
+        "size_in_bytes": 2863
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_envs.py",
+        "path_type": "hardlink",
+        "sha256": "5d109946b15aba9cbb2f0fd2a95a7706837d2b6fcfe8bbc41bbf742b0e0d0b32",
+        "sha256_in_prefix": "5d109946b15aba9cbb2f0fd2a95a7706837d2b6fcfe8bbc41bbf742b0e0d0b32",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_envs_semantics.py",
+        "path_type": "hardlink",
+        "sha256": "518fd207394ea2f1a3bf9f5dbfb0225be243a8e6125253ee0f2c0f2c4d081532",
+        "sha256_in_prefix": "518fd207394ea2f1a3bf9f5dbfb0225be243a8e6125253ee0f2c0f2c4d081532",
+        "size_in_bytes": 3577
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_frozenlake_dfs.py",
+        "path_type": "hardlink",
+        "sha256": "66a2da17e161d59960e422c53275a4b1b324fd46591dd05cc99d8123d9c811f9",
+        "sha256_in_prefix": "66a2da17e161d59960e422c53275a4b1b324fd46591dd05cc99d8123d9c811f9",
+        "size_in_bytes": 1224
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_kellycoinflip.py",
+        "path_type": "hardlink",
+        "sha256": "7dcfa8018ef3d1ec19a7b0485ab35996053bcfde79c554eaae9097d9da8d92e5",
+        "sha256_in_prefix": "7dcfa8018ef3d1ec19a7b0485ab35996053bcfde79c554eaae9097d9da8d92e5",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_mujoco_v2_to_v3_conversion.py",
+        "path_type": "hardlink",
+        "sha256": "2466b09824ff190433b4dd2df5eeb607d10bea1ffabd3925d29649a65a2d931e",
+        "sha256_in_prefix": "2466b09824ff190433b4dd2df5eeb607d10bea1ffabd3925d29649a65a2d931e",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/tests/test_registration.py",
+        "path_type": "hardlink",
+        "sha256": "06a03972f3f05711869dab1ec4fb79db7bf978d4d1b7e514e3355f2c6ca64d67",
+        "sha256_in_prefix": "06a03972f3f05711869dab1ec4fb79db7bf978d4d1b7e514e3355f2c6ca64d67",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28c41cb6a62ada3025ab33449b89fe50618e08a47a19650523064243bf55204e",
+        "sha256_in_prefix": "28c41cb6a62ada3025ab33449b89fe50618e08a47a19650523064243bf55204e",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba35e2162d12dea63dcdeb33491df6480e181452dbc6329523915520d6575789",
+        "sha256_in_prefix": "ba35e2162d12dea63dcdeb33491df6480e181452dbc6329523915520d6575789",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/blackjack.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e29f81f37f5ee0ab4a749e0e540ca1c336b430ca885488bf2153583aa1f4f311",
+        "sha256_in_prefix": "e29f81f37f5ee0ab4a749e0e540ca1c336b430ca885488bf2153583aa1f4f311",
+        "size_in_bytes": 4188
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/cliffwalking.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "687db8c2d93c1b391a992c8549c7491b7378d3a0911e4244df9e44ffca8b8b52",
+        "sha256_in_prefix": "687db8c2d93c1b391a992c8549c7491b7378d3a0911e4244df9e44ffca8b8b52",
+        "size_in_bytes": 3864
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/discrete.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d94fb4af0204aaa0257b0e7ed494d9a4578b5830f23afba7a95592d824c2f4b9",
+        "sha256_in_prefix": "d94fb4af0204aaa0257b0e7ed494d9a4578b5830f23afba7a95592d824c2f4b9",
+        "size_in_bytes": 2064
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/frozen_lake.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "246b35430f6ff7850f08961d785e5eef629e9f0890988036ff49fd182e370432",
+        "sha256_in_prefix": "246b35430f6ff7850f08961d785e5eef629e9f0890988036ff49fd182e370432",
+        "size_in_bytes": 6007
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/guessing_game.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "963b3e83fdcde54f2280c5efd3fe4e2feddfea2c30fe42aad6d2ae6364381662",
+        "sha256_in_prefix": "963b3e83fdcde54f2280c5efd3fe4e2feddfea2c30fe42aad6d2ae6364381662",
+        "size_in_bytes": 3169
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/hotter_colder.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa24159c66149d30c7c32eb210e7f5b44f86ac27505e5e61faf118149b1b57f1",
+        "sha256_in_prefix": "aa24159c66149d30c7c32eb210e7f5b44f86ac27505e5e61faf118149b1b57f1",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/kellycoinflip.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "adc796b2ea2ea43c354e8f048c858e6783a43f0573e8aad99b9d58e99a987981",
+        "sha256_in_prefix": "adc796b2ea2ea43c354e8f048c858e6783a43f0573e8aad99b9d58e99a987981",
+        "size_in_bytes": 8885
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/nchain.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "15f5b13319a259b1d0cef88997db0299070080e018188142a7d96aec1865ca4e",
+        "sha256_in_prefix": "15f5b13319a259b1d0cef88997db0299070080e018188142a7d96aec1865ca4e",
+        "size_in_bytes": 2159
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/roulette.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb574a8099e7834df03e476a7e3f94b043c525763e0dde12bd00871874230239",
+        "sha256_in_prefix": "cb574a8099e7834df03e476a7e3f94b043c525763e0dde12bd00871874230239",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/__pycache__/taxi.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "44d84db3dad3c370073fd74ce72b7d5f603f874df705461d0c664a16bfee06d6",
+        "sha256_in_prefix": "44d84db3dad3c370073fd74ce72b7d5f603f874df705461d0c664a16bfee06d6",
+        "size_in_bytes": 5948
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/blackjack.py",
+        "path_type": "hardlink",
+        "sha256": "710c95f7a1c936eff2f15247f4bbf9ce5ec9289be753c36bc06a9398c0b58715",
+        "sha256_in_prefix": "710c95f7a1c936eff2f15247f4bbf9ce5ec9289be753c36bc06a9398c0b58715",
+        "size_in_bytes": 3978
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/cliffwalking.py",
+        "path_type": "hardlink",
+        "sha256": "9565d8dbb463eb6186f5f94d222d4caa0562343eedf401d70ba9f5872e3df7e0",
+        "sha256_in_prefix": "9565d8dbb463eb6186f5f94d222d4caa0562343eedf401d70ba9f5872e3df7e0",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/discrete.py",
+        "path_type": "hardlink",
+        "sha256": "3bb2a0b18a8d2a74d7bd6f837d116ba529ed75716e078c15de0852c73271b02c",
+        "sha256_in_prefix": "3bb2a0b18a8d2a74d7bd6f837d116ba529ed75716e078c15de0852c73271b02c",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/frozen_lake.py",
+        "path_type": "hardlink",
+        "sha256": "a355211edffa163bd38fd173ada8e7bb0f521cff54d541ee670a64626e2197f6",
+        "sha256_in_prefix": "a355211edffa163bd38fd173ada8e7bb0f521cff54d541ee670a64626e2197f6",
+        "size_in_bytes": 5545
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/guessing_game.py",
+        "path_type": "hardlink",
+        "sha256": "736756aa223ccbbb07dfc8b9d2b7eab1b48d1b9f70c709ce5f957f4d00909b77",
+        "sha256_in_prefix": "736756aa223ccbbb07dfc8b9d2b7eab1b48d1b9f70c709ce5f957f4d00909b77",
+        "size_in_bytes": 3267
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/hotter_colder.py",
+        "path_type": "hardlink",
+        "sha256": "79bf75a56564a545277f70a10bbdfed39cd36115424f71b6cc14d5849e8671c5",
+        "sha256_in_prefix": "79bf75a56564a545277f70a10bbdfed39cd36115424f71b6cc14d5849e8671c5",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/kellycoinflip.py",
+        "path_type": "hardlink",
+        "sha256": "6e63ec38d70780a9fa463618c86d1a9296e153774c1e18965e943e66d099062b",
+        "sha256_in_prefix": "6e63ec38d70780a9fa463618c86d1a9296e153774c1e18965e943e66d099062b",
+        "size_in_bytes": 11707
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/nchain.py",
+        "path_type": "hardlink",
+        "sha256": "a32c8b1bbae57ecf25aa1e0102e5188b7607875499d5cfacfeb34fc9d9d1f8be",
+        "sha256_in_prefix": "a32c8b1bbae57ecf25aa1e0102e5188b7607875499d5cfacfeb34fc9d9d1f8be",
+        "size_in_bytes": 2171
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/roulette.py",
+        "path_type": "hardlink",
+        "sha256": "9fa9fad680ba2bdf87dfce63c25028fe7c44cdb2f95c02e32349e9abcb9592c0",
+        "sha256_in_prefix": "9fa9fad680ba2bdf87dfce63c25028fe7c44cdb2f95c02e32349e9abcb9592c0",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/toy_text/taxi.py",
+        "path_type": "hardlink",
+        "sha256": "93a5d276a73db98cf6782bdd64e25b7d0c7e72f2fb51b160bc31a5ec6485b775",
+        "sha256_in_prefix": "93a5d276a73db98cf6782bdd64e25b7d0c7e72f2fb51b160bc31a5ec6485b775",
+        "size_in_bytes": 7232
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/unittest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa0d3f69569b365d2faa28081a9df94dc52fc40c0e54f779709358923fa8ab3c",
+        "sha256_in_prefix": "fa0d3f69569b365d2faa28081a9df94dc52fc40c0e54f779709358923fa8ab3c",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/unittest/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "96179b0d79409be14d921f6712af0d8174e7ad3f83c96c5570c1016dcc049672",
+        "sha256_in_prefix": "96179b0d79409be14d921f6712af0d8174e7ad3f83c96c5570c1016dcc049672",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/unittest/__pycache__/cube_crash.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e07b3761654620474df0a04999ee4b47e8b99cdd88116f111423a215fc61ad57",
+        "sha256_in_prefix": "e07b3761654620474df0a04999ee4b47e8b99cdd88116f111423a215fc61ad57",
+        "size_in_bytes": 3836
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/unittest/__pycache__/memorize_digits.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d97920c5415d6ff4befb4b20278fd100489b8bd0b8c1275d8fd3df62aa4d4fce",
+        "sha256_in_prefix": "d97920c5415d6ff4befb4b20278fd100489b8bd0b8c1275d8fd3df62aa4d4fce",
+        "size_in_bytes": 3644
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/unittest/cube_crash.py",
+        "path_type": "hardlink",
+        "sha256": "47ab9b0954cd0e28b835ebe3d4e6820bf25b2b42f6f82a64c4693f450306dd17",
+        "sha256_in_prefix": "47ab9b0954cd0e28b835ebe3d4e6820bf25b2b42f6f82a64c4693f450306dd17",
+        "size_in_bytes": 5318
+      },
+      {
+        "_path": "Lib/site-packages/gym/envs/unittest/memorize_digits.py",
+        "path_type": "hardlink",
+        "sha256": "338009919b9f4d481805001b1e0c0cc9ac341b23e98fd6f7108f324fe7bbbe2b",
+        "sha256_in_prefix": "338009919b9f4d481805001b1e0c0cc9ac341b23e98fd6f7108f324fe7bbbe2b",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "Lib/site-packages/gym/error.py",
+        "path_type": "hardlink",
+        "sha256": "c78ea8e2d71c95fcda7336970bc125252a3731c9889982b662d6aa2180427664",
+        "sha256_in_prefix": "c78ea8e2d71c95fcda7336970bc125252a3731c9889982b662d6aa2180427664",
+        "size_in_bytes": 4565
+      },
+      {
+        "_path": "Lib/site-packages/gym/logger.py",
+        "path_type": "hardlink",
+        "sha256": "26e6c772c41078635a6bb4fb5e6d7235e29f485ce7ea3b3838078cd53fc5e13a",
+        "sha256_in_prefix": "26e6c772c41078635a6bb4fb5e6d7235e29f485ce7ea3b3838078cd53fc5e13a",
+        "size_in_bytes": 725
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4756a6ff6ef8831a542ffe1c07e1c7dc20662b70a2f9340c7b3626ce1e76ead",
+        "sha256_in_prefix": "e4756a6ff6ef8831a542ffe1c07e1c7dc20662b70a2f9340c7b3626ce1e76ead",
+        "size_in_bytes": 620
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "634ac7c87f224c0604e15df021ea7f2ba7db6328c5a4f06b2d40b64cb2e41021",
+        "sha256_in_prefix": "634ac7c87f224c0604e15df021ea7f2ba7db6328c5a4f06b2d40b64cb2e41021",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/box.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d43fac15311de254a4ef9e9713b1ab4e498ae00f88a464d60dce7106963e5f15",
+        "sha256_in_prefix": "d43fac15311de254a4ef9e9713b1ab4e498ae00f88a464d60dce7106963e5f15",
+        "size_in_bytes": 4686
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/dict.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ee8ac61d04ba6bc9c4abd1720bb597241b71b2e5fcf2dc1bf8b619aa910e641",
+        "sha256_in_prefix": "9ee8ac61d04ba6bc9c4abd1720bb597241b71b2e5fcf2dc1bf8b619aa910e641",
+        "size_in_bytes": 4631
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/discrete.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4faf233caba840b0ddc76e0f9eb926051cdbee7d316528630a09f312c93edf4e",
+        "sha256_in_prefix": "4faf233caba840b0ddc76e0f9eb926051cdbee7d316528630a09f312c93edf4e",
+        "size_in_bytes": 1456
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/multi_binary.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1edf1151765da57579a96615ca84d3eea2f3f374ac985ca199fa98c35109bd36",
+        "sha256_in_prefix": "1edf1151765da57579a96615ca84d3eea2f3f374ac985ca199fa98c35109bd36",
+        "size_in_bytes": 2331
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/multi_discrete.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "35d92ead0e982195a683ca42a827a4d7b65418c2f3cd2ea1eac5b7a654752c2a",
+        "sha256_in_prefix": "35d92ead0e982195a683ca42a827a4d7b65418c2f3cd2ea1eac5b7a654752c2a",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/space.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "915853aeaa79128b1552a512de73b653da60a9334d9feec6dcb237c5098b58b1",
+        "sha256_in_prefix": "915853aeaa79128b1552a512de73b653da60a9334d9feec6dcb237c5098b58b1",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/tuple.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "60c4b7f2992dbe91864a47701e275ce8864cfa016cb366251cf033b2e9e592f6",
+        "sha256_in_prefix": "60c4b7f2992dbe91864a47701e275ce8864cfa016cb366251cf033b2e9e592f6",
+        "size_in_bytes": 3370
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "392f8c938b38d00a717e36cc7bcdf3bb5710b3edaa0ddcdc14ec14d4f2ebda15",
+        "sha256_in_prefix": "392f8c938b38d00a717e36cc7bcdf3bb5710b3edaa0ddcdc14ec14d4f2ebda15",
+        "size_in_bytes": 6454
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/box.py",
+        "path_type": "hardlink",
+        "sha256": "eb73839bd1321f11a99e9a13e09e25fd043a9bc938bd5d93a74d4ad903da561e",
+        "sha256_in_prefix": "eb73839bd1321f11a99e9a13e09e25fd043a9bc938bd5d93a74d4ad903da561e",
+        "size_in_bytes": 5570
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/dict.py",
+        "path_type": "hardlink",
+        "sha256": "ecca186921350c200977a748c06e5ea7d9d8dc871c6a660314757aab2d25c9dc",
+        "sha256_in_prefix": "ecca186921350c200977a748c06e5ea7d9d8dc871c6a660314757aab2d25c9dc",
+        "size_in_bytes": 3640
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/discrete.py",
+        "path_type": "hardlink",
+        "sha256": "aad9f23da051adc61ab991da1de17f2699de977806098a3b092fcfb23948f9d7",
+        "sha256_in_prefix": "aad9f23da051adc61ab991da1de17f2699de977806098a3b092fcfb23948f9d7",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/multi_binary.py",
+        "path_type": "hardlink",
+        "sha256": "9ecce432ee07bad95951a362c72b586c8a65dde3c32853ac740e135d4f0e9d2d",
+        "sha256_in_prefix": "9ecce432ee07bad95951a362c72b586c8a65dde3c32853ac740e135d4f0e9d2d",
+        "size_in_bytes": 1485
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/multi_discrete.py",
+        "path_type": "hardlink",
+        "sha256": "128b795ab26bab6762640ecc61693071eddc4ec84264fca316d3288942de341b",
+        "sha256_in_prefix": "128b795ab26bab6762640ecc61693071eddc4ec84264fca316d3288942de341b",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/space.py",
+        "path_type": "hardlink",
+        "sha256": "e7b3efb1f72ccec24e819bb0f5efd067e4c4718c7985092fcb8ee6c3af97875f",
+        "sha256_in_prefix": "e7b3efb1f72ccec24e819bb0f5efd067e4c4718c7985092fcb8ee6c3af97875f",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a87fa1c66ba7996d472525e105fad6470ac274157dbf164693daac039c47ab4",
+        "sha256_in_prefix": "6a87fa1c66ba7996d472525e105fad6470ac274157dbf164693daac039c47ab4",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tests/__pycache__/test_spaces.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7fb8021475017f7e64b04ad2ed3d19b14e0a91c6b6b49c8dbe010fc13c8f503",
+        "sha256_in_prefix": "b7fb8021475017f7e64b04ad2ed3d19b14e0a91c6b6b49c8dbe010fc13c8f503",
+        "size_in_bytes": 4163
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tests/__pycache__/test_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "33ad79c93851b1854c62f3051a79c4c7c22211199bdbc4e4d050f7f1b5c30410",
+        "sha256_in_prefix": "33ad79c93851b1854c62f3051a79c4c7c22211199bdbc4e4d050f7f1b5c30410",
+        "size_in_bytes": 5935
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tests/test_spaces.py",
+        "path_type": "hardlink",
+        "sha256": "451ca8ba9a71d6ae6e92593ca586ca392f1247da7c5173eb35ea46ebd5573c26",
+        "sha256_in_prefix": "451ca8ba9a71d6ae6e92593ca586ca392f1247da7c5173eb35ea46ebd5573c26",
+        "size_in_bytes": 5524
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "b46a52384451bb84129b68259923668fb0ca94a5932f4d03e7d3e3bf44639a8c",
+        "sha256_in_prefix": "b46a52384451bb84129b68259923668fb0ca94a5932f4d03e7d3e3bf44639a8c",
+        "size_in_bytes": 9671
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/tuple.py",
+        "path_type": "hardlink",
+        "sha256": "2df1d2c67ce12b77ea31babb47c58581f1efebd76da04207672bcbb47de9e5a6",
+        "sha256_in_prefix": "2df1d2c67ce12b77ea31babb47c58581f1efebd76da04207672bcbb47de9e5a6",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "Lib/site-packages/gym/spaces/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ba1ea0c1fd5170f2ed165e09dd91f0f6de03051c0eaa5f075b17d3487cfd5050",
+        "sha256_in_prefix": "ba1ea0c1fd5170f2ed165e09dd91f0f6de03051c0eaa5f075b17d3487cfd5050",
+        "size_in_bytes": 5959
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "073cfca74550051a19bf85be0f989d73b41953a2651410aca741a0988280cf10",
+        "sha256_in_prefix": "073cfca74550051a19bf85be0f989d73b41953a2651410aca741a0988280cf10",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbffc9ad15b5da08f38f51d22a22befb593917d9314536b7be90105350092093",
+        "sha256_in_prefix": "dbffc9ad15b5da08f38f51d22a22befb593917d9314536b7be90105350092093",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/atomic_write.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "520f8877ac278397a4ebbad2397f63646295ffb982307f8dc6b8cb224333bb73",
+        "sha256_in_prefix": "520f8877ac278397a4ebbad2397f63646295ffb982307f8dc6b8cb224333bb73",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/closer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "686a8ee4d9fa8e1a07247462be38893b053a46e08c794cbadce8a30153fc8fba",
+        "sha256_in_prefix": "686a8ee4d9fa8e1a07247462be38893b053a46e08c794cbadce8a30153fc8fba",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/colorize.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed3104775f518b1a7c1c49a6480b04d32d0103aab291cc8dc392da0beb2a1395",
+        "sha256_in_prefix": "ed3104775f518b1a7c1c49a6480b04d32d0103aab291cc8dc392da0beb2a1395",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/env_checker.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "341996ca383dfe17e3c289a24fd4d9d192de0b4bd3104a0d04392c4a6431d08f",
+        "sha256_in_prefix": "341996ca383dfe17e3c289a24fd4d9d192de0b4bd3104a0d04392c4a6431d08f",
+        "size_in_bytes": 10060
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/ezpickle.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "61d8f28b365ca5816c6c8ad86812acfbcdc7b92d7725f35a9015f903dbe86746",
+        "sha256_in_prefix": "61d8f28b365ca5816c6c8ad86812acfbcdc7b92d7725f35a9015f903dbe86746",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/json_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1bea12fbe79b96fcbc9f533906dafeceef6c010024220dad675ee5cfc926e52",
+        "sha256_in_prefix": "d1bea12fbe79b96fcbc9f533906dafeceef6c010024220dad675ee5cfc926e52",
+        "size_in_bytes": 585
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/play.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfa34081bb0f3d5ea02fed52df55da54d01f2a1a0efb6caba688aefb3849a17e",
+        "sha256_in_prefix": "dfa34081bb0f3d5ea02fed52df55da54d01f2a1a0efb6caba688aefb3849a17e",
+        "size_in_bytes": 6086
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/__pycache__/seeding.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf899f6e3aedd77a46c768b680204dacb09d9d46d29f6001972e28fba2809f89",
+        "sha256_in_prefix": "bf899f6e3aedd77a46c768b680204dacb09d9d46d29f6001972e28fba2809f89",
+        "size_in_bytes": 3116
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/atomic_write.py",
+        "path_type": "hardlink",
+        "sha256": "3fb7e678711648212aa98338dbf991c3a3365ac25c60e91efc71a400e110787e",
+        "sha256_in_prefix": "3fb7e678711648212aa98338dbf991c3a3365ac25c60e91efc71a400e110787e",
+        "size_in_bytes": 1955
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/closer.py",
+        "path_type": "hardlink",
+        "sha256": "10ef86e5efb7e57fbea2f3f1b16554aadf213e0960ef8fc21527e13a7a702b3a",
+        "sha256_in_prefix": "10ef86e5efb7e57fbea2f3f1b16554aadf213e0960ef8fc21527e13a7a702b3a",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/colorize.py",
+        "path_type": "hardlink",
+        "sha256": "b93aec0dab4898f0bdb024b6e9ec2ba8dc81fa1bb8957b79c6c6be683aaf9914",
+        "sha256_in_prefix": "b93aec0dab4898f0bdb024b6e9ec2ba8dc81fa1bb8957b79c6c6be683aaf9914",
+        "size_in_bytes": 753
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/env_checker.py",
+        "path_type": "hardlink",
+        "sha256": "d518356ebb8ed96504bdc388e359385970aebfa291240481b52bf4fb0117f27e",
+        "sha256_in_prefix": "d518356ebb8ed96504bdc388e359385970aebfa291240481b52bf4fb0117f27e",
+        "size_in_bytes": 13259
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/ezpickle.py",
+        "path_type": "hardlink",
+        "sha256": "9c8b74c6c620cf12b732021d3f829e58d95ba634c0be2c6bba0035241f2e8597",
+        "sha256_in_prefix": "9c8b74c6c620cf12b732021d3f829e58d95ba634c0be2c6bba0035241f2e8597",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/json_utils.py",
+        "path_type": "hardlink",
+        "sha256": "b32689b72c4207723dfd57fc801691e2af830eba233d8884cd92ca3a82f2f6d0",
+        "sha256_in_prefix": "b32689b72c4207723dfd57fc801691e2af830eba233d8884cd92ca3a82f2f6d0",
+        "size_in_bytes": 583
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/play.py",
+        "path_type": "hardlink",
+        "sha256": "b57111fd7cbbc2ffbd3dd6429cae05c4e7a00192de5b7b4e89d120720c8d2aa3",
+        "sha256_in_prefix": "b57111fd7cbbc2ffbd3dd6429cae05c4e7a00192de5b7b4e89d120720c8d2aa3",
+        "size_in_bytes": 6639
+      },
+      {
+        "_path": "Lib/site-packages/gym/utils/seeding.py",
+        "path_type": "hardlink",
+        "sha256": "1e471413b35e82b5bef62e56ae55ae571749d68b5094b4eb5b164d457c41366d",
+        "sha256_in_prefix": "1e471413b35e82b5bef62e56ae55ae571749d68b5094b4eb5b164d457c41366d",
+        "size_in_bytes": 3120
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a226d3715965dd87770c4a707d68824b8174373092df724dbbf2188a4272d41",
+        "sha256_in_prefix": "5a226d3715965dd87770c4a707d68824b8174373092df724dbbf2188a4272d41",
+        "size_in_bytes": 2172
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b227aa29f00dda3170fef8d737423942f3697d1d76f0384b2002d5fba0b41e4",
+        "sha256_in_prefix": "7b227aa29f00dda3170fef8d737423942f3697d1d76f0384b2002d5fba0b41e4",
+        "size_in_bytes": 2497
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/__pycache__/async_vector_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "17aba8e812d45ab722edc84cbfe66cb423bbac8fa0a2dc5a91c53a7afe265193",
+        "sha256_in_prefix": "17aba8e812d45ab722edc84cbfe66cb423bbac8fa0a2dc5a91c53a7afe265193",
+        "size_in_bytes": 13825
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/__pycache__/sync_vector_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "64bb8adb1c51eabd05d75e78ab56ddd1a2b87fd760cf63e7f346fb511ecec0d1",
+        "sha256_in_prefix": "64bb8adb1c51eabd05d75e78ab56ddd1a2b87fd760cf63e7f346fb511ecec0d1",
+        "size_in_bytes": 4172
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/__pycache__/vector_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1c404d8b3d777984022df4c481cb74b57880e7a1707bd8dc09c2b9cee89d3ca",
+        "sha256_in_prefix": "a1c404d8b3d777984022df4c481cb74b57880e7a1707bd8dc09c2b9cee89d3ca",
+        "size_in_bytes": 7521
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/async_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "0c30dfea1fd6c833b850a3c032c6548491ff0aae084ba9edf7fa0a5cda9d691a",
+        "sha256_in_prefix": "0c30dfea1fd6c833b850a3c032c6548491ff0aae084ba9edf7fa0a5cda9d691a",
+        "size_in_bytes": 17557
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/sync_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "c048645389da5221746730adff03feac79a60a8e5bc86db800039ae6b645896f",
+        "sha256_in_prefix": "c048645389da5221746730adff03feac79a60a8e5bc86db800039ae6b645896f",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7833056e5c46e90bf90ba67854f4b860b58d53cb433c68eca6f93970ab192af",
+        "sha256_in_prefix": "b7833056e5c46e90bf90ba67854f4b860b58d53cb433c68eca6f93970ab192af",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_async_vector_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e73f6c7f3f7a5cb5c4a49d0171ae995b21027ac2d0d727a3285d6ed7272f1e7b",
+        "sha256_in_prefix": "e73f6c7f3f7a5cb5c4a49d0171ae995b21027ac2d0d727a3285d6ed7272f1e7b",
+        "size_in_bytes": 8621
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_numpy_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "616d9c724f0cdc1d386607e6f0ce3fa80d320d38e793a19d2ec465971ed60160",
+        "sha256_in_prefix": "616d9c724f0cdc1d386607e6f0ce3fa80d320d38e793a19d2ec465971ed60160",
+        "size_in_bytes": 5534
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_shared_memory.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "865771a17d85c7ddba7256432a7468ed742f86e6d5eeb1be1a6e49f592857e20",
+        "sha256_in_prefix": "865771a17d85c7ddba7256432a7468ed742f86e6d5eeb1be1a6e49f592857e20",
+        "size_in_bytes": 6247
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_spaces.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c3f3ce477a1b59e077be922536f3aa40d07185d4e07ccb41ade6d32f095b9cb",
+        "sha256_in_prefix": "2c3f3ce477a1b59e077be922536f3aa40d07185d4e07ccb41ade6d32f095b9cb",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_sync_vector_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bf172690a90f89f21c014e8f7576af66d8850d9714f538a28ef75527dfebf94",
+        "sha256_in_prefix": "4bf172690a90f89f21c014e8f7576af66d8850d9714f538a28ef75527dfebf94",
+        "size_in_bytes": 3620
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_vector_env.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7bc6bf53dbe2cb5c54370350dbf43c7a27146930f1a6baaf747318c77bd2d97c",
+        "sha256_in_prefix": "7bc6bf53dbe2cb5c54370350dbf43c7a27146930f1a6baaf747318c77bd2d97c",
+        "size_in_bytes": 1791
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/test_vector_env_wrapper.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b71833192cc0acc1f11718a50547f76d9f7585ca886274d5649c4deb1752ad3b",
+        "sha256_in_prefix": "b71833192cc0acc1f11718a50547f76d9f7585ca886274d5649c4deb1752ad3b",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5517d6afcbe7ac11bcba73e79082b21b50b01574fa75d8c531688aaf19e821e6",
+        "sha256_in_prefix": "5517d6afcbe7ac11bcba73e79082b21b50b01574fa75d8c531688aaf19e821e6",
+        "size_in_bytes": 3858
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_async_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "929a6dfa07e14ede5355c57fa04918edb1beba1a19f532f25328baf75ccbdf4d",
+        "sha256_in_prefix": "929a6dfa07e14ede5355c57fa04918edb1beba1a19f532f25328baf75ccbdf4d",
+        "size_in_bytes": 8268
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_numpy_utils.py",
+        "path_type": "hardlink",
+        "sha256": "401da4f6f581d2bb30ab8ab10fbb38377ac38b4383f0a0c0060ab4ca67784965",
+        "sha256_in_prefix": "401da4f6f581d2bb30ab8ab10fbb38377ac38b4383f0a0c0060ab4ca67784965",
+        "size_in_bytes": 5070
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_shared_memory.py",
+        "path_type": "hardlink",
+        "sha256": "a6978378b674a37e84b6cf46c9053aa5339c244f5aa765426ac01174f8b2870c",
+        "sha256_in_prefix": "a6978378b674a37e84b6cf46c9053aa5339c244f5aa765426ac01174f8b2870c",
+        "size_in_bytes": 5661
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_spaces.py",
+        "path_type": "hardlink",
+        "sha256": "194070591fa7668237316f8949bec6f6224a9b8272287b15712dcb3e9c2547f0",
+        "sha256_in_prefix": "194070591fa7668237316f8949bec6f6224a9b8272287b15712dcb3e9c2547f0",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_sync_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "88f100e7dd1b3dcf4fb2d9c4f3d2651785cdeafec292f59c9b3531e3b28a1974",
+        "sha256_in_prefix": "88f100e7dd1b3dcf4fb2d9c4f3d2651785cdeafec292f59c9b3531e3b28a1974",
+        "size_in_bytes": 3193
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "627c81be10e6ec756226dcb5fb81ef462196616a0e04c0c812da4465fd131857",
+        "sha256_in_prefix": "627c81be10e6ec756226dcb5fb81ef462196616a0e04c0c812da4465fd131857",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/test_vector_env_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "4abdd9abaf2b8dabef487e1dc75ba06c644466b9a6faaf14b86424388b6e79f4",
+        "sha256_in_prefix": "4abdd9abaf2b8dabef487e1dc75ba06c644466b9a6faaf14b86424388b6e79f4",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/tests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "2bc388a1080c07573f04d2155f498fb74e94697b18d463fc2d5fadd9ffd7ec54",
+        "sha256_in_prefix": "2bc388a1080c07573f04d2155f498fb74e94697b18d463fc2d5fadd9ffd7ec54",
+        "size_in_bytes": 3115
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b6fb4f3418746b81035a63400f9ace4c6f2476c3e7f8e9d730e90f3b62f447ac",
+        "sha256_in_prefix": "b6fb4f3418746b81035a63400f9ace4c6f2476c3e7f8e9d730e90f3b62f447ac",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "81f47e98a8c5f8a5c9daa03b686ab8378a3bcbc1245f4ff974a1c09b0c6320ea",
+        "sha256_in_prefix": "81f47e98a8c5f8a5c9daa03b686ab8378a3bcbc1245f4ff974a1c09b0c6320ea",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/__pycache__/misc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb3eb370a6d44cdcb86bf42c1d29f449d8f1ab1c0552e9f7ee4d77dfeb348d47",
+        "sha256_in_prefix": "fb3eb370a6d44cdcb86bf42c1d29f449d8f1ab1c0552e9f7ee4d77dfeb348d47",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/__pycache__/numpy_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "45459e918ef4c22168b31b37a07118dd45a816803b9da51f43305edb39e27f1b",
+        "sha256_in_prefix": "45459e918ef4c22168b31b37a07118dd45a816803b9da51f43305edb39e27f1b",
+        "size_in_bytes": 5590
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/__pycache__/shared_memory.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b087db1dc90af8e718c34c40a2bcec0bf00823c216715a87ad44ff26176b2098",
+        "sha256_in_prefix": "b087db1dc90af8e718c34c40a2bcec0bf00823c216715a87ad44ff26176b2098",
+        "size_in_bytes": 6910
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/__pycache__/spaces.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a24de57fd0e4c22e7432517321e46075a9fa640312cffe3109b44477e42ddb6e",
+        "sha256_in_prefix": "a24de57fd0e4c22e7432517321e46075a9fa640312cffe3109b44477e42ddb6e",
+        "size_in_bytes": 3239
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/misc.py",
+        "path_type": "hardlink",
+        "sha256": "16334dae7050b494e839fa87309886f6ed7ace3b621ec5e3706e5334b2024676",
+        "sha256_in_prefix": "16334dae7050b494e839fa87309886f6ed7ace3b621ec5e3706e5334b2024676",
+        "size_in_bytes": 1170
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/numpy_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0ce68423e84b9eba4ae09507b1456c89577eded9ad89d0b7921a48ed8c2909c2",
+        "sha256_in_prefix": "0ce68423e84b9eba4ae09507b1456c89577eded9ad89d0b7921a48ed8c2909c2",
+        "size_in_bytes": 4632
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/shared_memory.py",
+        "path_type": "hardlink",
+        "sha256": "b538846ede9ad61b3ac0b0a86eea2252a198bc930a9b4aa3817548daa6001fe6",
+        "sha256_in_prefix": "b538846ede9ad61b3ac0b0a86eea2252a198bc930a9b4aa3817548daa6001fe6",
+        "size_in_bytes": 6695
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/utils/spaces.py",
+        "path_type": "hardlink",
+        "sha256": "822e6d6f85d564e382917f7d414f646ed08d94d445078ebe8304dab4fe61f5d9",
+        "sha256_in_prefix": "822e6d6f85d564e382917f7d414f646ed08d94d445078ebe8304dab4fe61f5d9",
+        "size_in_bytes": 2849
+      },
+      {
+        "_path": "Lib/site-packages/gym/vector/vector_env.py",
+        "path_type": "hardlink",
+        "sha256": "a039f566992db17ba9d7501b3721e62e69f3df20937cb2ee1164dc1d75c28d6e",
+        "sha256_in_prefix": "a039f566992db17ba9d7501b3721e62e69f3df20937cb2ee1164dc1d75c28d6e",
+        "size_in_bytes": 6283
+      },
+      {
+        "_path": "Lib/site-packages/gym/version.py",
+        "path_type": "hardlink",
+        "sha256": "68eb006bebcdefb2c49ea6d0a95cbe29740b53417e8f8bc8146f31f88e50f950",
+        "sha256_in_prefix": "68eb006bebcdefb2c49ea6d0a95cbe29740b53417e8f8bc8146f31f88e50f950",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "601723ef75854f8f18ba7db6d32665e839cd1299cbf2872dbd668140e58b0cb4",
+        "sha256_in_prefix": "601723ef75854f8f18ba7db6d32665e839cd1299cbf2872dbd668140e58b0cb4",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4479a8b6eb15db2904374866bf840e5bc7b1201d58789ab30e6f44490b2d07be",
+        "sha256_in_prefix": "4479a8b6eb15db2904374866bf840e5bc7b1201d58789ab30e6f44490b2d07be",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/atari_preprocessing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "52616a94dd8469464e7c8d1872a15baff646fca18670a6fcf8b27cc41add70a3",
+        "sha256_in_prefix": "52616a94dd8469464e7c8d1872a15baff646fca18670a6fcf8b27cc41add70a3",
+        "size_in_bytes": 4676
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/clip_action.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f17f4e6263ebaa59b48326c6e852cf27f58066a3054bccfb55cc3548d0683fe",
+        "sha256_in_prefix": "7f17f4e6263ebaa59b48326c6e852cf27f58066a3054bccfb55cc3548d0683fe",
+        "size_in_bytes": 862
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/filter_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e4a89395997cd25b65352f6da042869c2fe21eb9bd9d8473f14d78ae82715f8",
+        "sha256_in_prefix": "1e4a89395997cd25b65352f6da042869c2fe21eb9bd9d8473f14d78ae82715f8",
+        "size_in_bytes": 2539
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/flatten_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "47e59ac00272f95aaf114ea18ffa03fc400e07e40c74b8cd0399b868c7d0cb69",
+        "sha256_in_prefix": "47e59ac00272f95aaf114ea18ffa03fc400e07e40c74b8cd0399b868c7d0cb69",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/frame_stack.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "02f60cec73e11b1da6e9eeebceb7d64d33b57256953fae725582251a22a590f2",
+        "sha256_in_prefix": "02f60cec73e11b1da6e9eeebceb7d64d33b57256953fae725582251a22a590f2",
+        "size_in_bytes": 4831
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/gray_scale_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c51b19da5f1af37ce1085d0bb39a1af16d3654b4918cbcdcd958ec218b0564d2",
+        "sha256_in_prefix": "c51b19da5f1af37ce1085d0bb39a1af16d3654b4918cbcdcd958ec218b0564d2",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/monitor.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "454636664d448bbee0c507726910e61f0328937bb1954b520b69e5f238667c05",
+        "sha256_in_prefix": "454636664d448bbee0c507726910e61f0328937bb1954b520b69e5f238667c05",
+        "size_in_bytes": 12248
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/pixel_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "543affe79314e464832730268e3ee95030c1186802808fd675ecbd98c97a0e90",
+        "sha256_in_prefix": "543affe79314e464832730268e3ee95030c1186802808fd675ecbd98c97a0e90",
+        "size_in_bytes": 3718
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/record_episode_statistics.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf339420c0d32459df10af9bbf7a13ba6b4e1df74cec292abb6c5a33b57d8d3f",
+        "sha256_in_prefix": "bf339420c0d32459df10af9bbf7a13ba6b4e1df74cec292abb6c5a33b57d8d3f",
+        "size_in_bytes": 1854
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/rescale_action.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd6bb81110801c256cc0cd01aedfccbd6693ef1f049c5dd2b39d99d9939e42e2",
+        "sha256_in_prefix": "dd6bb81110801c256cc0cd01aedfccbd6693ef1f049c5dd2b39d99d9939e42e2",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/resize_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "30adff9511433975a9c6db9a00b81d05774226b5d37111b23fcdc7a477569619",
+        "sha256_in_prefix": "30adff9511433975a9c6db9a00b81d05774226b5d37111b23fcdc7a477569619",
+        "size_in_bytes": 1363
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_atari_preprocessing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5ef0b34634e06888db83cc387f2012be7c6c60579bcaaee08e49f3f6cbad461",
+        "sha256_in_prefix": "e5ef0b34634e06888db83cc387f2012be7c6c60579bcaaee08e49f3f6cbad461",
+        "size_in_bytes": 2312
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_clip_action.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a49698e70ec3ce06cb9595afd21d21006103ed0fb35715006e00e3582e66b55",
+        "sha256_in_prefix": "0a49698e70ec3ce06cb9595afd21d21006103ed0fb35715006e00e3582e66b55",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_filter_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b2da0b0dd4c1359c5c37f10c6d498c26ec45b6dc342e5c6202279edbc5b9d95",
+        "sha256_in_prefix": "6b2da0b0dd4c1359c5c37f10c6d498c26ec45b6dc342e5c6202279edbc5b9d95",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_flatten_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f8239f3a6520655c5bc744de44e468fc460a73ec8484bfb05e815a20a450dd9",
+        "sha256_in_prefix": "6f8239f3a6520655c5bc744de44e468fc460a73ec8484bfb05e815a20a450dd9",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_frame_stack.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "63d8faa36c0acc094d321e2c221a5cbfe8010e40576a0db922b143ff71619602",
+        "sha256_in_prefix": "63d8faa36c0acc094d321e2c221a5cbfe8010e40576a0db922b143ff71619602",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_gray_scale_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "167bf0f320a0a815f815a35e391f4630687700515fbe045980e7ec7df86b8393",
+        "sha256_in_prefix": "167bf0f320a0a815f815a35e391f4630687700515fbe045980e7ec7df86b8393",
+        "size_in_bytes": 1126
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_pixel_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e63b21485457eaf09f4ce0342ed7348d6cd7a3fe88db294e3d0db1e449acc32",
+        "sha256_in_prefix": "4e63b21485457eaf09f4ce0342ed7348d6cd7a3fe88db294e3d0db1e449acc32",
+        "size_in_bytes": 3878
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_record_episode_statistics.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d91ed2e0b1c5b61ec81d2f203d868b13438edb346b540105f7a84a0a14be0da",
+        "sha256_in_prefix": "7d91ed2e0b1c5b61ec81d2f203d868b13438edb346b540105f7a84a0a14be0da",
+        "size_in_bytes": 1832
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_rescale_action.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8f6d8bbd614231f564831c0a0d88af17b69053a135ccbc7a7c5abf3706e4f63",
+        "sha256_in_prefix": "c8f6d8bbd614231f564831c0a0d88af17b69053a135ccbc7a7c5abf3706e4f63",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_resize_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "19204b29237f80622254a34a8dc951e1352b145d7436d22021838e64b4e518f9",
+        "sha256_in_prefix": "19204b29237f80622254a34a8dc951e1352b145d7436d22021838e64b4e518f9",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_time_aware_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "65919f30548f0a462f892fc695d2dd3dade7e61e99e4a48a0a12f4c1994b2fd3",
+        "sha256_in_prefix": "65919f30548f0a462f892fc695d2dd3dade7e61e99e4a48a0a12f4c1994b2fd3",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_transform_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "36de9338ad67a9a3976a3e5ffb4094d705fd4c52db731e83d8b496d96ee9302d",
+        "sha256_in_prefix": "36de9338ad67a9a3976a3e5ffb4094d705fd4c52db731e83d8b496d96ee9302d",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/test_transform_reward.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d585c4c28a8353c60bd8cc1d76b733052d988984b8a9d913da791065cc759a56",
+        "sha256_in_prefix": "d585c4c28a8353c60bd8cc1d76b733052d988984b8a9d913da791065cc759a56",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/time_aware_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf836fe5d80b3f0c43f57f80356ac12d201fff48048028f954642c999f47284d",
+        "sha256_in_prefix": "bf836fe5d80b3f0c43f57f80356ac12d201fff48048028f954642c999f47284d",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/time_limit.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e03c896d5e98d574400743f9cbad35b4e30a5686137e3c86b98d7be75d0498d",
+        "sha256_in_prefix": "3e03c896d5e98d574400743f9cbad35b4e30a5686137e3c86b98d7be75d0498d",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/transform_observation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a36c4b2aae433818bebe1d2107b27ff2ddd95d769557e90d00304f03a2eee6f",
+        "sha256_in_prefix": "0a36c4b2aae433818bebe1d2107b27ff2ddd95d769557e90d00304f03a2eee6f",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/__pycache__/transform_reward.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d82cf396d9d1e123a80fb087048f7004e5ffbbab0cc7abc0934c42b40dbadb2",
+        "sha256_in_prefix": "2d82cf396d9d1e123a80fb087048f7004e5ffbbab0cc7abc0934c42b40dbadb2",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/atari_preprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "4fe5978b8521efc9b627cbb2807320007f7df699c0fff188a9f69ac8b7bd404c",
+        "sha256_in_prefix": "4fe5978b8521efc9b627cbb2807320007f7df699c0fff188a9f69ac8b7bd404c",
+        "size_in_bytes": 5953
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/clip_action.py",
+        "path_type": "hardlink",
+        "sha256": "3f681b6ab0decc5bb92145368982b06a984aebb058d97083aef9b762e6b36247",
+        "sha256_in_prefix": "3f681b6ab0decc5bb92145368982b06a984aebb058d97083aef9b762e6b36247",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/filter_observation.py",
+        "path_type": "hardlink",
+        "sha256": "2b6d77fed61b549fdfbec659c2fd2e87f8d12425dfd9b0c1f62d8cee0f20169a",
+        "sha256_in_prefix": "2b6d77fed61b549fdfbec659c2fd2e87f8d12425dfd9b0c1f62d8cee0f20169a",
+        "size_in_bytes": 2341
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/flatten_observation.py",
+        "path_type": "hardlink",
+        "sha256": "33bbed7acb5f02068dafb7edf4fbec44eac05b65cb85bf37612550b5a4632ba5",
+        "sha256_in_prefix": "33bbed7acb5f02068dafb7edf4fbec44eac05b65cb85bf37612550b5a4632ba5",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/frame_stack.py",
+        "path_type": "hardlink",
+        "sha256": "a1a138d0603992a38b306e0471677d77b22eac96783de6cd7ae8f5c36854c227",
+        "sha256_in_prefix": "a1a138d0603992a38b306e0471677d77b22eac96783de6cd7ae8f5c36854c227",
+        "size_in_bytes": 3932
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/gray_scale_observation.py",
+        "path_type": "hardlink",
+        "sha256": "e680e213bd73f04695e018cb08e4c41f92f720a9e2e327a4e4692228fbf42767",
+        "sha256_in_prefix": "e680e213bd73f04695e018cb08e4c41f92f720a9e2e327a4e4692228fbf42767",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitor.py",
+        "path_type": "hardlink",
+        "sha256": "c3cfeb800cd961397c52e6106b740eb45dd56c96d7cc4c727c14bf5cb9a7c9bb",
+        "sha256_in_prefix": "c3cfeb800cd961397c52e6106b740eb45dd56c96d7cc4c727c14bf5cb9a7c9bb",
+        "size_in_bytes": 15849
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d0d3d4936f3f33d512ffa18be3db80cbe83e541f85d0aa9ef16947402a3e3eb",
+        "sha256_in_prefix": "0d0d3d4936f3f33d512ffa18be3db80cbe83e541f85d0aa9ef16947402a3e3eb",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/__pycache__/stats_recorder.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f3eb6dc7accf634e233f1fcba0c80009daa47e44c88726595ddafa19319a97c",
+        "sha256_in_prefix": "5f3eb6dc7accf634e233f1fcba0c80009daa47e44c88726595ddafa19319a97c",
+        "size_in_bytes": 3558
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/__pycache__/video_recorder.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f893b55c785e6eb1db7bd8cadb7904ec63e121a36af56c109ae07cdd5f583cd",
+        "sha256_in_prefix": "1f893b55c785e6eb1db7bd8cadb7904ec63e121a36af56c109ae07cdd5f583cd",
+        "size_in_bytes": 10799
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/stats_recorder.py",
+        "path_type": "hardlink",
+        "sha256": "7f62e8332be60d33d8f4f4b85a133fe1f55159fb52d29da272b73cab212ee591",
+        "sha256_in_prefix": "7f62e8332be60d33d8f4f4b85a133fe1f55159fb52d29da272b73cab212ee591",
+        "size_in_bytes": 3924
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a54aeccfcb4a1dff544d1d9b8c43875a865935e715f8f24459dc48feba6a2a02",
+        "sha256_in_prefix": "a54aeccfcb4a1dff544d1d9b8c43875a865935e715f8f24459dc48feba6a2a02",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/tests/__pycache__/helpers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab8720c717b131951f2892ac8eed886e1e164b765b3d9ad7d9f55df2ff2fe2ad",
+        "sha256_in_prefix": "ab8720c717b131951f2892ac8eed886e1e164b765b3d9ad7d9f55df2ff2fe2ad",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/tests/__pycache__/test_video_recorder.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee5079f9bf1488bdaaa2d189e7222e61d579dfc0efc33553b5f382f348ffa537",
+        "sha256_in_prefix": "ee5079f9bf1488bdaaa2d189e7222e61d579dfc0efc33553b5f382f348ffa537",
+        "size_in_bytes": 2305
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "52c761ea356253e57fb9fabfc29793f8ab187768b94f48407008f40ee87c565a",
+        "sha256_in_prefix": "52c761ea356253e57fb9fabfc29793f8ab187768b94f48407008f40ee87c565a",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/tests/test_video_recorder.py",
+        "path_type": "hardlink",
+        "sha256": "ea75844bc11822e71d8afb33e8900b10215a71f24b5de5aa82e13f9c0101a16e",
+        "sha256_in_prefix": "ea75844bc11822e71d8afb33e8900b10215a71f24b5de5aa82e13f9c0101a16e",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/monitoring/video_recorder.py",
+        "path_type": "hardlink",
+        "sha256": "75846e4f6d190bd8bfad909f68814a272dfcc16f837704e99464ae5585ceea24",
+        "sha256_in_prefix": "75846e4f6d190bd8bfad909f68814a272dfcc16f837704e99464ae5585ceea24",
+        "size_in_bytes": 15483
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/pixel_observation.py",
+        "path_type": "hardlink",
+        "sha256": "e9bb5476136fef19a7c2a790151f9ea11e3a9ee5266289bbdc66b5e08360f1cc",
+        "sha256_in_prefix": "e9bb5476136fef19a7c2a790151f9ea11e3a9ee5266289bbdc66b5e08360f1cc",
+        "size_in_bytes": 4658
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/record_episode_statistics.py",
+        "path_type": "hardlink",
+        "sha256": "ca834a5a3ce52c4ccb5529278d26547a23cb336153b1a8ec8d694f46fcdddfb5",
+        "sha256_in_prefix": "ca834a5a3ce52c4ccb5529278d26547a23cb336153b1a8ec8d694f46fcdddfb5",
+        "size_in_bytes": 2130
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/rescale_action.py",
+        "path_type": "hardlink",
+        "sha256": "b1c26be256fb750f406b5e88526315294aeeff294ae5a5be49e8093c108fcbb8",
+        "sha256_in_prefix": "b1c26be256fb750f406b5e88526315294aeeff294ae5a5be49e8093c108fcbb8",
+        "size_in_bytes": 1264
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/resize_observation.py",
+        "path_type": "hardlink",
+        "sha256": "02e102aca1a90f8f52c289cd9d1c3e700ed77de10db72cde958cef64c8329090",
+        "sha256_in_prefix": "02e102aca1a90f8f52c289cd9d1c3e700ed77de10db72cde958cef64c8329090",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_atari_preprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "73e8240f1d9ba3a054fdbf5442c60b1fd896e7c7a9036f483a7a39314792edf0",
+        "sha256_in_prefix": "73e8240f1d9ba3a054fdbf5442c60b1fd896e7c7a9036f483a7a39314792edf0",
+        "size_in_bytes": 3027
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_clip_action.py",
+        "path_type": "hardlink",
+        "sha256": "9ad2fe1f3b97c502d8637de2efe51868700a800755fecd2acc1a71b09a96c9d8",
+        "sha256_in_prefix": "9ad2fe1f3b97c502d8637de2efe51868700a800755fecd2acc1a71b09a96c9d8",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_filter_observation.py",
+        "path_type": "hardlink",
+        "sha256": "d0079e74b008d3a99de11a9d998147cb7c6d6e78ea1d1acf38e877347e1b229a",
+        "sha256_in_prefix": "d0079e74b008d3a99de11a9d998147cb7c6d6e78ea1d1acf38e877347e1b229a",
+        "size_in_bytes": 2796
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_flatten_observation.py",
+        "path_type": "hardlink",
+        "sha256": "5cca97cef668ee6e185b8efd1b37812bdf939a52f3e1b05a511a8b7faf4acb95",
+        "sha256_in_prefix": "5cca97cef668ee6e185b8efd1b37812bdf939a52f3e1b05a511a8b7faf4acb95",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_frame_stack.py",
+        "path_type": "hardlink",
+        "sha256": "2eff2f8888eb614d7b5925c6fe12e6eb4f70c94aaa72141baf4a90d980dec353",
+        "sha256_in_prefix": "2eff2f8888eb614d7b5925c6fe12e6eb4f70c94aaa72141baf4a90d980dec353",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_gray_scale_observation.py",
+        "path_type": "hardlink",
+        "sha256": "f8b9b5a8ed40631b2a8315068905ffb1f25b2439e50b84f5953c98c98efb38ce",
+        "sha256_in_prefix": "f8b9b5a8ed40631b2a8315068905ffb1f25b2439e50b84f5953c98c98efb38ce",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_pixel_observation.py",
+        "path_type": "hardlink",
+        "sha256": "91603d02f72347566ae082e9309035a72e381ee1cd4dec85a54fcea71de04478",
+        "sha256_in_prefix": "91603d02f72347566ae082e9309035a72e381ee1cd4dec85a54fcea71de04478",
+        "size_in_bytes": 4304
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_record_episode_statistics.py",
+        "path_type": "hardlink",
+        "sha256": "f2194eb336e0a63d218141d2a349d13eeb52a6f1613db40c75e6e08fe5c44641",
+        "sha256_in_prefix": "f2194eb336e0a63d218141d2a349d13eeb52a6f1613db40c75e6e08fe5c44641",
+        "size_in_bytes": 1430
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_rescale_action.py",
+        "path_type": "hardlink",
+        "sha256": "c4c23ed3f69f069ed61da04a89f20d830b5f449315e86b235a35100a493e6b7d",
+        "sha256_in_prefix": "c4c23ed3f69f069ed61da04a89f20d830b5f449315e86b235a35100a493e6b7d",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_resize_observation.py",
+        "path_type": "hardlink",
+        "sha256": "f74996e01f69b37b644c818a82959ab7dc6df9a504f19dcd3db228eedfe42378",
+        "sha256_in_prefix": "f74996e01f69b37b644c818a82959ab7dc6df9a504f19dcd3db228eedfe42378",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_time_aware_observation.py",
+        "path_type": "hardlink",
+        "sha256": "5127be74e7595e2d54568f68b30ed2286e3d42d8acef7955a418bb5dbb4231d1",
+        "sha256_in_prefix": "5127be74e7595e2d54568f68b30ed2286e3d42d8acef7955a418bb5dbb4231d1",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_transform_observation.py",
+        "path_type": "hardlink",
+        "sha256": "7a2736aa6a55c35183babdd253b615dd0283c7a6ab3fdde9eba85340600eaf35",
+        "sha256_in_prefix": "7a2736aa6a55c35183babdd253b615dd0283c7a6ab3fdde9eba85340600eaf35",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/test_transform_reward.py",
+        "path_type": "hardlink",
+        "sha256": "813671c71d734da9e9836e012978a20d28057e2dfe4e597913ad97aaeca1b5cd",
+        "sha256_in_prefix": "813671c71d734da9e9836e012978a20d28057e2dfe4e597913ad97aaeca1b5cd",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc3bfe0fd103711e00fe7bd2fd9dbb2ca1e4a32ace1472598090ac4aec15c652",
+        "sha256_in_prefix": "fc3bfe0fd103711e00fe7bd2fd9dbb2ca1e4a32ace1472598090ac4aec15c652",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/time_aware_observation.py",
+        "path_type": "hardlink",
+        "sha256": "1d1cbb9859982c2a0c88bcf7db930d142d0a3d9640d8bf0d3a4781f5a37e84f4",
+        "sha256_in_prefix": "1d1cbb9859982c2a0c88bcf7db930d142d0a3d9640d8bf0d3a4781f5a37e84f4",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/time_limit.py",
+        "path_type": "hardlink",
+        "sha256": "b725e477fe0447d88c23804b71c8539d731f11a79ecdaa7b67c543f596845ef6",
+        "sha256_in_prefix": "b725e477fe0447d88c23804b71c8539d731f11a79ecdaa7b67c543f596845ef6",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/transform_observation.py",
+        "path_type": "hardlink",
+        "sha256": "4df8815328fd8eb632091da07c9ae9991285ae9b85fb031d15af0b1336303bae",
+        "sha256_in_prefix": "4df8815328fd8eb632091da07c9ae9991285ae9b85fb031d15af0b1336303bae",
+        "size_in_bytes": 741
+      },
+      {
+        "_path": "Lib/site-packages/gym/wrappers/transform_reward.py",
+        "path_type": "hardlink",
+        "sha256": "f07a79f65118a6dd2ed5ca34f74deab96202a36b7c4ee67a641e9b6c34256d2f",
+        "sha256_in_prefix": "f07a79f65118a6dd2ed5ca34f74deab96202a36b7c4ee67a641e9b6c34256d2f",
+        "size_in_bytes": 704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gym",
+  "sha256": "7369102a002ca878dfe728465a2b9cb2c8f2be17a0ece0cc9f7018d94618566a",
+  "size": 1958786,
+  "subdir": "win-64",
+  "timestamp": 1631033723210,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/gym-0.19.0-py37h4038f58_0.tar.bz2",
+  "version": "0.19.0"
+}
